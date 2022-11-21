@@ -1,0 +1,14 @@
+Install the Django package:
+> pip install django
+> python -m django version
+
+Start a new project:
+> django-admin startproject mysite
+
+Start a new app:
+> python ./manage.py startapp myapp
+
+Generate the requirements.txt file.
+> pipreqs ./mysite/ 
+
+
