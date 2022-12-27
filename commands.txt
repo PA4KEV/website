@@ -1,0 +1,29 @@
+- React.js site:
+docker build -t pa4kev/portfolio-reactjs-app -f ./dockerfiles/reactjs/Dockerfile .
+docker push pa4kev/portfolio-reactjs-app:latest
+
+- Nginx:
+docker build -t pa4kev/portfolio-reactjs-nginx -f ./dockerfiles/nginx/Dockerfile .
+docker push pa4kev/portfolio-reactjs-nginx:latest
+
+- Full app (React + Nginx):
+docker build -t pa4kev/portfolio-reactjs-full:latest -f Dockerfile .
+docker push pa4kev/portfolio-reactjs-full:latest
+
+
+- Server:
+docker pull pa4kev/portfolio-reactjs-app
+docker pull pa4kev/portfolio-reactjs-nginx
+
+docker run -d --name nginx --rm -p 80:80 pa4kev/portfolio-reactjs-nginx
+docker run -d --name react --rm -p 3000:3000 pa4kev/portfolio-reactjs-app
+
+
+
+- Locally, create Production ready React.js app:
+npm run build
+(creates a /build directory)
+
+
+
+
