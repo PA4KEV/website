@@ -21,8 +21,12 @@ docker run -d --name react --rm -p 3000:3000 pa4kev/portfolio-reactjs-app
 
 
 - Locally, create Production ready React.js app:
+nvm use 19.3.0
+
 npm run build
 (creates a /build directory)
+
+
 
 
 

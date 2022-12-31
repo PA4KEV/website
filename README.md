@@ -1,3 +1,15 @@
+# Docker commands
+
+## Local
+
+`docker build -t pa4kev/portfolio-reactjs-full:latest -f Dockerfile .`
+`docker push pa4kev/portfolio-reactjs-full:latest`
+
+## Server
+
+`docker pull pa4kev/portfolio-reactjs-full`
+`docker run -d --name react -p 80:80 pa4kev/portfolio-reactjs-full`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
