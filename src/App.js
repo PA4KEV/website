@@ -4,16 +4,18 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import './App.css';
 import Navigation from './UI/Navigation';
 import ContentItem from './Content/ContentItem';
+import Sidebar from './UI/Sidebar';
 
 function App() {
     return (
     <div>
-      <Navigation />
-
-      <ContentItem />
-      <ContentItem />
-      <ContentItem />
-
+      <div className='row '>
+        <Navigation />
+      </div>
+      <div className='row'>
+        <Sidebar />
+        <ContentItem />
+      </div>
     </div>
     );
 }
