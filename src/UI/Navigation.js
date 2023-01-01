@@ -1,9 +1,17 @@
 import React from 'react';
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+
+import Test from '../Pages/Test';
+import Linux from '../Pages/Linux/Linux';
+import Radio from '../Pages/Radio/Radio';
+import Software from '../Pages/Software/Software';
+
 import './Navigation.css';
 
 
 const Navigation = (props) => {
-    return (                
+    return (
+        <Router>
         <nav className="navbar navbar-expand-lg fixed-top bg-light">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#!">Kevin Matsubara<br/><span className='logo-sub'>Software Developer</span></a>
@@ -13,7 +21,7 @@ const Navigation = (props) => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#!">About</a>
+                    <Link to="/test" className="nav-link active" aria-current="page" href="#!">Test</Link>
                     </li>
                     {/* <li className="nav-item">
                     <a className="nav-link" href="#!">Link</a>
@@ -23,11 +31,11 @@ const Navigation = (props) => {
                         Portal
                     </a>
                     <ul className="dropdown-menu">
-                        <li><a className="dropdown-item" href="#!">Software</a></li>
+                        <li><Link to="/pages/software" className="dropdown-item" href="#!">Software</Link></li>
                         <li><hr className="dropdown-divider"/></li>
-                        <li><a className="dropdown-item" href="#!">Radio Amateur</a></li>
+                        <li><Link to="/pages/radio" className="dropdown-item" href="#!">Radio Amateur</Link></li>
                         <li><hr className="dropdown-divider"/></li>
-                        <li><a className="dropdown-item" href="#!">Linux</a></li>
+                        <li><Link to="/pages/linux" className="dropdown-item" href="#!">Linux</Link></li>
                     </ul>
                     </li>
                     {/* <li className="nav-item">
@@ -41,6 +49,13 @@ const Navigation = (props) => {
                 </div>
             </div>
         </nav>
+        <Routes>
+            <Route exact path='/test' element={< Test />}></Route>
+            <Route exact path='/pages/software' element={< Software />}></Route>
+            <Route exact path='/pages/radio' element={< Radio />}></Route>
+            <Route exact path='/pages/linux' element={< Linux />}></Route>
+        </Routes>
+        </Router>
     )
 }
 

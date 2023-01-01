@@ -4,6 +4,7 @@ import React from 'react';
 const ContentItem = (props) => {
     return (
         <div className="col-6 offset-3">
+            <h1>{props.title}</h1>
             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
             <h4 id="list-item-1">Item 1</h4>
             <p>
