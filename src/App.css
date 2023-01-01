@@ -2,6 +2,14 @@ body {
   padding-top: 100px;
 }
 
+.content-section {
+  min-height: 100vh;
+}
+
+.content-item {
+  margin-bottom: 40px;
+}
+
 .App {
   text-align: center;
 }

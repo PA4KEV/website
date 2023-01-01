@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
 
-import Test from '../Pages/Test';
+import Home from '../Pages/Home';
 import Linux from '../Pages/Linux/Linux';
 import Radio from '../Pages/Radio/Radio';
 import Software from '../Pages/Software/Software';
@@ -14,28 +14,25 @@ const Navigation = (props) => {
         <Router>
         <nav className="navbar navbar-expand-lg fixed-top bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#!">Kevin Matsubara<br/><span className='logo-sub'>Software Developer</span></a>
+                <a className="navbar-brand" href="/">Kevin Matsubara<br/><span className='logo-sub'>Software Developer</span></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
-                    <Link to="/test" className="nav-link active" aria-current="page" href="#!">Test</Link>
-                    </li>
                     {/* <li className="nav-item">
                     <a className="nav-link" href="#!">Link</a>
                     </li> */}
                     <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle active" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Portal
                     </a>
                     <ul className="dropdown-menu">
-                        <li><Link to="/pages/software" className="dropdown-item" href="#!">Software</Link></li>
+                        <li><Link to="/pages/software" className="dropdown-item">Software</Link></li>
                         <li><hr className="dropdown-divider"/></li>
-                        <li><Link to="/pages/radio" className="dropdown-item" href="#!">Radio Amateur</Link></li>
+                        <li><Link to="/pages/radio" className="dropdown-item">Radio Amateur</Link></li>
                         <li><hr className="dropdown-divider"/></li>
-                        <li><Link to="/pages/linux" className="dropdown-item" href="#!">Linux</Link></li>
+                        <li><Link to="/pages/linux" className="dropdown-item">Linux</Link></li>
                     </ul>
                     </li>
                     {/* <li className="nav-item">
@@ -50,10 +47,10 @@ const Navigation = (props) => {
             </div>
         </nav>
         <Routes>
-            <Route exact path='/test' element={< Test />}></Route>
-            <Route exact path='/pages/software' element={< Software />}></Route>
-            <Route exact path='/pages/radio' element={< Radio />}></Route>
-            <Route exact path='/pages/linux' element={< Linux />}></Route>
+            <Route exact path='/' element={<Home />}></Route>
+            <Route exact path='/pages/software' element={<Software />}></Route>
+            <Route exact path='/pages/radio' element={<Radio />}></Route>
+            <Route exact path='/pages/linux' element={<Linux />}></Route>
         </Routes>
         </Router>
     )
