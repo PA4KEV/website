@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+
 const Software = () => {
     return (        
         <div className='row'>
@@ -9,6 +11,7 @@ const Software = () => {
                     <a className="list-group-item list-group-item-action" href="#list-certification">Certification</a>
                     <a className="list-group-item list-group-item-action" href="#list-courses">Courses</a>
                     <a className="list-group-item list-group-item-action" href="#list-skills">Skills</a>
+                    <a className="list-group-item list-group-item-action" href="#list-projects">Projects</a>
                 </div>
             </div>
 
@@ -94,6 +97,16 @@ const Software = () => {
                         <li>JavaScript</li>
                         <li>Node JS</li>
                         <li>Git</li>
+                    </ul>
+                </section>
+
+
+                <section className="content-section">
+                    <h2 id="list-projects">Projects</h2>
+                    <hr/>
+                    <p>Projects I have worked on:</p>
+                    <ul>
+                        <li><Link to="/pages/software/dxp-development">DXP development- OPPLE catalog generator</Link></li>
                     </ul>
                 </section>
             </div>
