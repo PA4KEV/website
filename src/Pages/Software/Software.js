@@ -7,15 +7,41 @@ const Software = () => {
         <div className='row'>
             <div className="sidebar col-3 position-fixed">
                 <div id="list-example" className="list-group">
+                    <a className="list-group-item list-group-item-action" href="#list-skills">Skills</a>
+                    <a className="list-group-item list-group-item-action" href="#list-projects">Projects</a>
                     <a className="list-group-item list-group-item-action" href="#list-education">Education</a>
                     <a className="list-group-item list-group-item-action" href="#list-certification">Certification</a>
                     <a className="list-group-item list-group-item-action" href="#list-courses">Courses</a>
-                    <a className="list-group-item list-group-item-action" href="#list-skills">Skills</a>
-                    <a className="list-group-item list-group-item-action" href="#list-projects">Projects</a>
                 </div>
             </div>
 
             <div className="scrollspy-example col-6 offset-3" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
+
+                <section className="content-section">
+                    <h2 id="list-skills">Skills</h2>
+                    <hr/>
+                    <h4>Programming languages & Tools</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>Docker</li>
+                        <li>C#</li>
+                        <li>JavaScript</li>
+                        <li>Node JS</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+
+                <section className="content-section">
+                    <h2 id="list-projects">Projects</h2>
+                    <hr/>
+                    <p>Projects I have worked on:</p>
+                    <ul>
+                        <li><Link reloadDocument to="/pages/software/dxp-development">DXP development- OPPLE catalog generator</Link></li>
+                        <li><Link reloadDocument to="/pages/software/configuration-automation">Configuration automation</Link></li>
+                    </ul>
+                </section>
+
                 <section className="content-section">
                     <div className='content-item'>
                         <h2 id="list-education">Education</h2>
@@ -82,33 +108,6 @@ const Software = () => {
                         </p>
                         <span class="text-primary">2019</span>
                     </div>
-                </section>
-
-
-                <section className="content-section">
-                    <h2 id="list-skills">Skills</h2>
-                    <hr/>
-                    <h4>Programming languages & Tools</h4>
-                    <ul>
-                        <li>Python</li>
-                        <li>PHP</li>
-                        <li>Docker</li>
-                        <li>C#</li>
-                        <li>JavaScript</li>
-                        <li>Node JS</li>
-                        <li>Git</li>
-                    </ul>
-                </section>
-
-
-                <section className="content-section">
-                    <h2 id="list-projects">Projects</h2>
-                    <hr/>
-                    <p>Projects I have worked on:</p>
-                    <ul>
-                        <li><Link reloadDocument to="/pages/software/dxp-development">DXP development- OPPLE catalog generator</Link></li>
-                        <li><Link reloadDocument to="/pages/software/configuration-automation">Configuration automation</Link></li>
-                    </ul>
                 </section>
             </div>
 
