@@ -107,6 +107,7 @@ const Software = () => {
                     <p>Projects I have worked on:</p>
                     <ul>
                         <li><Link reloadDocument to="/pages/software/dxp-development">DXP development- OPPLE catalog generator</Link></li>
+                        <li><Link reloadDocument to="/pages/software/configuration-automation">Configuration automation</Link></li>
                     </ul>
                 </section>
             </div>

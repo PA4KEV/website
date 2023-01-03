@@ -6,6 +6,7 @@ import Linux from '../Pages/Linux/Linux';
 import Radio from '../Pages/Radio/Radio';
 import Software from '../Pages/Software/Software';
 import DXPDevelopment from '../Pages/Software/Projects/DXPDevelopment';
+import ConfigAutomation from '../Pages/Software/Projects/ConfigAutomation';
 
 import './Navigation.css';
 
@@ -51,6 +52,7 @@ const Navigation = (props) => {
             <Route exact path='/' element={<Home />}></Route>
             <Route exact path='/pages/software' element={<Software />}></Route>
             <Route exact path='/pages/software/dxp-development' element={<DXPDevelopment />}></Route>
+            <Route exact path='/pages/software/configuration-automation' element={<ConfigAutomation />}></Route>
             <Route exact path='/pages/radio' element={<Radio />}></Route>
             <Route exact path='/pages/linux' element={<Linux />}></Route>
         </Routes>
