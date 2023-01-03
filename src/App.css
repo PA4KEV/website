@@ -2,6 +2,10 @@ body {
   padding-top: 100px;
 }
 
+.list-group-item-action {
+  overflow: hidden;
+}
+
 .content-section {
   min-height: 100vh;
 }
