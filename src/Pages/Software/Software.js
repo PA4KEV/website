@@ -106,7 +106,7 @@ const Software = () => {
                     <hr/>
                     <p>Projects I have worked on:</p>
                     <ul>
-                        <li><Link to="/pages/software/dxp-development">DXP development- OPPLE catalog generator</Link></li>
+                        <li><Link reloadDocument to="/pages/software/dxp-development">DXP development- OPPLE catalog generator</Link></li>
                     </ul>
                 </section>
             </div>

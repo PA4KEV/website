@@ -8,12 +8,12 @@ const Home = () => {
                 <section className="content-section">  
                     <h1>Hallo, my name is Kevin.</h1>
                     <h3>Nice to meet you! :)</h3>
-                    <p>I have done <Link to="/pages/software">configuration automation</Link>, <Link to="/pages/software/dxp-development">DXP development</Link> and ...</p>
-                    <p>When it comes to technology and engineering, I am always curious and eager to learn and adept myself. One of the things I enjoy the most is being able to teach others. Interns who enthousiastically become better programmers themselves through my knowledge is amazing! Check out my <Link to="/pages/software">Software</Link> journey.</p>
+                    <p>I have done <Link reloadDocument to="/pages/software/configuration-automation">configuration automation</Link>, <Link reloadDocument to="/pages/software/dxp-development">DXP development</Link> and ...</p>
+                    <p>When it comes to technology and engineering, I am always curious and eager to learn and adept myself. One of the things I enjoy the most is being able to teach others. Interns who enthousiastically become better programmers themselves through my knowledge is amazing! Check out my <Link reloadDocument to="/pages/software">Software</Link> journey.</p>
                     <p>My other interests are:</p>
                     <ul>
-                        <li><Link to="/pages/radio">amateur radio</Link></li>
-                        <li><Link to="/pages/linux">Linux</Link></li>
+                        <li><Link reloadDocument to="/pages/radio">amateur radio</Link></li>
+                        <li><Link reloadDocument to="/pages/linux">Linux</Link></li>
                         <li>electronics</li>
                         <li>learning Japanese</li>
                         <li>woodworking</li>

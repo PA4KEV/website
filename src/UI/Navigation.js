@@ -29,11 +29,11 @@ const Navigation = (props) => {
                         Portal
                     </a>
                     <ul className="dropdown-menu">
-                        <li><Link to="/pages/software" className="dropdown-item">Software</Link></li>
+                        <li><Link reloadDocument to="/pages/software" className="dropdown-item">Software</Link></li>
                         <li><hr className="dropdown-divider"/></li>
-                        <li><Link to="/pages/radio" className="dropdown-item">Radio Amateur</Link></li>
+                        <li><Link reloadDocument to="/pages/radio" className="dropdown-item">Radio Amateur</Link></li>
                         <li><hr className="dropdown-divider"/></li>
-                        <li><Link to="/pages/linux" className="dropdown-item">Linux</Link></li>
+                        <li><Link reloadDocument to="/pages/linux" className="dropdown-item">Linux</Link></li>
                     </ul>
                     </li>
                     {/* <li className="nav-item">
