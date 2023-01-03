@@ -7,18 +7,18 @@ const Software = () => {
         <div className='row'>
             <div className="sidebar col-3 position-fixed">
                 <div id="list-example" className="list-group">
-                    <a className="list-group-item list-group-item-action" href="#list-skills">Skills</a>
-                    <a className="list-group-item list-group-item-action" href="#list-projects">Projects</a>
-                    <a className="list-group-item list-group-item-action" href="#list-education">Education</a>
-                    <a className="list-group-item list-group-item-action" href="#list-certification">Certification</a>
-                    <a className="list-group-item list-group-item-action" href="#list-courses">Courses</a>
+                    <a className="list-group-item list-group-item-action list-group-item-primary" href="#list-skills">Skills</a>
+                    <a className="list-group-item list-group-item-action list-group-item-primary" href="#list-projects">Projects</a>
+                    <a className="list-group-item list-group-item-action list-group-item-primary" href="#list-education">Education</a>
+                    <a className="list-group-item list-group-item-action list-group-item-primary" href="#list-certification">Certification</a>
+                    <a className="list-group-item list-group-item-action list-group-item-primary" href="#list-courses">Courses</a>
                 </div>
             </div>
 
             <div className="scrollspy-example col-6 offset-3" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
 
                 <section className="content-section">
-                    <h2 id="list-skills">Skills</h2>
+                    <h2 id="list-skills" className="text-primary">Skills</h2>
                     <hr/>
                     <h4>Programming languages & Tools</h4>
                     <ul>
@@ -33,7 +33,7 @@ const Software = () => {
                 </section>
 
                 <section className="content-section">
-                    <h2 id="list-projects">Projects</h2>
+                    <h2 id="list-projects" className="text-primary">Projects</h2>
                     <hr/>
                     <p>Projects I have worked on:</p>
                     <ul>
@@ -44,7 +44,7 @@ const Software = () => {
 
                 <section className="content-section">
                     <div className='content-item'>
-                        <h2 id="list-education">Education</h2>
+                        <h2 id="list-education" className="text-primary">Education</h2>
                         <hr/>
                         <h4 class="mb-0">Computer engineering of applied computer science</h4>
                         <h6>Bachelor of computer science</h6>
@@ -62,7 +62,7 @@ const Software = () => {
 
 
                 <section className="content-section">
-                    <h2 id="list-certification">Certification</h2>
+                    <h2 id="list-certification" className="text-primary">Certification</h2>
                     <hr/>
                     <div className='content-item'>
                         <h4 class="mb-0">LPIC-1</h4>
@@ -79,7 +79,7 @@ const Software = () => {
 
 
                 <section className="content-section">
-                    <h2 id="list-courses">Courses</h2>
+                    <h2 id="list-courses" className="text-primary">Courses</h2>
                     <hr/>
                     <div className='content-item'>
                         <h6 class="mb-0">Docker Mastery: Kubernetes + Swarm from a Docker Captain</h6>

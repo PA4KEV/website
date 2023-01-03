@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './overrides.scss';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 import './App.css';

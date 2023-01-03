@@ -14,7 +14,7 @@ import './Navigation.css';
 const Navigation = (props) => {
     return (
         <Router>
-        <nav className="navbar navbar-expand-lg fixed-top bg-light">
+        <nav className="navbar navbar-expand-lg fixed-top text-light navbar-dark bg-primary">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">Kevin Matsubara<br/><span className='logo-sub'>Software Developer</span></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
