@@ -25,11 +25,11 @@ const Components = () => {
                         <h3 className="text-primary">Diode</h3>
 
                         <figure>
-                            <img src={`${process.env.PUBLIC_URL}/images/components/diode.png`} />
+                            <img src={`${process.env.PUBLIC_URL}/images/components/diode.png`} alt="diode" />
                             <figcaption>Diode symbool. (Halfgeleiderdiode)</figcaption>
                         </figure>
 
-                        <p><a className="mediaIcon mediaWikipedia" href="https://nl.wikipedia.org/wiki/Diode" target="_blank">Diode</a></p>
+                        <p><a className="mediaIcon mediaWikipedia" href="https://nl.wikipedia.org/wiki/Diode" target="_blank" rel="noreferrer noopener">Diode</a></p>
 
                         <p>De halfgeleiderdiodes worden gebruikt in gelijkrichters, om wisselstroom om te zetten in gelijkstroom.</p>
 
@@ -39,25 +39,25 @@ const Components = () => {
                         <h6>Zenerdiode</h6>
 
                         <figure>
-                            <img src={`${process.env.PUBLIC_URL}/images/components/zenerdiode.png`} />
+                            <img src={`${process.env.PUBLIC_URL}/images/components/zenerdiode.png`} alt="zenerdiode"/>
                             <figcaption>Zenerdiode symbool.</figcaption>
                         </figure>
 
-                        <p><a className="mediaIcon mediaWikipedia" href="https://nl.wikipedia.org/wiki/Zenerdiode" target="_blank">Zenerdiode</a></p>
+                        <p><a className="mediaIcon mediaWikipedia" href="https://nl.wikipedia.org/wiki/Zenerdiode" target="_blank" rel="noreferrer noopener">Zenerdiode</a></p>
 
                         <p>Zenerdiodes</p>
 
                         <figure>
-                            <img src={`${process.env.PUBLIC_URL}/images/signals/zenerdiode-karakeristiek.png`} />
+                            <img src={`${process.env.PUBLIC_URL}/images/signals/zenerdiode-karakeristiek.png`} alt="zenerdiode karakteristiek"/>
                             <figcaption>Karakteristiek van een zenerdiode.</figcaption>
                         </figure>
 
 
-                        <img src={`${process.env.PUBLIC_URL}/images/schematics/zenerdiode.png`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/schematics/zenerdiode.png`} alt="zenerdiode"/>
                         <p>Als er een <strong>constante</strong> uitgangsspanning moet zijn, dan moet de ingangsspanning <strong>hoger</strong> zijn dan de zenerspanning.</p>
                         <hr/>
 
-                        <img src={`${process.env.PUBLIC_URL}/images/schematics/diode-schakeling-1.png`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/schematics/diode-schakeling-1.png`} alt="diode schakeling"/>
                         <p>De dioden hebben een gelijke doorlaatkarakteristiek maar een verschillende belastbaarheid.</p>
                         <p>Gegeven zijn 4 combinaties. Welke combinatie van de hoogste U<sub>uit</sub> en grootste I<sub>uit</sub> kan deze schakeling geven?</p>
                         <table className='table'>
@@ -72,7 +72,7 @@ const Components = () => {
                         <p>D1 en D2 kunnen samen 3A doorlaten. Echter, als er 3A gaat stromen, wordt deze opgedeeld in 2x 1.5A. Maar D1 kan dit niet doorlaten, maar max 1A. Als er dus in totaal 2A gaat stromen, wordt deze stroom opgedeeld in 1A door D1 en 1A door D2.</p>
                         <p>Dus, opties B en C vallen al af.</p>
                         <p>Dit is het signaal dat door de schakeling loopt.</p>
-                        <img src={`${process.env.PUBLIC_URL}/images/signals/diode-schakeling-1-signaal.png`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/signals/diode-schakeling-1-signaal.png`} alt="diode schakeling signaal 1"/>
                         <p>De maximum sperspanning voor D1 en D2 is 30 Volt. Dus een wisselstroom met een top-top waarde van 30V.</p>
                         <p>Als de wisselstroom gaat stromen, gaat de electrolytische condensator opladen en ontladen (stippelijn). Hierdoor onstaat een onregelmatige gelijkstroom. De amplitude van deze stroom is dus de helft van 30V, dus 15V.</p>
                         <p>Hierdoor valt optie A ook af, dus optie D blijft over.</p>
@@ -82,7 +82,7 @@ const Components = () => {
 
                         <p>De dioden hebben gelijke doorlaatkarakteristieken maar de belastbaarheid is verschillend.</p>
 
-                        <img src={`${process.env.PUBLIC_URL}/images/schematics/diode-schakeling-2.png`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/schematics/diode-schakeling-2.png`} alt="diode schakeling signaal 2"/>
 
                         <p>Kies uit de combinaties de hoogste U<sub>uit</sub> en grootste I<sub>uit</sub> die deze schakeling kan leveren.</p>
                         <table className='table'>
@@ -98,15 +98,15 @@ const Components = () => {
                         <p><i>Antwoord:</i> <b>B. U<sub>uit</sub> = 10V en I<sub>uit</sub> = 2A</b></p>
                         <hr/>
 
-                        <img src={`${process.env.PUBLIC_URL}/images/schematics/zener-diode1.png`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/schematics/zener-diode1.png`} alt="zenerdiode schakeling"/>
                         <p>Gegeven zijn schakeling en karakteristiek. Hoe ziet het spanningssignaal U uit over de zenerdiode?</p>
 
                         <p><i>Antwoord:</i></p>
-                        <img src={`${process.env.PUBLIC_URL}/images/signals/zener-diode1.png`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/signals/zener-diode1.png`} alt="zenerdiode signaal"/>
 
                         <hr/>
 
-                        <img src={`${process.env.PUBLIC_URL}/images/schematics/zener-diode2.png`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/schematics/zener-diode2.png`} alt="zenerdiode schakeling"/>
                         <p>De belastingsstroom van I<sub>bel</sub> varieert van 100mA tot 300mA.
                         Wat is het maximaal gedissipeerde vermogen door de zenerdiode?</p>
 
