@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -22,12 +22,12 @@ const Home = () => {
                     </ul>
                     <p>I am based in Helmond, the Netherlands.</p>
                     <p>
-                        <a href="https://github.com/PA4KEV" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/PA4KEV" target="_blank" rel="noopener noreferrer">
                             <img src={`${process.env.PUBLIC_URL}/icons/github.png`} alt="github icon"/>
                         </a>
                     </p>
                     <hr/>
-                    <p class="small">This site was made with: <a href="https://reactjs.org/" target="_blank">React</a>, <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>, <a href="https://www.nginx.com/" target="_blank">Nginx</a> and <a href="https://www.docker.com/" target="_blank">Docker</a><br/>on <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a> cloud droplets.</p>
+                    <p class="small">This site was made with: <a href="https://reactjs.org/" target="_blank"rel="noopener noreferrer">React</a>, <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a>, <a href="https://www.nginx.com/" target="_blank" rel="noopener noreferrer">Nginx</a> and <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Docker</a><br/>on <a href="https://www.digitalocean.com/" target="_blank" rel="noopener noreferrer">DigitalOcean</a> cloud droplets.</p>
                 </section>
             </div>
         </div>
