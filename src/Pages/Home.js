@@ -13,7 +13,7 @@ const Home = () => {
                     <p>My other interests are:</p>
                     <ul>
                         <li><Link reloadDocument to="/pages/radio">amateur radio</Link></li>
-                        <li><Link reloadDocument to="/pages/linux">Linux</Link></li>
+                        <li>Linux</li>
                         <li>electronics</li>
                         <li>learning Japanese</li>
                         <li>woodworking</li>

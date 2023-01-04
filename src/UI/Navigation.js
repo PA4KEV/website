@@ -25,8 +25,8 @@ const Navigation = (props) => {
                         <li><Link reloadDocument to="/pages/software" className="dropdown-item">Software</Link></li>
                         <li><hr className="dropdown-divider"/></li>
                         <li><Link reloadDocument to="/pages/radio" className="dropdown-item">Radio Amateur</Link></li>
-                        <li><hr className="dropdown-divider"/></li>
-                        <li><Link reloadDocument to="/pages/linux" className="dropdown-item">Linux</Link></li>
+                        {/* <li><hr className="dropdown-divider"/></li>
+                        <li><Link reloadDocument to="/pages/linux" className="dropdown-item">Linux</Link></li> */}
                     </ul>
                     </li>
                     {section === 'radio' &&
