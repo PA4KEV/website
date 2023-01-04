@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom';
 
 import './Navigation.css';
 
+// Cheating, but it works until I know better.
+let section = window.location.pathname.split('/')[2];
+let chapter = window.location.pathname.split('/')[3];
 
 const Navigation = (props) => {
     return (
@@ -14,9 +17,6 @@ const Navigation = (props) => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                    {/* <li className="nav-item">
-                    <a className="nav-link" href="#!">Link</a>
-                    </li> */}
                     <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle active" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Portal
@@ -29,9 +29,11 @@ const Navigation = (props) => {
                         <li><Link reloadDocument to="/pages/linux" className="dropdown-item">Linux</Link></li>
                     </ul>
                     </li>
-                    {/* <li className="nav-item">
-                    <a href="#!" className="nav-link disabled">Disabled</a>
-                    </li> */}
+                    {section === 'radio' &&
+                    <li className="nav-item">
+                        <Link reloadDocument to="/pages/radio/components" className={`nav-link ${chapter === "components" ? "active" : ""}`}>Components</Link>
+                    </li>
+                    }
                 </ul>
                 {/* <form className="d-flex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
