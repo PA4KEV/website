@@ -1,19 +1,11 @@
 import React from 'react';
-import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-
-import Home from '../Pages/Home';
-import Linux from '../Pages/Linux/Linux';
-import Radio from '../Pages/Radio/Radio';
-import Software from '../Pages/Software/Software';
-import DXPDevelopment from '../Pages/Software/Projects/DXPDevelopment';
-import ConfigAutomation from '../Pages/Software/Projects/ConfigAutomation';
+import {Link} from 'react-router-dom';
 
 import './Navigation.css';
 
 
 const Navigation = (props) => {
     return (
-        <Router>
         <nav className="navbar navbar-expand-lg fixed-top text-light navbar-dark bg-primary">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">Kevin Matsubara<br/><span className='logo-sub'>Software Developer</span></a>
@@ -48,15 +40,6 @@ const Navigation = (props) => {
                 </div>
             </div>
         </nav>
-        <Routes>
-            <Route exact path='/' element={<Home />}></Route>
-            <Route exact path='/pages/software' element={<Software />}></Route>
-            <Route exact path='/pages/software/dxp-development' element={<DXPDevelopment />}></Route>
-            <Route exact path='/pages/software/configuration-automation' element={<ConfigAutomation />}></Route>
-            <Route exact path='/pages/radio' element={<Radio />}></Route>
-            <Route exact path='/pages/linux' element={<Linux />}></Route>
-        </Routes>
-        </Router>
     )
 }
 
