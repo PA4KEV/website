@@ -11,6 +11,7 @@ import Home from './Pages/Home';
 import Software from './Pages/Software/Software';
 import DXPDevelopment from './Pages/Software/Projects/DXPDevelopment';
 import ConfigAutomation from './Pages/Software/Projects/ConfigAutomation';
+import WifiPrototype from './Pages/Software/Projects/WifiPrototype';
 
 import Radio from './Pages/Radio/Radio';
 import Components from './Pages/Radio/Components';
@@ -29,6 +30,7 @@ function App() {
             <Route exact path='/pages/software' element={<Software />}></Route>
             <Route exact path='/pages/software/dxp-development' element={<DXPDevelopment />}></Route>
             <Route exact path='/pages/software/configuration-automation' element={<ConfigAutomation />}></Route>
+            <Route exact path='/pages/software/wifi-prototype' element={<WifiPrototype />}></Route>
             <Route exact path='/pages/radio' element={<Radio />}></Route>
             <Route exact path='/pages/radio/components' element={<Components />}></Route>
             <Route exact path='/pages/linux' element={<Linux />}></Route>
