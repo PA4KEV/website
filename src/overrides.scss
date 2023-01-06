@@ -2,8 +2,21 @@
 $theme-colors: (
   "primary": #530c61,
   "secondary": #59585a,
-  "danger": #ff4136
+  "success": #000000,  
+  "danger": #ff4136,
+  "warning": #000000,
+  "info": #000000,
+  "light": #eeeeee,
+  "dark": #000000,
+  "muted": #000000
 );
+
+$link-color:                 rgb(0, 26, 255); //red
+$link-hover-color:           rgb(103, 219, 235); //green
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+
+// Core variables and mixins
+// @import "variables";
+// @import "mixins";
