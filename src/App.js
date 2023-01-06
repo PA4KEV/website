@@ -17,6 +17,7 @@ import Radio from './Pages/Radio/Radio';
 import Components from './Pages/Radio/Components';
 
 import Linux from './Pages/Linux/Linux';
+import Footer from './UI/Footer';
 
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
     <Router>
       <div className='row '>
         <Navigation />
-      </div>
-      <Routes>
+
+        <Routes>
             <Route exact path='/' element={<Home />}></Route>
             <Route exact path='/pages/software' element={<Software />}></Route>
             <Route exact path='/pages/software/dxp-development' element={<DXPDevelopment />}></Route>
@@ -35,6 +36,9 @@ function App() {
             <Route exact path='/pages/radio/components' element={<Components />}></Route>
             <Route exact path='/pages/linux' element={<Linux />}></Route>
         </Routes>
+
+        <Footer />
+      </div>
     </Router>
     );
 }
