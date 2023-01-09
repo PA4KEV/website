@@ -34,6 +34,11 @@ const Navigation = (props) => {
                         <Link reloadDocument to="/pages/radio/components" className={`nav-link ${chapter === "components" ? "active" : ""}`}>Components</Link>
                     </li>
                     }
+                    {section === 'radio' &&
+                    <li className="nav-item">
+                        <Link reloadDocument to="/pages/radio/balcony" className={`nav-link ${chapter === "balcony" ? "active" : ""}`}>Balcony</Link>
+                    </li>
+                    }
                 </ul>
                 {/* <form className="d-flex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>

@@ -15,6 +15,7 @@ import WifiPrototype from './Pages/Software/Projects/WifiPrototype';
 
 import Radio from './Pages/Radio/Radio';
 import Components from './Pages/Radio/Components';
+import Balkon from './Pages/Radio/Balkon';
 
 import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
@@ -34,6 +35,7 @@ function App() {
             <Route exact path='/pages/software/wifi-prototype' element={<WifiPrototype />}></Route>
             <Route exact path='/pages/radio' element={<Radio />}></Route>
             <Route exact path='/pages/radio/components' element={<Components />}></Route>
+            <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
             <Route exact path='/pages/linux' element={<Linux />}></Route>
         </Routes>
 
