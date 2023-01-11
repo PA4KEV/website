@@ -15,14 +15,21 @@ const Balkon = () => {
                     <div id="list-intro" className='content-item'>
                         <h1 className="text-primary">Balcony antenna</h1>
                         <p>Living in an appartment brings great challenges for a radio amateur home setup.</p>
-                        <p>This page describes my findings and improvements that I made to create a working balcony setup.</p>                                                
+                        <p>This page describes my findings and improvements that I made to create a working balcony setup.</p>
                     </div>
                 </section>
 
                 <section className="content-section">
                     <div id="list-dipole" className='content-item'>
                         <h3 className="text-primary">Dipole</h3>
-                        <p>A dipole with a 1:1 Balun was the first HF antenna I attempted to try out.</p>                                              
+                        <p>A dipole with a 1:1 Balun was the first HF antenna I attempted to try out.</p>
+                        <picture>
+                            <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/radio/antenna/balun-string-w240.webp`} />
+                            <source media="(min-width: 800px) and (max-width: 1199px)" srcset={`${process.env.PUBLIC_URL}/images/radio/antenna/balun-string-w480.webp`} />
+                            <source media="(min-width: 1200px)" srcset={`${process.env.PUBLIC_URL}/images/radio/antenna/balun-string-w800.webp`} />
+                            <img alt="1:1 Balun on a string" src={`${process.env.PUBLIC_URL}/images/radio/antenna/balun-string-w800.webp`}/>
+                        </picture>
+
                     </div>
                 </section>
             </div>
