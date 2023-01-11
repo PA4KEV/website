@@ -23,6 +23,7 @@ import Balkon from './Pages/Radio/Balkon';
 
 import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
+import TeslaMaze from './Pages/Software/Projects/TeslaMaze';
 
 
 
@@ -42,6 +43,7 @@ function App() {
             <Route exact path='/pages/software/raspberry-pi-jukebox' element={<RaspberryJukebox />}></Route>
             <Route exact path='/pages/software/kanji-application' element={<KanjiApplication />}></Route>
             <Route exact path='/pages/software/attachment-module' element={<AttachmentModule />}></Route>
+            <Route exact path='/pages/software/teslamaze' element={<TeslaMaze />}></Route>
             <Route exact path='/pages/radio' element={<Radio />}></Route>
             <Route exact path='/pages/radio/components' element={<Components />}></Route>
             <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
