@@ -29,7 +29,7 @@ const KanjiApplication = () => {
                         <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-1-w240.webp`} />
                         <source media="(min-width: 800px) and (max-width: 1199px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-1-w480.webp`} />
                         <source media="(min-width: 1200px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-1.webp`} />
-                        <img alt="Breadboard with components top view" src={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-1.webp`}/>
+                        <img alt="Screenshot of a kanji flashcard" src={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-1.webp`}/>
                     </picture>
                 </section>
 
@@ -40,13 +40,13 @@ const KanjiApplication = () => {
                         <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-2-w240.webp`} />
                         <source media="(min-width: 800px) and (max-width: 1199px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-2-w480.webp`} />
                         <source media="(min-width: 1200px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-2.webp`} />
-                        <img alt="Breadboard with components top view" src={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-2.webp`}/>
+                        <img alt="Screenshot with application settings" src={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-2.webp`}/>
                     </picture>
                     <picture>
                         <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-3-w240.webp`} />
                         <source media="(min-width: 800px) and (max-width: 1199px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-3-w480.webp`} />
                         <source media="(min-width: 1200px)" srcset={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-3.webp`} />
-                        <img alt="Breadboard with components top view" src={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-3.webp`}/>
+                        <img alt="Screenshot with database entries" src={`${process.env.PUBLIC_URL}/images/projects/mykanji/screenshot-3.webp`}/>
                     </picture>
                 </section>
             </div>
