@@ -44,6 +44,7 @@ const Software = () => {
                         <li><Link reloadDocument to="/pages/software/embedded-game">Embedded Game</Link></li>
                         <li><Link reloadDocument to="/pages/software/kanji-application">Kanji flashcard Android application</Link></li>
                         <li><Link reloadDocument to="/pages/software/raspberry-pi-jukebox">Raspberry Pi Jukebox</Link></li>
+                        <li><Link reloadDocument to="/pages/software/attachment-module">Attachment Module</Link></li>
                     </ul>
                 </section>
 

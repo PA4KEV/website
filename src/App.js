@@ -14,6 +14,8 @@ import ConfigAutomation from './Pages/Software/Projects/ConfigAutomation';
 import KanjiApplication from './Pages/Software/Projects/KanjiApplication';
 import SwivForPi from './Pages/Software/Projects/SwivForPi';
 import WifiPrototype from './Pages/Software/Projects/WifiPrototype';
+import RaspberryJukebox from './Pages/Software/Projects/RaspberryJukebox';
+import AttachmentModule from './Pages/Software/Projects/AttachmentModule';
 
 import Radio from './Pages/Radio/Radio';
 import Components from './Pages/Radio/Components';
@@ -21,7 +23,6 @@ import Balkon from './Pages/Radio/Balkon';
 
 import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
-import RaspberryJukebox from './Pages/Software/Projects/RaspberryJukebox';
 
 
 
@@ -40,6 +41,7 @@ function App() {
             <Route exact path='/pages/software/embedded-game' element={<SwivForPi />}></Route>
             <Route exact path='/pages/software/raspberry-pi-jukebox' element={<RaspberryJukebox />}></Route>
             <Route exact path='/pages/software/kanji-application' element={<KanjiApplication />}></Route>
+            <Route exact path='/pages/software/attachment-module' element={<AttachmentModule />}></Route>
             <Route exact path='/pages/radio' element={<Radio />}></Route>
             <Route exact path='/pages/radio/components' element={<Components />}></Route>
             <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
