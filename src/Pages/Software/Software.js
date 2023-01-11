@@ -42,6 +42,7 @@ const Software = () => {
                         <li><Link reloadDocument to="/pages/software/configuration-automation">Configuration automation</Link></li>
                         <li><Link reloadDocument to="/pages/software/wifi-prototype">Wi-Fi prototype</Link></li>
                         <li><Link reloadDocument to="/pages/software/embedded-game">Embedded Game</Link></li>
+                        <li><Link reloadDocument to="/pages/software/kanji-application">Kanji flashcard Android application</Link></li>
                     </ul>
                 </section>
 
