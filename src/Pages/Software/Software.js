@@ -46,6 +46,7 @@ const Software = () => {
                         <li><Link reloadDocument to="/pages/software/raspberry-pi-jukebox">Raspberry Pi Jukebox</Link></li>
                         <li><Link reloadDocument to="/pages/software/attachment-module">Attachment Module</Link></li>
                         <li><Link reloadDocument to="/pages/software/teslamaze">TeslaMaze</Link></li>
+                        <li><Link reloadDocument to="/pages/software/embedded-internet-radio">Embedded Internet Radio</Link></li>
                     </ul>
                 </section>
 
