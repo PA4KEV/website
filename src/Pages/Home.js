@@ -22,6 +22,7 @@ const Home = () => {
                     </ul>
                     <p>I am based in Helmond, the Netherlands.</p>
                     <p>
+                        <i>Github page:</i> &nbsp;
                         <a href="https://github.com/PA4KEV" target="_blank" rel="noopener noreferrer">
                             <img src={`${process.env.PUBLIC_URL}/icons/github.png`} alt="github icon"/>
                         </a>
