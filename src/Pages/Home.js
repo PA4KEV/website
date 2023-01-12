@@ -22,9 +22,20 @@ const Home = () => {
                     </ul>
                     <p>I am based in Helmond, the Netherlands.</p>
                     <p>
-                        <i>Github page:</i> &nbsp;
                         <a href="https://github.com/PA4KEV" target="_blank" rel="noopener noreferrer">
-                            <img src={`${process.env.PUBLIC_URL}/icons/github.png`} alt="github icon"/>
+                            <img src={`${process.env.PUBLIC_URL}/icons/github.webp`} alt="github icon"/>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/kevin-van-der-vleuten-b190b032/" target="_blank" rel="noopener noreferrer">
+                            <img src={`${process.env.PUBLIC_URL}/icons/linkedin.webp`} alt="linkedin icon"/>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://exercism.io/profiles/PA4KEV" target="_blank" rel="noopener noreferrer">
+                            <img src={`${process.env.PUBLIC_URL}/icons/exercism.webp`} alt="exercism icon"/>
+                        </a>
+                        &nbsp;&nbsp;
+                        <a href="https://stackoverflow.com/users/6340687/pa4kev" target="_blank" rel="noopener noreferrer">
+                            <img src={`${process.env.PUBLIC_URL}/icons/stackoverflow.webp`} alt="stackoverflow icon"/>
                         </a>
                     </p>
                 </section>
