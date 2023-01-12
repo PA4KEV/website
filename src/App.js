@@ -19,6 +19,7 @@ import AttachmentModule from './Pages/Software/Projects/AttachmentModule';
 import TeslaMaze from './Pages/Software/Projects/TeslaMaze';
 import EmbeddedInternetRadio from './Pages/Software/Projects/EmbeddedInternetRadio';
 import Windows10Cookbook from './Pages/Software/Projects/Windows10Cookbook';
+import IOSAirports from './Pages/Software/Projects/IOSAirports';
 
 import Radio from './Pages/Radio/Radio';
 import Components from './Pages/Radio/Components';
@@ -48,6 +49,7 @@ function App() {
             <Route exact path='/pages/software/teslamaze' element={<TeslaMaze />}></Route>
             <Route exact path='/pages/software/embedded-internet-radio' element={<EmbeddedInternetRadio />}></Route>
             <Route exact path='/pages/software/windows10-cookbook' element={<Windows10Cookbook />}></Route>
+            <Route exact path='/pages/software/ios-airports' element={<IOSAirports />}></Route>
             <Route exact path='/pages/radio' element={<Radio />}></Route>
             <Route exact path='/pages/radio/components' element={<Components />}></Route>
             <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
