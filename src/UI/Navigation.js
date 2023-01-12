@@ -29,6 +29,11 @@ const Navigation = (props) => {
                         <li><Link reloadDocument to="/pages/linux" className="dropdown-item">Linux</Link></li> */}
                     </ul>
                     </li>
+                    {section === 'software' &&
+                    <li className="nav-item">
+                        <Link reloadDocument to="/pages/software#list-projects" className="nav-link">Projects</Link>
+                    </li>
+                    }
                     {section === 'radio' &&
                     <li className="nav-item">
                         <Link reloadDocument to="/pages/radio/components" className={`nav-link ${chapter === "components" ? "active" : ""}`}>Components</Link>

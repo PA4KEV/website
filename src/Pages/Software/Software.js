@@ -17,8 +17,8 @@ const Software = () => {
 
             <div className="scrollspy-example col-6 offset-3" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
 
-                <section className="content-section">
-                    <h2 id="list-skills" className="text-primary">Skills</h2>
+                <section id="list-skills" className="content-section">
+                    <h2 className="text-primary">Skills</h2>
                     <hr/>
                     <h4>Programming languages & Tools</h4>
                     <ul>
@@ -33,8 +33,8 @@ const Software = () => {
                     </ul>
                 </section>
 
-                <section className="content-section">
-                    <h2 id="list-projects" className="text-primary">Projects</h2>
+                <section id="list-projects" className="content-section">
+                    <h2 className="text-primary">Projects</h2>
                     <hr/>
                     <p>Projects I have worked on:</p>
                     <ul>
@@ -52,9 +52,9 @@ const Software = () => {
                     </ul>
                 </section>
 
-                <section className="content-section">
+                <section id="list-education" className="content-section">
                     <div className='content-item'>
-                        <h2 id="list-education" className="text-primary">Education</h2>
+                        <h2 className="text-primary">Education</h2>
                         <hr/>
                         <h4 className="mb-0">Computer engineering of applied computer science</h4>
                         <h6>Bachelor of computer science</h6>
@@ -71,8 +71,8 @@ const Software = () => {
                 </section>
 
 
-                <section className="content-section">
-                    <h2 id="list-certification" className="text-primary">Certification</h2>
+                <section id="list-certification" className="content-section">
+                    <h2 className="text-primary">Certification</h2>
                     <hr/>
                     <div className='content-item'>
                         <h4 className="mb-0">LPIC-1</h4>
@@ -88,8 +88,8 @@ const Software = () => {
                 </section>
 
 
-                <section className="content-section">
-                    <h2 id="list-courses" className="text-primary">Courses</h2>
+                <section id="list-courses" className="content-section">
+                    <h2 className="text-primary">Courses</h2>
                     <hr/>
                     <div className='content-item'>
                         <h6 className="mb-0">Docker Mastery: Kubernetes + Swarm from a Docker Captain</h6>
