@@ -63,7 +63,7 @@ const ConfigAutomation = () => {
             <section id="list-feedback" className="content-section">
             <h2 className="text-primary">Feedback</h2>
             <p>The application generated log files with each configuration and then upload these back to the VM after configuration was complete or halted. These logs were sorted under product name and the order number. But quite often, I found it very productive to go to the configuration area and simply talk with the technician to figure out what went wrong. Depending on the severity of the problem, it would get documented in Gitlab issues. On a weekly basis, issues would get assigned among developers.</p>
-            <p>Communication is always import and essential for proper DevOps. The people who operate and configure these machines daily often know a lot more details that can be used to optimize the software. But be certain to make them realize that they also contribute to profit, rather than believing their job may become obsolete.</p>
+            <p>Communication is always important and essential for proper DevOps. The people who operate and configure these machines daily often know a lot more details that can be used to optimize the software. But be certain to make them realize that they also contribute to profit, rather than believing their job may become obsolete.</p>
 
             <picture>
                 <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/projects/hitachi/hitachi-banner-w240.webp`} />
@@ -78,7 +78,7 @@ const ConfigAutomation = () => {
             <h2 className="text-primary">Lessons learnt</h2>
             <p>Being a programmer, I was mostly concerned with the software. But it requires hardware to run on. When the software does not work because of differences in the platform the software run on, what is there to do? I eventually started managing around 40 configuration laptops, using <a href="https://clonezilla.org/" target="_blank" rel="noopener noreferrer">Clonezilla</a> to create identical machines.</p>
             <p>Docker would have been an ideal solution, but I did not know much of it at the time.</p>
-            <p>Also my many points of learning in git merges, creating release tags, deploying broken versions of the software and immediatly needing to patch with hotfixes, all contributed to my learning of software development.</p>
+            <p>Also my many points of learning in git merges, creating release tags, deploying broken versions of the software and immediately needing to patch with hotfixes, all contributed to my learning of software development.</p>
             <p>Automation demands an equalized platform to run on and once it is deployed, hundreds of products will be making use of it. So, thinking something over and propely design and architecture software is much more time-saving than quickly meeting deadlines.</p>
 
             <picture>
