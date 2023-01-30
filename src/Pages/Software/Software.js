@@ -49,6 +49,7 @@ const Software = () => {
                         <li><Link reloadDocument to="/pages/software/embedded-internet-radio">Embedded Internet Radio</Link></li>
                         <li><Link reloadDocument to="/pages/software/windows10-cookbook">Windows 10 Cookbook</Link></li>
                         <li><Link reloadDocument to="/pages/software/ios-airports">iOS Airports mobile application</Link></li>
+                        <li><Link reloadDocument to="/pages/software/festival-simulator">Java festival crowd simulator</Link></li>
                     </ul>
                 </section>
 
