@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Created on: 2015-01-16
 const WifiPrototype = () => {
     return (   
         <div className='row'>

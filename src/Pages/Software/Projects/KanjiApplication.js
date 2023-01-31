@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Created on: 2016-03-02
 const KanjiApplication = () => {
     return (
         <div className='row'>

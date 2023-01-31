@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Created on: 2012-12-10
 const BoardOfEducationBot = () => {
     return (
         <div className='row'>

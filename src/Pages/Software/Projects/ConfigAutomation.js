@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Created on: 2020~2022
 const ConfigAutomation = () => {
     return (
     <div className='row'>
