@@ -1,4 +1,5 @@
 import React from 'react';
+import Emoji from '../../Content/Emoji';
 
 const Radio = () => {
     return (        
@@ -13,7 +14,7 @@ const Radio = () => {
             <div className="scrollspy-example col-6 offset-3" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
                 <section className="content-section">
                     <div className='content-item'>
-                        <h1 id="list-intro" className="text-primary">Radio amateur</h1>
+                        <h1 id="list-intro" className="text-primary">Radio amateur <Emoji symbol="📻"/></h1>
                         <p>I am a (beginner) ham radio amateur! My callsign is: <b>PA4KEV</b></p>
                         <p>This hobby involves experimenting with wireless communication and electronics. Without the magic of radio, we would not have television, wifi or mobile phones.</p>
                         <p>Here I post my notes on the hobby.</p>
