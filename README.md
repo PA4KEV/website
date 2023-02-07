@@ -10,7 +10,10 @@
 
 `docker pull pa4kev/portfolio-reactjs-full`
 
-`docker run -d --name react -p 80:80 pa4kev/portfolio-reactjs-full`
+if required, run certbot to set the certificates.
+`docker run -it --rm -p 80:80 --name certbot -v "/etc/letsencrypt:/etc/letsencrypt" -v "/var/lib/letsencrypt:/var/lib/letsencrypt" certbot/certbot certonly --standalone --break-my-certs -d matsubara.nl -d www.matsubara.nl`
+
+`docker run -d --name react -p 80:80 -p 443:443 -v /etc/letsencrypt:/etc/letsencrypt -v /var/lib/letsencrypt:/var/lib/letsencrypt -v /var/www/html:/var/www/html pa4kev/portfolio-reactjs-full`
 
 ---
 
