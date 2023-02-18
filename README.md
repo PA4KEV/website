@@ -15,6 +15,20 @@ if required, run certbot to set the certificates.
 
 `docker run -d --name react -p 80:80 -p 443:443 -v /etc/letsencrypt:/etc/letsencrypt -v /var/lib/letsencrypt:/var/lib/letsencrypt -v /var/www/html:/var/www/html pa4kev/portfolio-reactjs-full`
 
+## Drupal CMS
+
+`docker build -t pa4kev/portfolio-drupal:latest -f cms/drupal/Dockerfile .`
+
+`docker run -d --name drupal -p 8080:80 pa4kev/portfolio-drupal`
+
+`composer require --dev drush/drush`
+
+`composer require 'drupal/devel:^5.1'`
+
+`composer require 'drupal/gin_toolbar:^1.0@beta'`
+
+`composer require 'drupal/gin:^3.0@RC'`
+
 ---
 
 ## React
