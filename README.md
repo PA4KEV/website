@@ -37,6 +37,10 @@ Bootstrap: `npm install bootstrap`
 
 Routing: `npm install react-router-dom`
 
+Dark mode: [https://www.makeuseof.com/how-to-add-dark-mode-to-a-react-application/](https://www.makeuseof.com/how-to-add-dark-mode-to-a-react-application/)
+
+Emoji component: [https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7](https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7)
+
 ---
 
 # Getting Started with Create React App
