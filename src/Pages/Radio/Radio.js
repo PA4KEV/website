@@ -52,6 +52,23 @@ const Radio = () => {
                             <li><a href="http://websdr.ewi.utwente.nl:8901/" target="_blank" rel="noopener noreferrer">http://websdr.ewi.utwente.nl:8901/</a></li>
                         </ul>
 
+                        <hr/>
+                        <h2>Morse links</h2>
+
+                        <ul>
+                            <li><a href="https://morsecode.world/" target="_blank" rel="noopener noreferrer">https://morsecode.world/</a></li>
+                            <li><a href="https://morsecode.ninja/" target="_blank" rel="noopener noreferrer">https://morsecode.ninja/</a></li>
+                            <li><a href="http://www.morserino.info/" target="_blank" rel="noopener noreferrer">http://www.morserino.info/</a></li>
+                        </ul>
+
+                        <hr/>
+                        <h2>Loggers</h2>
+
+                        <ul>
+                            <li><a href="https://www.n3fjp.com/" target="_blank" rel="noopener noreferrer">https://www.n3fjp.com/</a></li>
+                            <li><a href="https://www.hamradiodeluxe.com/" target="_blank" rel="noopener noreferrer">https://www.hamradiodeluxe.com/</a></li>
+                            <li><a href="https://n1mmwp.hamdocs.com/" target="_blank" rel="noopener noreferrer">https://n1mmwp.hamdocs.com/</a></li>
+                        </ul>
                     </div>
                 </section>
             </div>
