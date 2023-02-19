@@ -1,0 +1,28 @@
+version: '3'
+services:
+  db:
+    container_name: db
+    build: ./config/database
+    environment:    
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=mydb
+    volumes:
+      - portfolio-db:/var/lib/mysql
+    networks:
+      - portfolio-network
+
+  drupal:
+    container_name: drupal
+    depends_on: 
+      - db
+    build: ./cms/drupal
+    ports:
+      - "8080:80"
+    networks:
+      - portfolio-network
+
+volumes:
+  portfolio-db:
+
+networks:  
+  portfolio-network:
