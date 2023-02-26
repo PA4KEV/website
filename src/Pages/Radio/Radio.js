@@ -22,6 +22,7 @@ const Radio = () => {
                         <li><a href="https://www.qrz.com/db/PA4KEV" target="_blank" rel="noopener noreferrer">https://www.qrz.com/db/PA4KEV</a></li>
                         <li><a href="https://www.eqsl.cc/" target="_blank" rel="noopener noreferrer">https://www.eqsl.cc/</a></li>
                         <li><a href="http://www.hamqsl.com/" target="_blank" rel="noopener noreferrer">http://www.hamqsl.com/</a></li>
+                        <li><a href="http://www.hrdlog.net/" target="_blank" rel="noopener noreferrer">http://www.hrdlog.net/</a></li>
                         </ul>
                     </div>
                 </section>
