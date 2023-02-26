@@ -1,3 +1,5 @@
+import React, {useEffect, useState} from 'react';
+
 import './overrides.scss';
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
@@ -31,6 +33,7 @@ import Balkon from './Pages/Radio/Balkon';
 import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
 
+import BasicPage from './Pages/BasicPage';
 
 
 function App() {
@@ -60,6 +63,8 @@ function App() {
             <Route exact path='/pages/radio/components' element={<Components />}></Route>
             <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
             <Route exact path='/pages/linux' element={<Linux />}></Route>
+
+            <Route exact path='/pages/basic' element={<BasicPage id="505e15ab-668e-4574-ab42-3f58030c9dea"/>}></Route>
         </Routes>
 
         <Footer />
