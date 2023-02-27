@@ -1,11 +1,13 @@
 version: '3'
 services:
   db:
-    container_name: db
+    container_name: mariadb
     build: ./config/database
-    environment:    
+    environment:
       - MYSQL_ROOT_PASSWORD=password
       - MYSQL_DATABASE=mydb
+    ports:
+      - "33066:3306"
     volumes:
       - portfolio-db:/var/lib/mysql
     networks:
@@ -16,6 +18,16 @@ services:
     depends_on: 
       - db
     build: ./cms/drupal
+    environment:
+      - MYSQL_DATABASE="mydb"
+      - MYSQL_HOSTNAME="db"
+      - MYSQL_PASSWORD="password"
+      - MYSQL_PORT=33066
+      - MYSQL_USER="root"
+      - MYSQL_PREFIX="drupal_"
+      - ENVIRONMENT_NAME='Local'
+      - ENVIRONMENT_BGCOLOR='#064771'
+      - ENVIRONMENT_FGCOLOR='#FFFFFF'
     ports:
       - "8080:80"
     networks:
