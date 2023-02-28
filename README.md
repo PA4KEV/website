@@ -47,6 +47,10 @@ Dark mode: [https://www.makeuseof.com/how-to-add-dark-mode-to-a-react-applicatio
 
 Emoji component: [https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7](https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-react-d23bbf608bf7)
 
+HTML parsing: `npm install html-react-parser`
+
+https://www.npmjs.com/package/html-react-parser
+
 ---
 
 # Getting Started with Create React App
