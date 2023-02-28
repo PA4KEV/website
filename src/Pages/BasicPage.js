@@ -31,7 +31,8 @@ const BasicPage = (props) => {
         console.log(items)
 
         const title = items['data']['attributes']['title']
-        const body = items['data']['attributes']['body']['processed'];
+        const subtitle = items['data']['attributes']['field_subtitle']
+        const body = items['data']['attributes']['body']['processed']
 
         return (        
             <div className='row'>            
@@ -39,6 +40,7 @@ const BasicPage = (props) => {
                 <div className="scrollspy-example col-6 offset-3" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
                     <section id="list-skills" className="content-section">
                         <h2 className="text-primary">{title}</h2>
+                        <h4 class="text-secondary">{subtitle}</h4>
                         <hr/>
 
                         {parse(body)}
