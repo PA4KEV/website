@@ -102,7 +102,7 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 // getenv('MYSQL_USER')
 
 $databases['default']['default'] = [
-  'database' => 'mydb',
+  'database' => 'drupal',
   'driver' => 'mysql',
   'host' => 'db',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',

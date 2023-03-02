@@ -5,7 +5,7 @@ services:
     build: ./config/database
     environment:
       - MYSQL_ROOT_PASSWORD=password
-      - MYSQL_DATABASE=mydb
+      - MYSQL_DATABASE=drupal
     ports:
       - "33066:3306"
     volumes:
@@ -19,7 +19,7 @@ services:
       - db
     build: ./cms/drupal
     environment:
-      - MYSQL_DATABASE="mydb"
+      - MYSQL_DATABASE="drupal"
       - MYSQL_HOSTNAME="db"
       - MYSQL_PASSWORD="password"
       - MYSQL_PORT=33066
