@@ -6,14 +6,18 @@
 
 `docker push pa4kev/portfolio-reactjs-full:latest`
 
+Node: `v19.3.0`
+
 ## Server (Enaga)
 
 `docker pull pa4kev/portfolio-reactjs-full`
 
 if required, run certbot to set the certificates.
-`docker run -it --rm -p 80:80 --name certbot -v "/etc/letsencrypt:/etc/letsencrypt" -v "/var/lib/letsencrypt:/var/lib/letsencrypt" certbot/certbot certonly --standalone --break-my-certs -d matsubara.nl -d www.matsubara.nl`
+`docker run -it --rm -p 80:80 --name certbot -v "/etc/letsencrypt:/etc/letsencrypt" -v "/var/lib/letsencrypt:/var/lib/letsencrypt" certbot/certbot certonly --standalone --break-my-certs -d matsubara.nl -d www.matsubara.nl -d pa4kev.nl -d www.pa4kev.nl`
 
 `docker run -d --name react -p 80:80 -p 443:443 -v /etc/letsencrypt:/etc/letsencrypt -v /var/lib/letsencrypt:/var/lib/letsencrypt -v /var/www/html:/var/www/html pa4kev/portfolio-reactjs-full`
+
+To renew, stop the current running container. Then re-run the same commands as above again.
 
 ## Server (Wielewaal)
 
