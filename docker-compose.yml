@@ -13,26 +13,6 @@ services:
     networks:
       - portfolio-network
 
-  drupal:
-    container_name: drupal
-    depends_on: 
-      - db
-    build: ./cms/drupal
-    environment:
-      - MYSQL_DATABASE="drupal"
-      - MYSQL_HOSTNAME="db"
-      - MYSQL_PASSWORD="password"
-      - MYSQL_PORT=33066
-      - MYSQL_USER="root"
-      - MYSQL_PREFIX="drupal_"
-      - ENVIRONMENT_NAME='Local'
-      - ENVIRONMENT_BGCOLOR='#064771'
-      - ENVIRONMENT_FGCOLOR='#FFFFFF'
-    ports:
-      - "8080:80"
-    networks:
-      - portfolio-network
-
 volumes:
   portfolio-db:
 
