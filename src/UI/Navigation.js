@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Link} from 'react-router-dom';
 
 import './Navigation.css';
@@ -7,12 +7,27 @@ import './Navigation.css';
 let section = window.location.pathname.split('/')[2];
 let chapter = window.location.pathname.split('/')[3];
 
-const Navigation = (props) => {
+const Navigation = () => {
+    const [theme, setTheme] = useState(
+        localStorage.getItem('theme') || 'light'
+      );
+
+    useEffect(() => {
+        localStorage.setItem('theme', theme);
+        document.body.className = theme;
+      }, [theme]);
+
+
+
+    const toggleTheme = () => {
+        setTheme((theme === 'light') ? 'dark' : 'light');
+      }
+
     return (
-        <nav className="navbar navbar-expand-lg fixed-top text-light navbar-dark bg-primary">
+        <nav className={`navbar navbar-expand-lg fixed-top text-${theme} navbar-${theme} bg-${theme}`}>            
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">Kevin Matsubara<br/><span className='logo-sub'>Software Developer</span></a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">                    
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,6 +60,7 @@ const Navigation = (props) => {
                     </li>
                     }
                 </ul>
+                <button style={{display: 'none'}} onClick={toggleTheme} type="button" className={`btn btn-${theme}`}>Toggle Theme</button>
                 {/* <form className="d-flex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                     <button className="btn btn-outline-success" type="submit">Search</button>
