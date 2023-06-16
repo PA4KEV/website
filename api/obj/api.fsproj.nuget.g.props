@@ -7,12 +7,15 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/kevin/.nuget/packages/</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/kevin/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.4</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.5</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="/home/kevin/.nuget/packages/" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMySqlConnector Condition=" '$(PkgMySqlConnector)' == '' ">/home/kevin/.nuget/packages/mysqlconnector/2.2.6</PkgMySqlConnector>
     <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/kevin/.nuget/packages/fsharp.core/6.0.1</PkgFSharp_Core>
+    <PkgGiraffe Condition=" '$(PkgGiraffe)' == '' ">/home/kevin/.nuget/packages/giraffe/6.0.0</PkgGiraffe>
+    <PkgFSharp_Data_SqlClient Condition=" '$(PkgFSharp_Data_SqlClient)' == '' ">/home/kevin/.nuget/packages/fsharp.data.sqlclient/2.1.2</PkgFSharp_Data_SqlClient>
   </PropertyGroup>
 </Project>

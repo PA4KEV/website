@@ -1,36 +1,57 @@
-namespace api
-#nowarn "20"
 open System
-open System.Collections.Generic
-open System.IO
-open System.Linq
-open System.Threading.Tasks
-open Microsoft.AspNetCore
 open Microsoft.AspNetCore.Builder
 open Microsoft.AspNetCore.Hosting
-open Microsoft.AspNetCore.HttpsPolicy
-open Microsoft.Extensions.Configuration
-open Microsoft.Extensions.DependencyInjection
 open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.Logging
+open Microsoft.Extensions.DependencyInjection
 
-module Program =
-    let exitCode = 0
+open Blog
+open Giraffe
 
-    [<EntryPoint>]
-    let main args =
+// Sources:
+//https://hamy.xyz/labs/2022-12-simple-fsharp-web-api-giraffe
+// https://github.com/SIRHAMY/fsharp-giraffe-blog-api-example
 
-        let builder = WebApplication.CreateBuilder(args)
+(* Web App Configuration *)
 
-        builder.Services.AddControllers()
+let webApp =
+    let blogDb = new BlogDb()
 
-        let app = builder.Build()
+    let serviceTree = {
+        getBlogDb = fun() -> blogDb
+    }
 
-        app.UseHttpsRedirection()
+    choose[
+        route "/" >=> text "iamanapi"
+        subRoute "/posts"
+            (choose [
+                route "" >=> GET >=> warbler (fun _ ->
+                    (getPostsHttpHandler serviceTree))
+                route "/create"
+                    >=> POST
+                    >=> warbler (fun _ ->
+                        (createPostHttpHandler serviceTree))
+            ])
+    ]
 
-        app.UseAuthorization()
-        app.MapControllers()
+(* Infrastructure Configuration *)
 
-        app.Run()
+let configureApp (app : IApplicationBuilder) =
+    app.UseGiraffe (webApp)
 
-        exitCode
+let configureServices (services : IServiceCollection) =
+    // Add Giraffe dependencies
+    services.AddGiraffe() |> ignore
+
+[<EntryPoint>]
+let main _ =
+    Host.CreateDefaultBuilder()
+        .ConfigureWebHostDefaults(
+            fun webHostBuilder ->
+                webHostBuilder
+                    .Configure(configureApp)
+                    .ConfigureServices(configureServices)
+                    |> ignore)
+        .Build()
+        .Run()
+    0
