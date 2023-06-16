@@ -5,13 +5,23 @@ services:
     build: ./config/database
     environment:
       - MYSQL_ROOT_PASSWORD=password
-      - MYSQL_DATABASE=drupal
+      - MYSQL_DATABASE=portfolio
     ports:
       - "33066:3306"
     volumes:
       - portfolio-db:/var/lib/mysql
     networks:
       - portfolio-network
+
+  api:
+    container_name: fsharp_api
+    build: ./api
+    ports:
+      - "80:80"
+    networks:
+      - portfolio-network
+    depends_on:
+      - db
 
 volumes:
   portfolio-db:
