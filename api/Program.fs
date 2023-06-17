@@ -5,20 +5,20 @@ open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.Logging
 open Microsoft.Extensions.DependencyInjection
 
-open Blog
+open Page
 open Giraffe
 
 // Sources:
-//https://hamy.xyz/labs/2022-12-simple-fsharp-web-api-giraffe
+// https://hamy.xyz/labs/2022-12-simple-fsharp-web-api-giraffe
 // https://github.com/SIRHAMY/fsharp-giraffe-blog-api-example
 
 (* Web App Configuration *)
 
 let webApp =
-    let blogDb = new BlogDb()
+    let pageDb = new PageDb()
 
     let serviceTree = {
-        getBlogDb = fun() -> blogDb
+        getPageDb = fun() -> pageDb
     }
 
     choose[

@@ -5,7 +5,7 @@
   <ItemGroup>
     <Compile Include="Database.fs" />
     <Compile Include="Controllers/PageController.fs" />
-    <Compile Include="Blog.fs" />
+    <Compile Include="Page.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
