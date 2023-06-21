@@ -65,7 +65,7 @@ https://www.npmjs.com/package/html-react-parser
 
 [Boostrap 5.2 documentation](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
-[CKEditor 5 documentation](https://ckeditor.com/docs/ckeditor5/latest/index.html)
+[MySqlConnector documentation](https://mysqlconnector.net/tutorials/connect-to-mysql/)
 
 ### Code Splitting
 

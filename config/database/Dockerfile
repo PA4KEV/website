@@ -1,4 +1,4 @@
-FROM mariadb:10.3.25
+FROM mariadb:10.11.4
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \

@@ -3,14 +3,11 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Database.fs" />
-    <Compile Include="Controllers/PageController.fs" />
     <Compile Include="Page.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Giraffe" Version="6.0.0" />
-    <PackageReference Include="FSharp.Data.SqlClient" Version="2.1.2" />
     <PackageReference Include="MySqlConnector" Version="2.2.6" />
   </ItemGroup>
 </Project>

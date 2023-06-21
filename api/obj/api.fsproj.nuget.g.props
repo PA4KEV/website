@@ -16,6 +16,5 @@
     <PkgMySqlConnector Condition=" '$(PkgMySqlConnector)' == '' ">/home/kevin/.nuget/packages/mysqlconnector/2.2.6</PkgMySqlConnector>
     <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/kevin/.nuget/packages/fsharp.core/6.0.1</PkgFSharp_Core>
     <PkgGiraffe Condition=" '$(PkgGiraffe)' == '' ">/home/kevin/.nuget/packages/giraffe/6.0.0</PkgGiraffe>
-    <PkgFSharp_Data_SqlClient Condition=" '$(PkgFSharp_Data_SqlClient)' == '' ">/home/kevin/.nuget/packages/fsharp.data.sqlclient/2.1.2</PkgFSharp_Data_SqlClient>
   </PropertyGroup>
 </Project>

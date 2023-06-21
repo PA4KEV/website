@@ -1,43 +1,42 @@
-open System
 open Microsoft.AspNetCore.Builder
 open Microsoft.AspNetCore.Hosting
 open Microsoft.Extensions.Hosting
-open Microsoft.Extensions.Logging
 open Microsoft.Extensions.DependencyInjection
 
-open Page
 open Giraffe
+open Giraffe.EndpointRouting
+
+open Page
 
 // Sources:
 // https://hamy.xyz/labs/2022-12-simple-fsharp-web-api-giraffe
+// https://hamy.xyz/labs/2023-01-fsharp-giraffe-endpoint-routing
 // https://github.com/SIRHAMY/fsharp-giraffe-blog-api-example
+
 
 (* Web App Configuration *)
 
-let webApp =
-    let pageDb = new PageDb()
+let pageDb = new PageDb()
 
-    let serviceTree = {
-        getPageDb = fun() -> pageDb
-    }
+let serviceTree = {
+    getPageDb = fun() -> pageDb
+}
 
-    choose[
-        route "/" >=> text "iamanapi"
-        subRoute "/posts"
-            (choose [
-                route "" >=> GET >=> warbler (fun _ ->
-                    (getPostsHttpHandler serviceTree))
-                route "/create"
-                    >=> POST
-                    >=> warbler (fun _ ->
-                        (createPostHttpHandler serviceTree))
-            ])
+let endpointsList = [
+    GET [
+        routef "page/%i" (fun (id : int) ->
+            // text ($"/anInt: hit with val: {anInt}"))
+            getPageByIdHttpHandler serviceTree id)
     ]
+]
 
 (* Infrastructure Configuration *)
 
 let configureApp (app : IApplicationBuilder) =
-    app.UseGiraffe (webApp)
+    app
+        .UseRouting()
+        .UseEndpoints(fun e -> e.MapGiraffeEndpoints(endpointsList))
+    |> ignore
 
 let configureServices (services : IServiceCollection) =
     // Add Giraffe dependencies

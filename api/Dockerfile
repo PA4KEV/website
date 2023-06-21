@@ -1,10 +1,6 @@
 # Base image
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 
-# Add tools
-RUN apt-get update && \
-    apt-get install -y curl
-
 # Set the working directory inside the container
 WORKDIR /app
 
