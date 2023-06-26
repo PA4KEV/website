@@ -17,7 +17,7 @@ services:
     container_name: fsharp_api
     build: ./api
     ports:
-      - "80:80"
+      - "5218:80"
     networks:
       - portfolio-network
     depends_on:
