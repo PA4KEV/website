@@ -67,6 +67,8 @@ https://www.npmjs.com/package/html-react-parser
 
 [MySqlConnector documentation](https://mysqlconnector.net/tutorials/connect-to-mysql/)
 
+[connectionstrings.com](https://www.connectionstrings.com/mysql-connector-net-mysqlconnection/)
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
