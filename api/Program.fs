@@ -1,4 +1,5 @@
 open Microsoft.AspNetCore.Builder
+open Microsoft.AspNetCore.Cors.Infrastructure
 open Microsoft.AspNetCore.Hosting
 open Microsoft.Extensions.Hosting
 open Microsoft.Extensions.DependencyInjection
@@ -32,14 +33,28 @@ let endpointsList = [
 
 (* Infrastructure Configuration *)
 
+let configureCors (builder : CorsPolicyBuilder) =
+    builder
+        .WithOrigins(
+            "http://localhost:5218",
+            "https://localhost:5218",
+            "http://localhost:3000",
+            "https://localhost:3000")
+       .AllowAnyMethod()
+       .AllowAnyHeader()
+       |> ignore
+
 let configureApp (app : IApplicationBuilder) =
     app
         .UseRouting()
+        .UseCors(configureCors)
         .UseEndpoints(fun e -> e.MapGiraffeEndpoints(endpointsList))
     |> ignore
 
+
 let configureServices (services : IServiceCollection) =
     // Add Giraffe dependencies
+    services.AddCors()    |> ignore
     services.AddGiraffe() |> ignore
 
 [<EntryPoint>]
