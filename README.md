@@ -23,22 +23,6 @@ To renew, stop the current running container. Then re-run the same commands as a
 
 `docker pull pa4kev/portfolio-mariadb`
 
-`docker pull pa4kev/portfolio-drupal`
-
-## Drupal CMS
-
-`docker build -t pa4kev/portfolio-drupal:latest -f cms/drupal/Dockerfile .`
-
-`docker run -d --name drupal -p 8080:80 pa4kev/portfolio-drupal`
-
-`composer require --dev drush/drush`
-
-`composer require 'drupal/devel:^5.1'`
-
-`composer require 'drupal/gin_toolbar:^1.0@beta'`
-
-`composer require 'drupal/gin:^3.0@RC'`
-
 ---
 
 ## React
@@ -55,6 +39,8 @@ HTML parsing: `npm install html-react-parser`
 
 https://www.npmjs.com/package/html-react-parser
 
+Convert SVG to React component: https://svg2jsx.com/
+
 ---
 
 ## Documentation
@@ -68,6 +54,8 @@ https://www.npmjs.com/package/html-react-parser
 [MySqlConnector documentation](https://mysqlconnector.net/tutorials/connect-to-mysql/)
 
 [connectionstrings.com](https://www.connectionstrings.com/mysql-connector-net-mysqlconnection/)
+
+[Giraffe F# web framework](https://github.com/giraffe-fsharp/Giraffe)
 
 ### Code Splitting
 
