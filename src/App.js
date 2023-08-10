@@ -34,6 +34,7 @@ import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
 
 import BasicPage from './Pages/BasicPage';
+import Japan from './Japan/Japan';
 
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
             <Route exact path='/pages/linux' element={<Linux />}></Route>
 
             <Route exact path='/pages/basic' element={<BasicPage id="1"/>}></Route>
+            <Route exact path='/japan' element={<Japan />}></Route>
         </Routes>
 
         <Footer />
