@@ -1,6 +1,4 @@
 import React from 'react';
-import ContentItem from '../../Content/ContentItem';
-import Sidebar from '../../UI/Sidebar';
 
 const Linux = () => {
     return (        

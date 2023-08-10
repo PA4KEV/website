@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 
 import './overrides.scss';
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -40,9 +40,8 @@ import Japan from './Japan/Japan';
 function App() {
     return (
     <Router>
-      <div className='row '>
+      <div className="row">
         <Navigation />
-
         <Routes>
             <Route exact path='/' element={<Home />}></Route>
             <Route exact path='/pages/software' element={<Software />}></Route>

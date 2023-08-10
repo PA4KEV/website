@@ -9,7 +9,7 @@ let chapter = window.location.pathname.split('/')[3];
 
 const Navigation = () => {
     const [theme, setTheme] = useState(
-        localStorage.getItem('theme') || 'light'
+        localStorage.getItem('theme') || 'dark'
       );
 
     useEffect(() => {
