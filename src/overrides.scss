@@ -1,27 +1,47 @@
 // change the theme
 $theme-colors: (
-  "primary": #530c61,
-  "primary-dark": #bb7fc7,
-  "primary-light": #530c61,
-  "secondary": #59585a,
-  "secondary-dark": #b0acb4,
-  "secondary-light": #414042,
-  "success": #000000,  
-  "danger": #ff4136,
-  "warning": #000000,
-  "info": #000000,
-  "light": #eeeeee,
   "dark": #2d0635,
-  "muted": #000000,
-  "text-light": #000000,
-  "text-dark": #FFFFFF
+  "light": #eeeeee,
+  "primary-dark": #d60cff,
+  "primary-light": #220027,
+  "secondary-dark": #00ff4c,
+  "secondary-light": #002500,
+  "text-dark": #eeeeee,
+  "text-light": #2d0635,
+  "link-dark": #5900ff,
+  "link-light": #0400ff,
 );
-
-$link-color:                 rgb(0, 26, 255); //red
-$link-hover-color:           rgb(103, 219, 235); //green
 
 // Import Bootstrap and its default variables
 @import '~bootstrap/scss/bootstrap.scss';
+
+body.dark {
+  background-color: map-get($theme-colors, "dark") !important;
+}
+body.light {
+  background-color: map-get($theme-colors, "light") !important;
+}
+
+.text-dark {
+  color: map-get($theme-colors, "text-dark") !important;
+}
+.text-light {
+  color: map-get($theme-colors, "text-light") !important;
+}
+.link-dark {
+  color: map-get($theme-colors, "link-dark") !important;
+  &:hover {
+    color: map-get($theme-colors, "link-dark") !important;
+    opacity: 0.5;
+  }
+}
+.link-light {
+  color: map-get($theme-colors, "link-light") !important;
+  &:hover {
+    color: map-get($theme-colors, "link-light") !important;
+    opacity: 0.5;
+  }
+}
 
 // Core variables and mixins
 // @import "variables";
