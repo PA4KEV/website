@@ -37,6 +37,9 @@ const Radio = () => {
                             <li><a href="https://www.pc5e.nl/" target="_blank" rel="noopener noreferrer">https://www.pc5e.nl/</a></li>
                             <li><a href="http://www.pd0cq.nl/" target="_blank" rel="noopener noreferrer">http://www.pd0cq.nl/</a></li>
                             <li><a href="https://www.qsl.net/on7px/" target="_blank" rel="noopener noreferrer">https://www.qsl.net/on7px/</a></li>
+                            <li><a href="https://vk2pad.com/" target="_blank" rel="noopener noreferrer">https://vk2pad.com/</a></li>
+                            <li><a href="https://www.qrz.com/db/vk0pd/" target="_blank" rel="noopener noreferrer">https://www.qrz.com/db/vk0pd (Antarctica)</a></li>
+                            <li><a href="http://www.waponline.it/antarctic-info-for-ham-radio/" target="_blank" rel="noopener noreferrer">http://www.waponline.it/antarctic-info-for-ham-radio/ (Antarctica)</a></li>
                         </ul>
 
                         <ul>
@@ -51,6 +54,10 @@ const Radio = () => {
                         <ul>
                             <li><a href="http://sdr.shbrg.nl:8074/" target="_blank" rel="noopener noreferrer">http://sdr.shbrg.nl:8074/</a></li>
                             <li><a href="http://websdr.ewi.utwente.nl:8901/" target="_blank" rel="noopener noreferrer">http://websdr.ewi.utwente.nl:8901/</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a href="https://pa-11019.blogspot.com/2016/02/wall-loop-20m.html?m=1" target="_blank" rel="noopener noreferrer">https://pa-11019.blogspot.com/2016/02/wall-loop-20m.html?m=1</a></li>
                         </ul>
 
                         <hr/>
