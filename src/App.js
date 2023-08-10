@@ -64,7 +64,7 @@ function App() {
             <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
             <Route exact path='/pages/linux' element={<Linux />}></Route>
 
-            <Route exact path='/pages/basic' element={<BasicPage id="505e15ab-668e-4574-ab42-3f58030c9dea"/>}></Route>
+            <Route exact path='/pages/basic' element={<BasicPage id="1"/>}></Route>
         </Routes>
 
         <Footer />
