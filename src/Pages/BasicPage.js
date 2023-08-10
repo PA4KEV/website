@@ -1,15 +1,19 @@
 import React, {useState, useEffect} from 'react';
 import parse from 'html-react-parser'
 
-import ScrollSpy from '../UI/ScrollSpy';
+// import ScrollSpy from '../UI/ScrollSpy';
 
 const BasicPage = (props) => {
+  const [theme, setTheme] = useState(
+    localStorage.getItem('theme') || 'light'
+  );
+
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:8080/jsonapi/node/page/" + props.id)
+        fetch("http://localhost:5218/page/" + props.id)
           .then(res => res.json())
           .then(
             (result) => {
@@ -30,19 +34,18 @@ const BasicPage = (props) => {
       } else {
         console.log(items)
 
-        const title = items['data']['attributes']['title']
-        const subtitle = items['data']['attributes']['field_subtitle']
-        const body = items['data']['attributes']['body']['processed']
+        const title = items[0]['title']
+        const subtitle = items[0]['subtitle']
+        const body = items[0]['content']
 
         return (        
             <div className='row'>            
-                <ScrollSpy/>
-                <div className="scrollspy-example col-6 offset-3" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
-                    <section id="list-skills" className="content-section">
-                        <h2 className="text-primary">{title}</h2>
-                        <h4 class="text-secondary">{subtitle}</h4>
+                {/* <ScrollSpy/> */}
+                <div className={`scrollspy-example col-6 offset-3 bg-${theme}`} data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
+                    <section id="list-skills" className={`text-${theme}`}>
+                        <h2 className={`text-primary-${theme}`}>{title}</h2>
+                        <h4 className={`text-secondary-${theme}`}>{subtitle}</h4>
                         <hr/>
-
                         {parse(body)}
                     </section>
                 </div>
