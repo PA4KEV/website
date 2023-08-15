@@ -39,6 +39,12 @@ https://www.npmjs.com/package/html-react-parser
 
 Convert SVG to React component: https://svg2jsx.com/
 
+## Node
+
+List outdated packages: `npm outdated`
+
+Update all dependancies: `npm update`
+
 ---
 
 ## Documentation
@@ -54,6 +60,10 @@ Convert SVG to React component: https://svg2jsx.com/
 [connectionstrings.com](https://www.connectionstrings.com/mysql-connector-net-mysqlconnection/)
 
 [Giraffe F# web framework](https://github.com/giraffe-fsharp/Giraffe)
+
+[Docker hub - Node](https://hub.docker.com/_/node/)
+
+[Docker hub - Nginx](https://hub.docker.com/_/nginx)
 
 ### Code Splitting
 
