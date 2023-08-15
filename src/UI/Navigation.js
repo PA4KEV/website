@@ -1,5 +1,6 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
+import { useTheme } from '../ThemeContext';
 
 import './Navigation.css';
 
@@ -8,16 +9,7 @@ let section = window.location.pathname.split('/')[2];
 let chapter = window.location.pathname.split('/')[3];
 
 const Navigation = () => {
-    const [theme, setTheme] = useState(
-        localStorage.getItem('theme') || 'dark'
-      );
-
-    useEffect(() => {
-        localStorage.setItem('theme', theme);
-        document.body.className = theme;
-      }, [theme]);
-
-
+    const { theme, setTheme } = useTheme();
 
     const toggleTheme = () => {
         setTheme((theme === 'light') ? 'dark' : 'light');
@@ -60,7 +52,8 @@ const Navigation = () => {
                     </li>
                     }
                 </ul>
-                <button style={{display: 'none'}} onClick={toggleTheme} type="button" className={`btn btn-${theme}`}>Toggle Theme</button>
+                {/* style={{display: 'none'}}  */}
+                <button  onClick={toggleTheme} type="button" className={`btn btn-${theme}`}>Toggle Theme</button>
                 {/* <form className="d-flex" role="search">
                     <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                     <button className="btn btn-outline-success" type="submit">Search</button>

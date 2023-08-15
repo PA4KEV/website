@@ -1,16 +1,15 @@
 import React, {useState, useEffect} from 'react';
 import parse from 'html-react-parser'
+import { useTheme } from '../ThemeContext';
 
 // import ScrollSpy from '../UI/ScrollSpy';
 
 const BasicPage = (props) => {
-  const [theme, setTheme] = useState(
-    localStorage.getItem('theme') || 'light'
-  );
-
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
+
+    const { theme } = useTheme();
 
     useEffect(() => {
         fetch("http://localhost:5218/page/" + props.id)

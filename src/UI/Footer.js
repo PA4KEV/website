@@ -1,17 +1,10 @@
-import React, {useEffect, useState} from 'react';
-
+import React from 'react';
+import { useTheme } from '../ThemeContext';
 import './Footer.css';
 
 
-const Footer = (props) => {
-    const [theme, setTheme] = useState(
-        localStorage.getItem('theme') || 'light'
-    );
-
-    useEffect(() => {
-        localStorage.setItem('theme', theme);
-        document.body.className = theme;
-      }, [theme]);
+const Footer = () => {
+    const { theme } = useTheme();
 
     return (
         <footer className={`bg-${theme} text-center text-lg-start text-${theme}`}>
