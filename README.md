@@ -6,8 +6,6 @@
 
 `docker push pa4kev/portfolio-reactjs-full:latest`
 
-Node: `v19.3.0`
-
 ## Server (Enaga)
 
 `docker pull pa4kev/portfolio-reactjs-full`
