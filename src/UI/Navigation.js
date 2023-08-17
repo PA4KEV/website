@@ -9,10 +9,10 @@ let section = window.location.pathname.split('/')[2];
 let chapter = window.location.pathname.split('/')[3];
 
 const Navigation = () => {
-    const { theme, setTheme } = useTheme();
+    const { theme, updateTheme } = useTheme();
 
     const toggleTheme = () => {
-        setTheme((theme === 'light') ? 'dark' : 'light');
+        updateTheme((theme === 'light') ? 'dark' : 'light');
       }
 
     return (

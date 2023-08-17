@@ -8,8 +8,13 @@ export function ThemeProvider({ children }) {
     // document.body.className = theme;
   );
 
+  const updateTheme = newTheme => {
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+  };
+
   return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
+    <ThemeContext.Provider value={{ theme, updateTheme }}>
       {children}
     </ThemeContext.Provider>
   );
