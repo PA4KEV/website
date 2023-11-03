@@ -11,7 +11,7 @@
 `docker pull pa4kev/portfolio-reactjs-full`
 
 if required, run certbot to set the certificates.
-`docker run -it --rm -p 80:80 --name certbot -v "/etc/letsencrypt:/etc/letsencrypt" -v "/var/lib/letsencrypt:/var/lib/letsencrypt" certbot/certbot certonly --standalone --break-my-certs -d matsubara.nl -d www.matsubara.nl -d pa4kev.nl -d www.pa4kev.nl`
+`docker run -it --rm -p 80:80 --name certbot -v "/etc/letsencrypt:/etc/letsencrypt" -v "/var/lib/letsencrypt:/var/lib/letsencrypt" certbot/certbot certonly --standalone --break-my-certs -d matsubara.nl -d www.matsubara.nl -d pa4kev.nl -d www.pa4kev.nl -d michelaben.nl -d www.michelaben.nl`
 
 `docker run -d --name react -p 80:80 -p 443:443 -v /etc/letsencrypt:/etc/letsencrypt -v /var/lib/letsencrypt:/var/lib/letsencrypt -v /var/www/html:/var/www/html pa4kev/portfolio-reactjs-full`
 
@@ -44,6 +44,33 @@ Convert SVG to React component: https://svg2jsx.com/
 List outdated packages: `npm outdated`
 
 Update all dependancies: `npm update`
+
+---
+
+`elm init`
+
+`npm init -y`
+
+`elm install mdgriffith/elm-ui`
+
+`elm install elm-community/random-extra`
+
+Add to `package.json`
+```
+"scripts": {
+    "dev": "elm-live src/Main.elm -- --debug --output=index.js",
+},
+"devDependencies": {
+    "elm-live": "^4.0.2"
+}
+```
+
+`npm install`
+
+You can now run for development:
+`npm run dev`
+
+`elm make src/Main.elm --output=index.js`
 
 ---
 
