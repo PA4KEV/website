@@ -29,7 +29,7 @@ import MetroidShooter from './Pages/Software/Projects/MetroidShooter';
 import Radio from './Pages/Radio/Radio';
 import Components from './Pages/Radio/Components';
 import Balkon from './Pages/Radio/Balkon';
-import Velddagen from './Pages/Radio/Velddagen';
+import Fielddays from './Pages/Radio/Fielddays';
 
 import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
@@ -63,7 +63,7 @@ function App() {
           <Route exact path='/pages/radio' element={<Radio />}></Route>
           <Route exact path='/pages/radio/components' element={<Components />}></Route>
           <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
-          <Route exact path='/pages/radio/fielddays' element={<Velddagen />}></Route>
+          <Route exact path='/pages/radio/fielddays' element={<Fielddays />}></Route>
           <Route exact path='/pages/linux' element={<Linux />}></Route>
 
           <Route exact path='/pages/basic' element={<BasicPage id="1" />}></Route>

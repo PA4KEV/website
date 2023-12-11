@@ -53,7 +53,7 @@ const Navigation = () => {
                         }
                         {section === 'radio' &&
                             <li className="nav-item">
-                                <Link reloadDocument to="/pages/radio/fielddays" className={`nav-link ${chapter === "fielddays" ? "active" : ""}`}>Velddagen</Link>
+                                <Link reloadDocument to="/pages/radio/fielddays" className={`nav-link ${chapter === "fielddays" ? "active" : ""}`}>Field days</Link>
                             </li>
                         }
                     </ul>
