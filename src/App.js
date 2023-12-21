@@ -36,6 +36,7 @@ import Footer from './UI/Footer';
 
 import BasicPage from './Pages/BasicPage';
 import Japan from './Japan/Japan';
+import Japanese from './Pages/Japanese/Japan';
 
 
 function App() {
@@ -65,6 +66,7 @@ function App() {
           <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
           <Route exact path='/pages/radio/fielddays' element={<Fielddays />}></Route>
           <Route exact path='/pages/linux' element={<Linux />}></Route>
+          <Route exact path='/pages/japanese' element={<Japanese />}></Route>
 
           <Route exact path='/pages/basic' element={<BasicPage id="1" />}></Route>
           <Route exact path='/wine' element={<BasicPage id="4" />}></Route>

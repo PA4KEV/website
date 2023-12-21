@@ -29,9 +29,11 @@ const Navigation = () => {
                                 Portal
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link reloadDocument to="/pages/software" className="dropdown-item">Software</Link></li>
+                                <li><Link reloadDocument to="/pages/japanese" className="dropdown-item">Japanese</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link reloadDocument to="/pages/radio" className="dropdown-item">Radio Amateur</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link reloadDocument to="/pages/software" className="dropdown-item">Software</Link></li>
                                 {/* <li><hr className="dropdown-divider"/></li>
                         <li><Link reloadDocument to="/pages/linux" className="dropdown-item">Linux</Link></li> */}
                             </ul>
