@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Fielddays = () => {
+const FD20231111EN = () => {
     return (
         <div className='row'>
             <div className="sidebar col-3 position-fixed">
@@ -102,4 +102,4 @@ const Fielddays = () => {
     )
 }
 
-export default Fielddays;
+export default FD20231111EN;

@@ -29,7 +29,10 @@ import MetroidShooter from './Pages/Software/Projects/MetroidShooter';
 import Radio from './Pages/Radio/Radio';
 import Components from './Pages/Radio/Components';
 import Balkon from './Pages/Radio/Balkon';
-import Fielddays from './Pages/Radio/Fielddays';
+
+import FD20231111EN from './Pages/Radio/fielddays/en/20231111'
+import FD20231111NL from './Pages/Radio/fielddays/nl/20231111'
+import FD20231230NL from './Pages/Radio/fielddays/nl/20231230'
 
 import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
@@ -64,12 +67,15 @@ function App() {
           <Route exact path='/pages/radio' element={<Radio />}></Route>
           <Route exact path='/pages/radio/components' element={<Components />}></Route>
           <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
-          <Route exact path='/pages/radio/fielddays' element={<Fielddays />}></Route>
+          <Route exact path='/pages/radio/fielddays' element={<FD20231111EN />}></Route>
           <Route exact path='/pages/linux' element={<Linux />}></Route>
           <Route exact path='/pages/japanese' element={<Japanese />}></Route>
 
           <Route exact path='/pages/basic' element={<BasicPage id="1" />}></Route>
           <Route exact path='/wine' element={<BasicPage id="4" />}></Route>
+
+          <Route exact path='/nl/pages/radio/fielddays/20231111' element={<FD20231111NL />}></Route>
+          <Route exact path='/nl/pages/radio/fielddays/20231230' element={<FD20231230NL />}></Route>
 
           <Route exact path='/japan' element={<Japan />}></Route>
         </Routes>

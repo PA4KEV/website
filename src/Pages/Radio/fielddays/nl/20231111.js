@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Velddagen = () => {
+const FD20231111NL = () => {
     return (
         <div className='row'>
             <div className="sidebar col-3 position-fixed">
@@ -102,4 +102,4 @@ const Velddagen = () => {
     )
 }
 
-export default Velddagen;
+export default FD20231111NL;
