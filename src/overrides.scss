@@ -59,6 +59,30 @@ body.light {
   color: map-get($theme-colors, "text-dark");
 }
 
+.table-fielddays {
+  font-size: small;
+  white-space: nowrap;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.table-fielddays td {
+  padding: 5px;
+  border: 1px solid;
+  border-color: black;
+}
+
+.table-fielddays th {
+  padding: 5px;
+  border: 1px solid;
+  border-color: black;
+  background-color: burlywood;
+}
+
+.table-fielddays tr:hover {
+  background-color: rgb(236, 221, 221);
+}
+
 // Core variables and mixins
 // @import "variables";
 // @import "mixins";

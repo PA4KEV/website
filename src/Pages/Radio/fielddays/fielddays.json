@@ -1,0 +1,28 @@
+{
+    "fielddays": [
+        {
+            "date": "2023-12-30",
+            "name": "Stiphoutse bossen, Kamerven",
+            "identifier-wwff": "PAFF-0221",
+            "identifier-pota": "",
+            "modes": "SSB",
+            "bands": "20m",
+            "antenna": "NVIS",
+            "transceiver": "Yaesu FT-897",
+            "total-unique-qso": 27,
+            "total-qso": 27
+        },
+        {
+            "date": "2023-11-11",
+            "name": "Strabrechtse Heide",
+            "identifier-wwff": "PAFF-0058",
+            "identifier-pota": "PA-0026",
+            "modes": "SSB",
+            "bands": "20m, 40m",
+            "antenna": "NVIS",
+            "transceiver": "Yaesu FT-897",
+            "total-unique-qso": 16,
+            "total-qso": 16
+        }
+    ]
+}
