@@ -15,8 +15,8 @@ const Radio = () => {
                 <section className="content-section">
                     <div className='content-item'>
                         <h1 id="list-intro" className="text-primary">Radio amateur <Emoji symbol="📻" /></h1>
-                        <p>I am a (beginner) ham radio amateur! My callsign is: <b>PA4KEV</b></p>
-                        <p>This hobby involves experimenting with wireless communication and electronics. Without the magic of radio, we would not have television, wifi or mobile phones.</p>
+                        <p>I am a (beginner) ham radio amateur. My callsign is: <b>PA4KEV</b></p>
+                        <p>This hobby involves experimenting with wireless communication and electronics.</p>
                         <p>Here I post my notes on the hobby.</p>
                         <ul>
                             <li><a href="https://www.qrz.com/db/PA4KEV" target="_blank" rel="noopener noreferrer">https://www.qrz.com/db/PA4KEV</a></li>
