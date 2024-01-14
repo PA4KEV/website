@@ -6,19 +6,24 @@ const Home = () => {
         <div className='row'>
             <div className="col-6 offset-3">
                 <section className="content-section">
-                    <h1 className="text-primary">Hallo, my name is Kevin.</h1>
-                    <h3 className="text-secondary">Nice to meet you! :)</h3>
-                    <p>I am a programmer and enjoy building software. I have done <Link reloadDocument to="/pages/software/configuration-automation">configuration automation</Link>, <Link reloadDocument to="/pages/software/dxp-development">DXP development</Link> and other <Link reloadDocument to="/pages/software#list-projects">projects</Link>.</p>
-                    <p>When it comes to technology and engineering, I am always curious and eager to learn and adept myself. One of the things I enjoy the most is being able to teach others. Interns who enthousiastically become better programmers themselves through my knowledge is amazing! Check out my <Link reloadDocument to="/pages/software">Software</Link> journey.</p>
-                    <p>My other interests are:</p>
+                    <p>I am a programmer as profession.</p>
+                    <p>I worked on:</p>
                     <ul>
-                        <li><Link reloadDocument to="/pages/radio">amateur radio</Link></li>
+                        <li><Link reloadDocument to="/pages/software/configuration-automation">configuration automation</Link></li>
+                        <li><Link reloadDocument to="/pages/software/dxp-development">DXP development</Link></li>
+                        <li><Link reloadDocument to="/pages/software#list-projects">Other software projects</Link></li>
+                    </ul>
+
+                    <p>My interests are:</p>
+                    <ul>
+                        <li><Link reloadDocument to="/pages/software">Software development</Link></li>
+                        <li><Link reloadDocument to="/pages/japanese">Japanese language</Link></li>
+                        <li><Link reloadDocument to="/pages/radio">Amateur radio</Link></li>
                         <li>Linux</li>
-                        <li>electronics</li>
-                        <li><Link reloadDocument to="/pages/japanese">learning Japanese</Link></li>
-                        <li>woodworking</li>
+                        <li>Electronics</li>
+                        <li>Woodworking</li>
+                        <li>Yoga</li>
                         <li>synthesize music</li>
-                        <li>yoga</li>
                     </ul>
                     <p>I am based in Helmond, the Netherlands.</p>
                     <p>
