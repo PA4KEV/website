@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Emoji from '../../../Content/Emoji';
 
-import './fielddays.css';
-
 const Fielddays = ({ fieldDays }) => {
     function generatePath(dateString, language) {
         // Assuming dateString is in the format "YYYY-MM-DD"
