@@ -1,0 +1,15 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "completionDate": "2024-01-06",
+            "title": "Princes Masako ~ de gevangen vlinder",
+            "subtitle": "Een carrièrevrouw aan het Japanse hof",
+            "language": "nl",
+            "isbn": "9789085199281",
+            "author": "Yoko Kobayashi & Martin Fritz",
+            "publisher": "Company of Books",
+            "pages": 221
+        }
+    ]
+}

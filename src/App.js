@@ -26,6 +26,9 @@ import FestivalSimulator from './Pages/Software/Projects/FestivalSimulator';
 import BoardOfEducationBot from './Pages/Software/Projects/BoardOfEducationBot';
 import MetroidShooter from './Pages/Software/Projects/MetroidShooter';
 
+import Books from './Pages/Books/Books';
+import booksdata from './Pages/Books/books.json'
+
 import Radio from './Pages/Radio/Radio';
 import Components from './Pages/Radio/Components';
 import Balkon from './Pages/Radio/Balkon';
@@ -71,8 +74,10 @@ function App() {
           <Route exact path='/pages/radio/components' element={<Components />}></Route>
           <Route exact path='/pages/radio/balcony' element={<Balkon />}></Route>
           <Route exact path='/pages/radio/fielddays' element={<Fielddays fieldDays={fielddaysdata.fielddays} />}></Route>
+          <Route exact path='/pages/books' element={<Books books={booksdata.books} />}></Route>
           <Route exact path='/pages/linux' element={<Linux />}></Route>
           <Route exact path='/pages/japanese' element={<Japanese />}></Route>
+          <Route exact path='/pages/books' element={<Books />}></Route>
 
           <Route exact path='/pages/basic' element={<BasicPage id="1" />}></Route>
           <Route exact path='/wine' element={<BasicPage id="4" />}></Route>
