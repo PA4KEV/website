@@ -18,7 +18,7 @@ const FD20231111EN = () => {
 
                         <p>Together with the motorhome of PA2WLE I took my Yaesu FT-897 to the <a href="https://en.wikipedia.org/wiki/Strabrechtse_Heide" target="_blank" rel="noopener noreferrer">Strabrechtse Heide</a> as activator of this park.<br />
                             Location POTA: <strong>PA-0026</strong>, location WWFF: <strong>PAFF-0058</strong><br />
-                            PA2WLE utilize an ICOM IC-705 made connections with Morse.</p>
+                            PA2WLE utilized an ICOM IC-705 made connections with Morse.</p>
 
                         <p>The stations that try to connect to our station, are called the &ldquo;Hunters&rdquo; or &ldquo;Chasers&rdquo;.</p>
 

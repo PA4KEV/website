@@ -2,7 +2,7 @@ import React from 'react';
 import Emoji from '../../Content/Emoji';
 
 const Radio = () => {
-    return (        
+    return (
         <div className='row'>
             <div className="sidebar col-3 position-fixed">
                 <div id="list-example" className="list-group">
@@ -14,15 +14,15 @@ const Radio = () => {
             <div className="scrollspy-example col-6 offset-3" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
                 <section className="content-section">
                     <div className='content-item'>
-                        <h1 id="list-intro" className="text-primary">Radio amateur <Emoji symbol="📻"/></h1>
+                        <h1 id="list-intro" className="text-primary">Radio amateur <Emoji symbol="📻" /></h1>
                         <p>I am a (beginner) ham radio amateur! My callsign is: <b>PA4KEV</b></p>
                         <p>This hobby involves experimenting with wireless communication and electronics. Without the magic of radio, we would not have television, wifi or mobile phones.</p>
                         <p>Here I post my notes on the hobby.</p>
                         <ul>
-                        <li><a href="https://www.qrz.com/db/PA4KEV" target="_blank" rel="noopener noreferrer">https://www.qrz.com/db/PA4KEV</a></li>
-                        <li><a href="https://www.eqsl.cc/" target="_blank" rel="noopener noreferrer">https://www.eqsl.cc/</a></li>
-                        <li><a href="http://www.hamqsl.com/" target="_blank" rel="noopener noreferrer">http://www.hamqsl.com/</a></li>
-                        <li><a href="http://www.hrdlog.net/" target="_blank" rel="noopener noreferrer">http://www.hrdlog.net/</a></li>
+                            <li><a href="https://www.qrz.com/db/PA4KEV" target="_blank" rel="noopener noreferrer">https://www.qrz.com/db/PA4KEV</a></li>
+                            <li><a href="https://www.eqsl.cc/" target="_blank" rel="noopener noreferrer">https://www.eqsl.cc/</a></li>
+                            <li><a href="http://www.hamqsl.com/" target="_blank" rel="noopener noreferrer">http://www.hamqsl.com/</a></li>
+                            <li><a href="http://www.hrdlog.net/" target="_blank" rel="noopener noreferrer">http://www.hrdlog.net/</a></li>
                         </ul>
                     </div>
                 </section>
@@ -60,7 +60,7 @@ const Radio = () => {
                             <li><a href="https://pa-11019.blogspot.com/2016/02/wall-loop-20m.html?m=1" target="_blank" rel="noopener noreferrer">https://pa-11019.blogspot.com/2016/02/wall-loop-20m.html?m=1</a></li>
                         </ul>
 
-                        <hr/>
+                        <hr />
                         <h2>Morse links</h2>
 
                         <ul>
@@ -69,7 +69,7 @@ const Radio = () => {
                             <li><a href="http://www.morserino.info/" target="_blank" rel="noopener noreferrer">http://www.morserino.info/</a></li>
                         </ul>
 
-                        <hr/>
+                        <hr />
                         <h2>Loggers</h2>
 
                         <ul>
@@ -82,7 +82,7 @@ const Radio = () => {
             </div>
 
         </div>
-        )
+    )
 }
 
 export default Radio;
