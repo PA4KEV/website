@@ -1,6 +1,18 @@
 {
     "fielddays": [
         {
+            "date": "2024-01-21",
+            "name": "De Groote Peel, Kokmeeuwenweg",
+            "identifier-wwff": "",
+            "identifier-pota": "PA-0016",
+            "modes": "SSB",
+            "bands": "20m",
+            "antenna": "NVIS",
+            "transceiver": "Yaesu FT-897",
+            "total-unique-qso": 1,
+            "total-qso": 2
+        },
+        {
             "date": "2023-12-30",
             "name": "Stiphoutse bossen, Kamerven",
             "identifier-wwff": "PAFF-0221",

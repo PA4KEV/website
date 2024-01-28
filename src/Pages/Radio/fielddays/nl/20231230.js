@@ -78,7 +78,7 @@ const FD20231230NL = () => {
                             <img alt="operator" src={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-operator-w800.webp`} />
                         </picture>
 
-                        <p>Het weer was helder, licht bewolkt, ongeveer 9° Celcius. De koude wind maakt het wel lastig om met de blote hand callsigns op te schrijven.</p>
+                        <p>Het weer was bewolkt, ongeveer 9° Celcius. De koude wind maakt het wel lastig om met de blote hand callsigns op te schrijven.</p>
 
                         <picture>
                             <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-setup-w240.webp`} />
@@ -95,7 +95,7 @@ const FD20231230NL = () => {
                             <li>De Aircell 7 coax kabel was te lang, te stug en te zwaar. Een RG58 coax kabel zou beter zijn.</li>
                             <li>Een schroevendraaier en ringsleuteltje in plaats van een waterpomptang gebruiken.</li>
                             <li>De wind waait mijn notepad-vellen telkens weg, dit moet vast worden gezet.</li>
-                            <li>Lijnen en kabels beter zichtmaar maken, zodat omstanders er niet over kunnen struikelen.</li>
+                            <li>Lijnen en kabels beter zichtbaar maken, zodat omstanders er niet over kunnen struikelen.</li>
                             <li>Je broodjes beter opbergen, tegen de nieuwsgierige honden.</li>
                             <li>Tijdens de activatie aangeven dat je een <strong>portable</strong> station bent. Andere stations begrijpen dan beter waarom de verbinding niet perfect is.</li>
                             <li>De landmeter meetlint was te groot en eigenlijk niet nodig. Het gaat prima door een touwtje van 12 meter mee te nemen. Andere afstanden zijn namelijk toch niet nodig om te meten.</li>

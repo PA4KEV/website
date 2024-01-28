@@ -32,7 +32,7 @@ const FD20231230NL = () => {
                             <li>50 meter (164 feet) measuring tape</li>
                             <li>Tent pegs</li>
                             <li>Battery powered clockmodule with UTC time</li>
-                            <li>Pip wrench to tighten the nuts on antenna and to pull out the tent pegs</li>
+                            <li>Pipe wrench to tighten the nuts on antenna and to pull out the tent pegs</li>
                         </ul>
 
                         <p>In addition, some sandwiches, pen and a notepad along with a vademecum. The table and chairs came from PA2WLE's camper. Also the Jackery power supply would not fit in my backpack.</p>
@@ -49,7 +49,7 @@ const FD20231230NL = () => {
                         <h3>Activation</h3>
                         <hr />
 
-                        <p>De activatie van deze locatie verliep prima met 27 unieke QSO's. Zodra ik op het cluster gespot werd, werd ik snel door vele stations aangeroepen.</p>
+                        <p>The activation of this location went fine with 27 unique QSO's. Once I was spotted on the cluster, I was hailed by many stations quickly.</p>
 
                         <picture>
                             <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-antenna-w240.webp`} />
@@ -58,9 +58,9 @@ const FD20231230NL = () => {
                             <img alt="N V I S antenna" src={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-antenna-w800.webp`} />
                         </picture>
 
-                        <p>De locatie was <strong>PAFF-0221</strong>, de Stiphoutse bossen, bij het Kamerven. Door de hevige regenval, stond er vrij hoog water in het ven dit jaar.</p>
-                        <p>Er komen geregeld wandelaars met honden voorbij. De wandelaars waren vaak geïnteresseerd in de radio opstelling en de honden in de broodjes met ham uit mijn rugzak.</p>
-                        <p>De mensen die interesse tonen, denken dat we zoeken naar buitenaards leven, metingen doen of zelfs dieren aan het tellen zijn. Het is een leuke kans om mensen te vertellen over de hobby en iedereen toonde oprechte belangstelling.</p>
+                        <p>The location was <strong>PAFF-0221</strong>, de Stiphoutse bossen (The Stiphoutse woods), near the Kamerven (A "ven" is mere in English). Because of the recent heavy rain fall, there was plenty of water in the mere now.</p>
+                        <p>Hikers will often pass by with their dogs, They are usually interested in the radio equipment and their dogs were usually interested in the ham sandwiches from my backpack.</p>
+                        <p>Those who showed interest, thought that we were searching for extraterrestial lifeforms, doing measurements of even counting animals. It is a fun opportunity to tell people about the hobby. Everyone showed genuine interest in it.</p>
 
                         <picture>
                             <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-location-w240.webp`} />
@@ -78,7 +78,7 @@ const FD20231230NL = () => {
                             <img alt="operator" src={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-operator-w800.webp`} />
                         </picture>
 
-                        <p>Het weer was helder, licht bewolkt, ongeveer 9° Celcius. De koude wind maakt het wel lastig om met de blote hand callsigns op te schrijven.</p>
+                        <p>The weather was cloudy and the temperature about 9° Celcius (48° Fahrenheit). The cold wind does make it difficult to write callsigns down with bare hands though.</p>
 
                         <picture>
                             <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-setup-w240.webp`} />
@@ -88,22 +88,22 @@ const FD20231230NL = () => {
                         </picture>
                         <br />
                         <br />
-                        <h3>Leermomenten</h3>
+                        <h3>Learning moments</h3>
                         <hr />
-                        <p>Uit deze activatie heb ik veel geleerd.</p>
+                        <p>I learnt much from this activation.</p>
                         <ol>
-                            <li>De Aircell 7 coax kabel was te lang, te stug en te zwaar. Een RG58 coax kabel zou beter zijn.</li>
-                            <li>Een schroevendraaier en ringsleuteltje in plaats van een waterpomptang gebruiken.</li>
-                            <li>De wind waait mijn notepad-vellen telkens weg, dit moet vast worden gezet.</li>
-                            <li>Lijnen en kabels beter zichtmaar maken, zodat omstanders er niet over kunnen struikelen.</li>
-                            <li>Je broodjes beter opbergen, tegen de nieuwsgierige honden.</li>
-                            <li>Tijdens de activatie aangeven dat je een <strong>portable</strong> station bent. Andere stations begrijpen dan beter waarom de verbinding niet perfect is.</li>
-                            <li>De landmeter meetlint was te groot en eigenlijk niet nodig. Het gaat prima door een touwtje van 12 meter mee te nemen. Andere afstanden zijn namelijk toch niet nodig om te meten.</li>
+                            <li>The Aircell 7 coax cable was too long, to unwieldy and too heavy. A RG58 cable would have been better.</li>
+                            <li>Use a screwdriver and spanner instead of a pipe wrench.</li>
+                            <li>The wind keeps blowing away the paper of my notepad, this should be fixed.</li>
+                            <li>Make ropes and cables more visible, so that people cannot trip over them.</li>
+                            <li>Put away the sandwiches, so that curious dogs cannot reach them.</li>
+                            <li>During activation, indicate that you are a <strong>portable</strong> station. Other stations will then understand better why the connection is not perfect.</li>
+                            <li>The measuring tape was too big and not really required anyway. A rope of 12 meter (40 feet) would have been fine. Its not required to measure anything else anyway.</li>
                         </ol>
-                        <p>Verder moet ik andere handschoenen hebben, zodat ik nog steeds kan schrijven bij koud weer.</p>
-                        <p>De UTC-klok module was perfect om bij te hebben, tijdens een pile-up vind ik een aparte klok toch sneller dan mijn telefoon te gebruiken. Direct de UTC tijd zien en opschrijven en door naar het volgende QSO. Voor mij een goede uitkomst.</p>
+                        <p>I could use other kinds of gloves, so I can still write with them during cold weather.</p>
+                        <p>The little UTC clock module was perfect, during a pile-up I found it handy to instantly have the right time in front of me. Using my phone doesn't really work for me. </p>
 
-                        <p>Ten slotte, het is zeer belangrijk om kabels netjes op te rollen. Het scheelt veel tijd met opstellen en afbreken van de antenne. Vooral in het veld is het erg vervelend om draden uit de knoop te moeten plukken.</p>
+                        <p>Finally, its important to clean up your cables. It will save much time during deployment and tearing down the antenna. Its really annoying to untangle these in the field.</p>
                         <picture>
                             <source media="(max-width: 799px)" srcset={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-antenna-roll-w240.webp`} />
                             <source media="(min-width: 800px) and (max-width: 1199px)" srcset={`${process.env.PUBLIC_URL}/images/radio/velddagen/2023-12-30/wwff-2023-12-30-antenna-roll-w480.webp`} />
