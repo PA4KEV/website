@@ -35,6 +35,13 @@ Emoji component: [https://medium.com/@seanmcp/%EF%B8%8F-how-to-use-emojis-in-rea
 
 HTML parsing: `npm install html-react-parser`
 
+Markdown to JSX documentation:
+* https://github.com/quantizor/markdown-to-jsx
+* https://markdown-to-jsx.quantizor.dev/
+
+Markdown to JSX install: `npm install markdown-to-jsx`
+
+
 https://www.npmjs.com/package/html-react-parser
 
 Convert SVG to React component: https://svg2jsx.com/

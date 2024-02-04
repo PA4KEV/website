@@ -38,9 +38,9 @@ import FD20231111EN from './Pages/Radio/fielddays/en/20231111'
 import FD20231111NL from './Pages/Radio/fielddays/nl/20231111'
 import FD20231230EN from './Pages/Radio/fielddays/en/20231230'
 import FD20231230NL from './Pages/Radio/fielddays/nl/20231230'
-import FD20240121EN from './Pages/Radio/fielddays/en/20240121'
-import FD20240121NL from './Pages/Radio/fielddays/nl/20240121'
 import fielddaysdata from './Pages/Radio/fielddays/fielddays.json'
+
+import MarkdownPage from './Pages/markdownPage';
 
 import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
@@ -48,7 +48,6 @@ import Footer from './UI/Footer';
 import BasicPage from './Pages/BasicPage';
 import Japan from './Japan/Japan';
 import Japanese from './Pages/Japanese/Japan';
-
 
 function App() {
   return (
@@ -86,11 +85,11 @@ function App() {
 
           <Route exact path='/en/pages/radio/fielddays/20231111' element={<FD20231111EN />}></Route>
           <Route exact path='/en/pages/radio/fielddays/20231230' element={<FD20231230EN />}></Route>
-          <Route exact path='/en/pages/radio/fielddays/20240121' element={<FD20240121EN />}></Route>
+          <Route exact path='/en/pages/radio/fielddays/20240121' element={<MarkdownPage md='Radio/fielddays/en/20240121.md' />}></Route>
 
           <Route exact path='/nl/pages/radio/fielddays/20231111' element={<FD20231111NL />}></Route>
           <Route exact path='/nl/pages/radio/fielddays/20231230' element={<FD20231230NL />}></Route>
-          <Route exact path='/nl/pages/radio/fielddays/20240121' element={<FD20240121NL />}></Route>
+          <Route exact path='/nl/pages/radio/fielddays/20240121' element={<MarkdownPage md='Radio/fielddays/nl/20240121.md' />}></Route>
 
 
 

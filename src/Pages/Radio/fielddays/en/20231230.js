@@ -12,7 +12,7 @@ const FD20231230NL = () => {
             <div className="scrollspy-example col-6 offset-3" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabIndex="0">
                 <section className="content-section">
                     <div id="list-intro" className='content-item'>
-                        <h1 className="text-primary">Fieldday - Stiphoutse bossen, Kamerven</h1>
+                        <h1 className="text-primary">Field day - Stiphoutse bossen, Kamerven</h1>
                         <p><i>2023-12-30</i></p>
                         <p>This was my second activation for <a href="https://wwff.co/" target="_blank" rel="noopener noreferrer">WWFF</a>.</p>
 
