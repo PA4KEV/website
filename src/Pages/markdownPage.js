@@ -16,7 +16,7 @@ const MarkdownPage = ({ md }) => {
             .catch(err => console.log(err));
     });
 
-    const MyArticle = ({ children }) => <article className="main-page">{children}</article>
+    const MySection = ({ children }) => <section>{children}</section>
 
     const MyParagraph = ({ children, ...props }) => <h1 {...props}>{children}</h1>
 
@@ -32,7 +32,7 @@ const MarkdownPage = ({ md }) => {
 
     return (
         <Markdown options={{
-            wrapper: MyArticle,
+            wrapper: MySection,
             overrides: {
                 h1: {
                     component: MyParagraph,

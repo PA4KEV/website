@@ -1,19 +1,23 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../ThemeContext';
+import { getString, getLanguage } from '../App';
 
 import './Navigation.css';
 
-// Cheating, but it works until I know better.
-let section = window.location.pathname.split('/')[2];
-let chapter = window.location.pathname.split('/')[3];
+function generatePath(language) {
+    const currentPath = window.location.pathname;
+    return `/${language}${currentPath.substring(currentPath.indexOf('/', 1))}`;
+}
 
-const Navigation = () => {
+const Navigation = ({ language }) => {
     const { theme, updateTheme } = useTheme();
 
     const toggleTheme = () => {
         updateTheme((theme === 'light') ? 'dark' : 'light');
     }
+
+    const currentLanguage = getLanguage();
 
     return (
         <nav className={`navbar navbar-expand-lg fixed-top text-${theme} navbar-${theme} bg-${theme}`}>
@@ -26,45 +30,29 @@ const Navigation = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle active" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Portal
+                                {getString(language, 'portal')}
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link reloadDocument to="/pages/japanese" className="dropdown-item">Japanese</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/japan'} className="dropdown-item">{getString(language, 'japanese')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link reloadDocument to="/pages/radio" className="dropdown-item">Radio Amateur</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/radio'} className="dropdown-item">{getString(language, 'radio_amateur')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link reloadDocument to="/pages/software" className="dropdown-item">Software</Link></li>
-                                {/* <li><hr className="dropdown-divider"/></li>
-                        <li><Link reloadDocument to="/pages/linux" className="dropdown-item">Linux</Link></li> */}
+                                <li><Link reloadDocument to={currentLanguage + '/software'} className="dropdown-item">{getString(language, 'software')}</Link></li>
                             </ul>
                         </li>
-                        {section === 'software' &&
-                            <li className="nav-item">
-                                <Link reloadDocument to="/pages/software#list-projects" className="nav-link">Projects</Link>
-                            </li>
-                        }
-                        {section === 'radio' &&
-                            <li className="nav-item">
-                                <Link reloadDocument to="/pages/radio/components" className={`nav-link ${chapter === "components" ? "active" : ""}`}>Components</Link>
-                            </li>
-                        }
-                        {section === 'radio' &&
-                            <li className="nav-item">
-                                <Link reloadDocument to="/pages/radio/balcony" className={`nav-link ${chapter === "balcony" ? "active" : ""}`}>Balcony</Link>
-                            </li>
-                        }
-                        {section === 'radio' &&
-                            <li className="nav-item">
-                                <Link reloadDocument to="/pages/radio/fielddays" className={`nav-link ${chapter === "fielddays" ? "active" : ""}`}>Field days</Link>
-                            </li>
-                        }
+
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle active" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                {getString(language, 'language')}
+                            </a>
+                            <ul className="dropdown-menu">
+                                <li><Link reloadDocument to={generatePath("en")} className="dropdown-item">English</Link></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><Link reloadDocument to={generatePath("nl")} className="dropdown-item">Nederlands</Link></li>
+                            </ul>
+                        </li>
                     </ul>
-                    {/* style={{display: 'none'}}  */}
                     <button onClick={toggleTheme} type="button" className={`btn btn-${theme}`}>Toggle Theme</button>
-                    {/* <form className="d-flex" role="search">
-                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button className="btn btn-outline-success" type="submit">Search</button>
-                </form> */}
                 </div>
             </div>
         </nav>
