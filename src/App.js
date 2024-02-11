@@ -114,7 +114,7 @@ function App() {
     return dates.map(date => {
       const path = `/${lang}/radio/fielddays/${date}`;
       const mdPath = `Radio/fielddays/${lang}/${date}.md`;
-      return <Route key={`${lang}-${date}`} exact path={path} element={<MarkdownPage md={mdPath} />} />;
+      return <Route key={`${lang}-${date}`} exact path={path} element={<article className="main-page"><MarkdownPage md={mdPath} /></article>} />;
     });
   }).flat();
 
