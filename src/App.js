@@ -136,7 +136,7 @@ function App() {
 
   return (
     <Router>
-      <div className='row'>
+      <div className='container'>
         <Navigation language={language} />
         <Routes>
           <Route exact path='/' element={<Home language={"en"} />}></Route>
@@ -170,9 +170,8 @@ function App() {
 
           <Route exact path='/japanMap' element={<Japan />}></Route>
         </Routes>
-
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }
