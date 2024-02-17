@@ -37,7 +37,7 @@ import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
 
 import BasicPage from './Pages/BasicPage';
-import Japan from './Japan/Japan';
+import Japan from './Pages/Japan/Japan';
 import JapaneseMain from './Pages/Japan/JapaneseMain';
 
 const languages = ['en', 'nl'];
@@ -106,6 +106,7 @@ function App() {
 
   const paths = {
     'japan': <JapaneseMain />,
+    'japanMap': <Japan />,
     'radio': <RadioMain />,
     'software': <SoftwareMain />,
   };
@@ -167,8 +168,6 @@ function App() {
 
           <Route exact path='/basic' element={<BasicPage id="1" />}></Route>
           <Route exact path='/wine' element={<BasicPage id="4" />}></Route>
-
-          <Route exact path='/japanMap' element={<Japan />}></Route>
         </Routes>
       </div>
       <Footer />

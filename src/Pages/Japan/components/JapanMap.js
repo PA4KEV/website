@@ -2,15 +2,17 @@ import React from "react";
 
 function JapanMap({ selection }) {
 
+  const hiroshima_fill = selection === "itsukushima_shrine" ? "red" : "none";
+  const miyagi_fill = selection === "sendai_daikannon" ? "red" : "none";
+  const okinawa_fill = selection === "shuri_castle" ? "red" : "none";
   const yamagata_fill = selection === "ginzan_onsen" ? "red" : "none";
+
   console.log(selection);
   console.log(yamagata_fill);
 
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="1536.819"
-      height="1750.502"
       version="1.1"
       viewBox="0 0 1536.819 1750.502"
     >
@@ -223,7 +225,7 @@ function JapanMap({ selection }) {
         </g>
         <g display="inline">
           <path
-            fill="none"
+            fill={okinawa_fill}
             stroke="#000"
             strokeLinecap="butt"
             strokeLinejoin="miter"
@@ -421,7 +423,7 @@ function JapanMap({ selection }) {
           </g>
           <g display="inline">
             <path
-              fill="none"
+              fill={miyagi_fill}
               stroke="#000"
               strokeLinecap="butt"
               strokeLinejoin="miter"
@@ -828,7 +830,7 @@ function JapanMap({ selection }) {
           </g>
           <g display="inline">
             <path
-              fill="none"
+              fill={hiroshima_fill}
               stroke="#000"
               strokeLinecap="butt"
               strokeLinejoin="miter"
