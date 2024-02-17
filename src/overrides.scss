@@ -90,6 +90,14 @@ body.light {
   width: 65%;
 }
 
+.breadcrumbs a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 // Core variables and mixins
 // @import "variables";
 // @import "mixins";

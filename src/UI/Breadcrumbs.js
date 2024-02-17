@@ -1,10 +1,14 @@
 import React from 'react';
+import { getLanguage } from '../App';
+import { useTheme } from '../ThemeContext';
 
 const Breadcrumbs = ({ separator, path, children }) => {
+    const { theme } = useTheme();
+    const language = getLanguage();
     const items = React.Children.toArray(children);
 
     const generatePath = (index) => {
-        return path.split('/').slice(0, index + 1).join('/');
+        return '/' + language + '/' + path.split('/').slice(0, index + 1).join('/');
     };
 
     if (items.length !== path.split('/').length) {
@@ -12,18 +16,20 @@ const Breadcrumbs = ({ separator, path, children }) => {
     }
 
     return (
-        <div className='breadcrumbs'>
-            {items.map((item, index) => (
-                <React.Fragment key={index}>
-                    {index > 0 && <span className='separator'>{separator}</span>}
-                    {index < items.length - 1 ? (
-                        <a href={generatePath(index)}>{item}</a>
-                    ) : (
-                        <a href={generatePath(index)}>{item}</a>
-                    )}
-                </React.Fragment>
-            ))}
-        </div>
+        <div className={`breadcrumbs`}>
+            {
+                items.map((item, index) => (
+                    <React.Fragment key={index}>
+                        {index > 0 && <span className='separator'>{separator}</span>}
+                        {index < items.length - 1 ? (
+                            <a className={`small text-${theme}`} href={generatePath(index)}>{item}</a>
+                        ) : (
+                            <a className={`small text-${theme}`} href={generatePath(index)}>{item}</a>
+                        )}
+                    </React.Fragment>
+                ))
+            }
+        </div >
     )
 }
 
