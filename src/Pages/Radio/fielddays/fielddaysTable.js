@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Emoji from '../../../Content/Emoji';
-import fielddaysdata from './fielddays.json';
+import fielddaysData from './fielddays.json';
 
 const FielddaysTable = () => {
 
@@ -43,7 +43,7 @@ const FielddaysTable = () => {
                 </tr>
             </thead>
             <tbody>
-                {fielddaysdata.fielddays.map((fieldDay, index) => (
+                {fielddaysData.fielddays.map((fieldDay, index) => (
                     <tr key={index}>
                         <td>{fieldDay.date}</td>
                         <td>{generatePath(fieldDay.date, 'en')}</td>
