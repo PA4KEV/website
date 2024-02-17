@@ -49,24 +49,3 @@ Certification
 [acquia.com](https://certification.acquia.com/user/18196)
 
 2022
-
-Courses
--------
-
-###### Docker Mastery: Kubernetes + Swarm from a Docker Captain
-
-[udemy.com](https://www.udemy.com/course/docker-mastery/)  |  [certificate]({`${process.env.PUBLIC_URL}/udemy-certs/UC-19ac22fe-70fa-47bd-804c-83f3aa4ac218.jpg`})
-
-2021
-
-###### Beginning C++ Programming From Beginner to Beyond
-
-[udemy.com](https://www.udemy.com/course/beginning-c-plus-plus-programming/)  |  [certificate]({`${process.env.PUBLIC_URL}/udemy-certs/UC-9f15ebd2-2a9a-489f-b8ca-7e8b175bc12f.pdf`})
-
-2020
-
-###### Learn Linux in 5 Days and Level Up Your Career
-
-[udemy.com](https://www.udemy.com/course/learn-linux-in-5-days/)  |  [certificate]({`${process.env.PUBLIC_URL}/udemy-certs/UC-0BB6GYJ1.pdf`})
-
-2019

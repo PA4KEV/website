@@ -12,7 +12,7 @@ const RadioMain = () => {
             <h1 id="list-intro" className="text-primary">Radio amateur <Emoji symbol="📻" /></h1>
             <MarkdownPage md={'Radio/' + language + '/main.md'} />
 
-            <h2>{getString(language, 'fielddays')}</h2>
+            <h2>{getString('fielddays')}</h2>
             <FielddaysTable />
 
             <h2>Links</h2>

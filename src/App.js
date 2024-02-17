@@ -67,6 +67,9 @@ const languageStrings = {
     japanese: 'Japanese',
     radio_amateur: 'Radio amateur',
     software: 'Software',
+    // Education
+    courses: 'Courses',
+    completed: 'Completed',
     // Navigation
     portal: 'Portal',
     language: 'Language',
@@ -84,6 +87,9 @@ const languageStrings = {
     japanese: 'Japans',
     radio_amateur: 'Radiozendamateur',
     software: 'Software',
+    // Education
+    courses: 'Cursussen',
+    completed: 'Voltooid',
     // Navigation
     portal: 'Portaal',
     language: 'Taal',
@@ -95,7 +101,8 @@ const languageStrings = {
   },
 };
 
-export function getString(language, key) {
+export function getString(key) {
+  const language = getLanguage();
   return languageStrings[language][key] || `{${key}}`;
 }
 

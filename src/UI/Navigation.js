@@ -30,20 +30,20 @@ const Navigation = ({ language }) => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle active" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                {getString(language, 'portal')}
+                                {getString('portal')}
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link reloadDocument to={currentLanguage + '/japan'} className="dropdown-item">{getString(language, 'japanese')}</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/japan'} className="dropdown-item">{getString('japanese')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link reloadDocument to={currentLanguage + '/radio'} className="dropdown-item">{getString(language, 'radio_amateur')}</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/radio'} className="dropdown-item">{getString('radio_amateur')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link reloadDocument to={currentLanguage + '/software'} className="dropdown-item">{getString(language, 'software')}</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/software'} className="dropdown-item">{getString('software')}</Link></li>
                             </ul>
                         </li>
 
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle active" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                {getString(language, 'language')}
+                                {getString('language')}
                             </a>
                             <ul className="dropdown-menu">
                                 <li><Link reloadDocument to={generatePath("en")} className="dropdown-item">English</Link></li>
