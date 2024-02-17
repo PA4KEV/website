@@ -30,8 +30,7 @@ import Books from './Pages/Books/Books';
 import booksdata from './Pages/Books/books.json'
 
 import RadioMain from './Pages/Radio/RadioMain';
-
-import MarkdownPage from './Pages/markdownPage';
+import Fieldday from './Pages/Radio/fielddays/fieldday';
 
 import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
@@ -115,7 +114,7 @@ function App() {
     return dates.map(date => {
       const path = `/${lang}/radio/fielddays/${date}`;
       const mdPath = `Radio/fielddays/${lang}/${date}.md`;
-      return <Route key={`${lang}-${date}`} exact path={path} element={<article className="main-page"><MarkdownPage md={mdPath} /></article>} />;
+      return <Route key={`${lang}-${date}`} exact path={path} element={<Fieldday mdPath={mdPath} />} />;
     });
   }).flat();
 
