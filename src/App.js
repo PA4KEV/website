@@ -38,6 +38,7 @@ import Footer from './UI/Footer';
 import BasicPage from './Pages/BasicPage';
 import Japan from './Pages/Japan/Japan';
 import JapaneseMain from './Pages/Japan/JapaneseMain';
+import EquipmentPage from './Pages/Radio/equipmentPage';
 
 const languages = ['en', 'nl'];
 
@@ -74,6 +75,8 @@ const languageStrings = {
     portal: 'Portal',
     language: 'Language',
     // Radio
+    nvisAntenna: 'NVIS Antenna',
+    equipment: 'Equipment',
     fielddays: 'Field days',
     // Footer
     footer_madewith: 'This site was made with',
@@ -94,6 +97,8 @@ const languageStrings = {
     portal: 'Portaal',
     language: 'Taal',
     // Radio
+    nvisAntenna: 'NVIS Antenne',
+    equipment: 'Apparatuur',
     fielddays: 'Velddagen',
     // Footer
     footer_madewith: 'Deze website is gemaakt met',
@@ -108,7 +113,6 @@ export function getString(key) {
 
 function App() {
   const language = getLanguage();
-  const dates = ['20231111', '20231230', '20240121'];
 
   const paths = {
     'japan': <JapaneseMain />,
@@ -118,10 +122,27 @@ function App() {
   };
 
   const fieldDaysRoutes = languages.map(lang => {
+    const dates = ['20231111', '20231230', '20240121'];
     return dates.map(date => {
       const path = `/${lang}/radio/fielddays/${date}`;
       const mdPath = `Radio/fielddays/${lang}/${date}.md`;
       return <Route key={`${lang}-${date}`} exact path={path} element={<Fieldday mdPath={mdPath} />} />;
+    });
+  }).flat();
+
+  const equipmentRoutes = languages.map(lang => {
+    const equipments = [
+      {
+        title: 'nvis',
+        category: 'antenna',
+        filename: 'nvis'
+      }
+    ];
+    return equipments.map(equipment => {
+      const path = `/${lang}/radio/equipment/${equipment.category}/${equipment.title}`;
+      console.log(path);
+      const mdPath = `Radio/${lang}/equipment/${equipment.category}/${equipment.filename}.md`;
+      return <Route key={`${lang}-${equipment.title}`} exact path={path} element={<EquipmentPage mdPath={mdPath} />} />;
     });
   }).flat();
 
@@ -151,6 +172,7 @@ function App() {
           <Route exact path='/nl' element={<Home language={language} />}></Route>
 
           {fieldDaysRoutes}
+          {equipmentRoutes}
           {generatedRoutes}
 
           <Route exact path='/software/dxp-development' element={<DXPDevelopment />}></Route>

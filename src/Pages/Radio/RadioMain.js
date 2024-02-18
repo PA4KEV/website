@@ -1,5 +1,6 @@
 import React from 'react';
 import Emoji from '../../Content/Emoji';
+import { Link } from 'react-router-dom';
 import MarkdownPage from '../markdownPage';
 import { getLanguage, getString } from '../../App';
 import FielddaysTable from './fielddays/fielddaysTable';
@@ -11,6 +12,11 @@ const RadioMain = () => {
         <article className="main-page">
             <h1 id="list-intro" className="text-primary">Radio amateur <Emoji symbol="📻" /></h1>
             <MarkdownPage md={'Radio/' + language + '/main.md'} />
+
+            <h2>{getString('equipment')}</h2>
+            <ul>
+                <li><Link reloadDocument to={'/' + language + '/radio/equipment/antenna/nvis'}>{getString('nvisAntenna')}</Link></li>
+            </ul>
 
             <h2>{getString('fielddays')}</h2>
             <FielddaysTable />
