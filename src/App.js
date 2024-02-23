@@ -69,18 +69,22 @@ const languageStrings = {
     radio_amateur: 'Radio amateur',
     software: 'Software',
     // Education
-    courses: 'Courses',
+    certification: 'Certification',
     completed: 'Completed',
+    courses: 'Courses',
+    education: 'Education',
+    issued: 'issued',
+    skills: 'Skills',
     // Navigation
     portal: 'Portal',
     language: 'Language',
     // Radio
-    nvisAntenna: 'NVIS Antenna',
     equipment: 'Equipment',
     fielddays: 'Field days',
+    nvisAntenna: 'NVIS Antenna',
     // Footer
-    footer_madewith: 'This site was made with',
     footer_contentparsed: 'Content is parsed by',
+    footer_madewith: 'This site was made with',
   },
   nl: {
     // Common
@@ -91,18 +95,22 @@ const languageStrings = {
     radio_amateur: 'Radiozendamateur',
     software: 'Software',
     // Education
-    courses: 'Cursussen',
+    certification: 'Certificering',
     completed: 'Voltooid',
+    courses: 'Cursussen',
+    education: 'Opleiding',
+    issued: 'uitgegeven',
+    skills: 'Vaardigheden',
     // Navigation
     portal: 'Portaal',
     language: 'Taal',
     // Radio
-    nvisAntenna: 'NVIS Antenne',
     equipment: 'Apparatuur',
     fielddays: 'Velddagen',
+    nvisAntenna: 'NVIS Antenne',
     // Footer
-    footer_madewith: 'Deze website is gemaakt met',
     footer_contentparsed: 'Inhoud is verwerkt door',
+    footer_madewith: 'Deze website is gemaakt met',
   },
 };
 
@@ -140,7 +148,6 @@ function App() {
     ];
     return equipments.map(equipment => {
       const path = `/${lang}/radio/equipment/${equipment.category}/${equipment.title}`;
-      console.log(path);
       const mdPath = `Radio/${lang}/equipment/${equipment.category}/${equipment.filename}.md`;
       return <Route key={`${lang}-${equipment.title}`} exact path={path} element={<EquipmentPage mdPath={mdPath} />} />;
     });
