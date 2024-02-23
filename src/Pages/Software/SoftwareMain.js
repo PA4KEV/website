@@ -9,7 +9,7 @@ const SoftwareMain = () => {
 
     return (
         <article className="main-page">
-            <h1 id="list-intro" className="text-primary">Software <Emoji symbol="🖥️" /></h1>
+            <h1 id="list-intro" className="text-primary">{getString('software')} <Emoji symbol="🖥️" /></h1>
             <MarkdownPage md={'Software/' + language + '/main.md'} />
             <hr />
 

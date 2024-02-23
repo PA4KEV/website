@@ -10,7 +10,7 @@ const RadioMain = () => {
 
     return (
         <article className="main-page">
-            <h1 id="list-intro" className="text-primary">Radio amateur <Emoji symbol="📻" /></h1>
+            <h1 id="list-intro" className="text-primary">{getString('radio_amateur')} <Emoji symbol="📻" /></h1>
             <MarkdownPage md={'Radio/' + language + '/main.md'} />
 
             <h2>{getString('equipment')}</h2>
