@@ -1,4 +1,20 @@
 {
+    "certifications": [
+        {
+            "name": "LPIC-1",
+            "institution": "Linux professional institute certification",
+            "link": "https://www.lpi.org/our-certifications/lpic-1-overview",
+            "issueYear": 2022,
+            "expiryYear": 2027
+        },
+        {
+            "name": "Drupal 9 Site Builder",
+            "institution": "Acquia",
+            "link": "https://certification.acquia.com/user/18196",
+            "issueYear": 2022,
+            "expiryYear": 9999
+        }
+    ],
     "courses": [
         {
             "name": "Docker Mastery",
@@ -29,6 +45,24 @@
             "intstitution": "Udemy",
             "link": "https://www.udemy.com/course/learn-linux-in-5-days/",
             "certificate": "https://www.matsubara.nl/udemy-certs/UC-0BB6GYJ1.pdf"
+        }
+    ],
+    "education": [
+        {
+            "name": "Computer engineering of applied computer science",
+            "diploma": "Bachelor of computer science",
+            "school": "Avans Hogeschool",
+            "location": "Breda, Netherlands",
+            "start": 2012,
+            "end": 2016
+        },
+        {
+            "name": "Interactive media design",
+            "diploma": "MBO diploma",
+            "school": "Eindhovenseschool / Sint Lucas",
+            "location": "Eindhoven, Netherlands",
+            "start": 2009,
+            "end": 2012
         }
     ]
 }
