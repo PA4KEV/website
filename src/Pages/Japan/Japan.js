@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import JapanMap from './components/JapanMap';
 import Dropdown from './components/Dropdown';
-import { getLanguage } from '../../App';
+import { getString } from '../../Language/LanguageStrings'
 
 const Japan = () => {
     const [selectedColor, setSelectedColor] = useState('');
@@ -9,8 +9,6 @@ const Japan = () => {
     const handleColorChange = (event) => {
         setSelectedColor(event.target.value);
     };
-
-    const language = getLanguage();
 
     return (
         <article className='main-page'>
@@ -21,7 +19,7 @@ const Japan = () => {
                 </div>
             </div>
             <div className='row'>
-                <p><a href='https://github.com/PA4KEV/japan-vector-map'>Get this map at Github</a></p>
+                <p><a href='https://github.com/PA4KEV/japan-vector-map'>{getString('download_map_at_github')}</a></p>
             </div>
         </article>
     )

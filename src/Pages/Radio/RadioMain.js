@@ -2,7 +2,8 @@ import React from 'react';
 import Emoji from '../../Content/Emoji';
 import { Link } from 'react-router-dom';
 import MarkdownPage from '../markdownPage';
-import { getLanguage, getString } from '../../App';
+import { getLanguage } from '../../Language/Language';
+import { getString } from '../../Language/LanguageStrings'
 import FielddaysTable from './fielddays/fielddaysTable';
 
 const RadioMain = () => {

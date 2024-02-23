@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../ThemeContext';
-import { getString, getLanguage } from '../App';
+import { getLanguage } from '../Language/Language';
+import { getString } from '../Language/LanguageStrings'
 
 import './Navigation.css';
 

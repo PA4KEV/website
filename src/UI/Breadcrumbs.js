@@ -1,5 +1,5 @@
 import React from 'react';
-import { getLanguage } from '../App';
+import { getLanguage } from '../Language/Language';
 import { useTheme } from '../ThemeContext';
 
 const Breadcrumbs = ({ separator, path, children }) => {

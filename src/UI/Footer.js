@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTheme } from '../ThemeContext';
 import './Footer.css';
-import { getString } from '../App';
+import { getString } from '../Language/LanguageStrings'
 
 
 const Footer = () => {

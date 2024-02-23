@@ -1,7 +1,8 @@
 import React from 'react';
 import Emoji from '../../Content/Emoji';
 import MarkdownPage from '../markdownPage';
-import { getLanguage, getString } from '../../App';
+import { getLanguage } from '../../Language/Language';
+import { getString } from '../../Language/LanguageStrings'
 import educationData from './education.json'
 
 const SoftwareMain = () => {
