@@ -41,10 +41,13 @@ Markdown to JSX documentation:
 
 Markdown to JSX install: `npm install markdown-to-jsx`
 
-
 https://www.npmjs.com/package/html-react-parser
 
 Convert SVG to React component: https://svg2jsx.com/
+
+Syntax highlighting: `npm install react-syntax-highlighter`
+
+[react-syntax-highlighter documentation](https://www.npmjs.com/package/react-syntax-highlighter)
 
 ## Node
 

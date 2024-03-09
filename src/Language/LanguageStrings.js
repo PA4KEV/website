@@ -5,6 +5,7 @@ const languageStrings = {
         // Common
         and: 'and',
         on: 'on',
+        copy: 'copy',
         // Titles
         japanese: 'Japanese',
         radio_amateur: 'Radio amateur',
@@ -33,6 +34,7 @@ const languageStrings = {
         // Common
         and: 'en',
         on: 'op',
+        copy: 'kopieer',
         // Titles
         japanese: 'Japans',
         radio_amateur: 'Radiozendamateur',

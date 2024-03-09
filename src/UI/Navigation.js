@@ -11,7 +11,7 @@ function generatePath(language) {
     return `/${language}${currentPath.substring(currentPath.indexOf('/', 1))}`;
 }
 
-const Navigation = ({ language }) => {
+const Navigation = () => {
     const { theme, updateTheme } = useTheme();
 
     const toggleTheme = () => {

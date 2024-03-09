@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Markdown from 'markdown-to-jsx';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+// https://github.com/react-syntax-highlighter/react-syntax-highlighter/blob/HEAD/AVAILABLE_STYLES_HLJS.MD
+import { docco, dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import { useTheme } from '../ThemeContext';
 
 const MarkdownPage = ({ md }) => {
     const file_name = md;
     const [markdownContent, setPost] = useState('');
+    const { theme } = useTheme();
 
     useEffect(() => {
         import(`./${file_name}`)
@@ -30,6 +35,32 @@ const MarkdownPage = ({ md }) => {
             </picture>)
     }
 
+    function stripLangPrefix(inputString) {
+        if (inputString.startsWith('lang-')) {
+            return inputString.slice(5);
+        }
+        return inputString;
+    }
+
+    const MyCodeBlock = ({ children, className }) => {
+        let codeOutput;
+        if (theme === 'light') {
+            codeOutput = <SyntaxHighlighter language={stripLangPrefix(className)} style={docco}>{children}</SyntaxHighlighter>;
+        }
+        else {
+            codeOutput = <SyntaxHighlighter language={stripLangPrefix(className)} style={dracula}>{children}</SyntaxHighlighter>;
+        }
+
+        // <button className='code-block-copy-button'>{getString('copy')}</button>
+        return (
+            <div className={'code-block-' + theme}>
+                <div className='code-block-header'>
+                </div>
+                {codeOutput}
+            </div>
+        )
+    }
+
     return (
         <Markdown options={{
             wrapper: MySection,
@@ -42,6 +73,9 @@ const MarkdownPage = ({ md }) => {
                 },
                 img: {
                     component: MyImage
+                },
+                code: {
+                    component: MyCodeBlock
                 }
             },
         }}>
