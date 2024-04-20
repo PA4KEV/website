@@ -8,7 +8,7 @@ const Breadcrumbs = ({ separator, path, children }) => {
     const items = React.Children.toArray(children);
 
     const generatePath = (index) => {
-        return '/' + language + '/' + path.split('/').slice(0, index + 1).join('/');
+        return '/' + language + '/' + path.split('/').slice(0, index + 1).join('/') + '/';
     };
 
     if (items.length !== path.split('/').length) {

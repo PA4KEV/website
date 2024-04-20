@@ -130,6 +130,8 @@ update _ model =
     model
 
 
+{-| Render the Elm icon.
+-}
 elmIcon : E.Element msg
 elmIcon =
     let

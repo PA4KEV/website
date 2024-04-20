@@ -13,6 +13,10 @@ const SoftwareMain = () => {
             <h1 id="list-intro" className="text-primary">{getString('software')} <Emoji symbol="🖥️" /></h1>
             <MarkdownPage md={'Software/' + language + '/main.md'} />
             <hr />
+            <h2>{getString('code_pages')}</h2>
+            <p>{getString('code_pages_intro')}</p>
+            <a href={'/' + language + '/software/elm/'}>Elm</a>
+            <hr />
 
             <h2>{getString('education')}</h2>
             {educationData.education.map((edu, index) => (

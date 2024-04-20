@@ -24,8 +24,12 @@ const languageStrings = {
         language: 'Language',
         // Radio
         equipment: 'Equipment',
+        components: 'components',
         fielddays: 'Field days',
         nvisAntenna: 'NVIS Antenna',
+        // Software
+        code_pages: 'Code sections',
+        code_pages_intro: 'Some notes and examples of code.',
         // Footer
         footer_contentparsed: 'Content is parsed by',
         footer_madewith: 'This site was made with',
@@ -53,8 +57,12 @@ const languageStrings = {
         language: 'Taal',
         // Radio
         equipment: 'Apparatuur',
+        components: 'componenten',
         fielddays: 'Velddagen',
         nvisAntenna: 'NVIS Antenne',
+        // Software
+        code_pages: 'Code secties',
+        code_pages_intro: 'Notities en voorbeelden van code.',
         // Footer
         footer_contentparsed: 'Inhoud is verwerkt door',
         footer_madewith: 'Deze website is gemaakt met',

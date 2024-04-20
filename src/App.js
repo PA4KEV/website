@@ -41,6 +41,7 @@ import JapaneseMain from './Pages/Japan/JapaneseMain';
 import EquipmentPage from './Pages/Radio/equipmentPage';
 
 import { languages, getLanguage } from './Language/Language';
+import { elmRoutes } from './Routers';
 
 function App() {
   const language = getLanguage();
@@ -101,6 +102,7 @@ function App() {
           <Route exact path='/en' element={<Home language={language} />}></Route>
           <Route exact path='/nl' element={<Home language={language} />}></Route>
 
+          {elmRoutes}
           {fieldDaysRoutes}
           {equipmentRoutes}
           {generatedRoutes}
