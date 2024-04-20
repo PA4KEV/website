@@ -8,7 +8,7 @@ import './Navigation.css';
 
 function generatePath(language) {
     const currentPath = window.location.pathname;
-    return `/${language}${currentPath.substring(currentPath.indexOf('/', 1))}`;
+    return `/${language}${currentPath.substring(currentPath.indexOf('/', 1))}/`;
 }
 
 const Navigation = () => {
@@ -34,11 +34,11 @@ const Navigation = () => {
                                 {getString('portal')}
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link reloadDocument to={currentLanguage + '/japan'} className="dropdown-item">{getString('japanese')}</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/japan/'} className="dropdown-item">{getString('japanese')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link reloadDocument to={currentLanguage + '/radio'} className="dropdown-item">{getString('radio_amateur')}</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/radio/'} className="dropdown-item">{getString('radio_amateur')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
-                                <li><Link reloadDocument to={currentLanguage + '/software'} className="dropdown-item">{getString('software')}</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/software/'} className="dropdown-item">{getString('software')}</Link></li>
                             </ul>
                         </li>
 
