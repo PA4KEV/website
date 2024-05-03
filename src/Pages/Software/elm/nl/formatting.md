@@ -1,4 +1,5 @@
-## Formatting
+Elm - Formatting
+================
 
 Je kunt op deze manier een docstring toevoegen aan een elm functie:
 
