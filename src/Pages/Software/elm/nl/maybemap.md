@@ -36,6 +36,8 @@ let
     
     tooltipAttribute =
         Maybe.map (\tooltip -> [ HA.title tooltip ]) settings.tooltip |> Maybe.withDefault []
+        -- dit kan ook:
+        settings.tooltip |> Maybe.map (\tooltip -> [ HA.title tooltip ]) |> Maybe.withDefault []
 
 in
 H.div
