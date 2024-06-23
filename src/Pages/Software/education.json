@@ -17,6 +17,36 @@
     ],
     "courses": [
         {
+            "name": "Responsive Web Design Essentials",
+            "sub": "HTML5 CSS3 Bootstrap",
+            "instructor": "Daniel Walter Scott",
+            "achieveDate": "2024-06-22",
+            "duration": 16.5,
+            "intstitution": "Udemy",
+            "link": "https://www.udemy.com/course/responsive-web-design-tutorial-course-html5-css3-bootstrap/",
+            "certificate": "https://www.matsubara.nl/udemy-certs/UC-154acaf8-cdf8-4194-9f93-2e978ed96611.pdf"
+        },
+        {
+            "name": "Elm",
+            "sub": "The Complete Guide",
+            "instructor": "Carlos Saltos",
+            "achieveDate": "2024-01-27",
+            "duration": 21.5,
+            "intstitution": "Udemy",
+            "link": "https://www.udemy.com/course/elm-the-complete-guide/",
+            "certificate": "https://www.matsubara.nl/udemy-certs/UC-17b9db07-37a1-43e1-be5e-1e179e3c1c09.pdf"
+        },
+        {
+            "name": "F# From the Ground Up",
+            "sub": "",
+            "instructor": "Kit Eason",
+            "achieveDate": "2023-06-02",
+            "duration": 5.5,
+            "intstitution": "Udemy",
+            "link": "https://www.udemy.com/course/fsharp-from-the-ground-up/",
+            "certificate": "https://www.matsubara.nl/udemy-certs/UC-821edd16-10a7-499f-b66e-2bd97f3ce3dd.pdf"
+        },
+        {
             "name": "Docker Mastery",
             "sub": "Kubernetes + Swarm from a Docker Captain",
             "instructor": "Bret Fisher",
