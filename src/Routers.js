@@ -8,7 +8,7 @@ export const elmRoutes = languages.map(lang => {
     const main = <Route key={`${lang}-elm-main`} exact path={`/${lang}/software/elm/`} element={<ElmPage mdPath={`Software/elm/${lang}/main.md`} />} />
 
     // Pages within Elm.
-    const md = ['formatting', 'maybemap', 'dry'];
+    const md = ['dry', 'formatting', 'maybeandthen', 'maybemap'];
     const entries = md.map(entry => {
         const path = `/${lang}/software/elm/${entry}`;
         const mdPath = `Software/elm/${lang}/${entry}.md`;
