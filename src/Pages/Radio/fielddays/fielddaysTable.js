@@ -2,10 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Emoji from '../../../Content/Emoji';
 import fielddaysData from './fielddays.json';
+import { useTheme } from '../../../ThemeContext';
+import { getLanguage } from '../../../Language/Language';
+import { getString } from '../../../Language/LanguageStrings'
 
 const FielddaysTable = () => {
+    const { theme } = useTheme();
 
-    function generatePath(dateString, language) {
+    function generatePath(dateString, language, linkText) {
         // Assuming dateString is in the format "YYYY-MM-DD"
         const parts = dateString.split('-');
         const year = parts[0];
@@ -18,7 +22,7 @@ const FielddaysTable = () => {
         // Return JSX with the path inside an <a> tag
         return (
             <Link reloadDocument to={path}>
-                Link
+                {linkText}
             </Link>
         );
     }
@@ -26,29 +30,25 @@ const FielddaysTable = () => {
     // Optimize to only show link column for the current language.
     // This also eliminates a column.
     return (
-        <table className='table-fielddays'>
+        <table className={'table table-striped table-hover table-' + theme}>
             <thead>
                 <tr>
-                    <th>Date</th>
-                    <th><Emoji symbol="🇬🇧" /></th>
-                    <th><Emoji symbol="🇳🇱" /></th>
-                    <th>Name</th>
+                    <th>{getString('date')}</th>
+                    <th>{getString('name')}</th>
                     <th>POTA Locator</th>
                     <th>WW-FF Locator</th>
-                    <th>Bands</th>
+                    <th>{getString('bands')}</th>
                     <th>Mode</th>
                     <th>Transceiver</th>
-                    <th>Total unique QSO</th>
-                    <th>Antenna</th>
+                    <th>{getString('totalUniqueQSO')}</th>
+                    <th>{getString('antenna')}</th>
                 </tr>
             </thead>
             <tbody>
                 {fielddaysData.fielddays.map((fieldDay, index) => (
                     <tr key={index}>
-                        <td>{fieldDay.date}</td>
-                        <td>{generatePath(fieldDay.date, 'en')}</td>
-                        <td>{generatePath(fieldDay.date, 'nl')}</td>
-                        <td>{fieldDay.name}</td>
+                        <td>{generatePath(fieldDay.date, getLanguage(), fieldDay.date)}</td>
+                        <td>{generatePath(fieldDay.date, getLanguage(), fieldDay.name)}</td>
                         <td>{fieldDay['identifier-pota']}</td>
                         <td>{fieldDay['identifier-wwff']}</td>
                         <td>{fieldDay.bands}</td>

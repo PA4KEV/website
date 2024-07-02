@@ -4,8 +4,10 @@ const languageStrings = {
     en: {
         // Common
         and: 'and',
-        on: 'on',
         copy: 'copy',
+        date: 'date',
+        on: 'on',
+        name: 'name',
         // Titles
         japanese: 'Japanese',
         radio_amateur: 'Radio amateur',
@@ -23,10 +25,13 @@ const languageStrings = {
         portal: 'Portal',
         language: 'Language',
         // Radio
+        antenna: 'antenna',
+        bands: 'bands',
         equipment: 'Equipment',
         components: 'components',
         fielddays: 'Field days',
         nvisAntenna: 'NVIS Antenna',
+        totalUniqueQSO: 'total unique QSO',
         // Software
         code_pages: 'Code sections',
         code_pages_intro: 'Some notes and examples of code.',
@@ -37,8 +42,10 @@ const languageStrings = {
     nl: {
         // Common
         and: 'en',
-        on: 'op',
         copy: 'kopieer',
+        date: 'datum',
+        on: 'op',
+        name: 'naam',
         // Titles
         japanese: 'Japans',
         radio_amateur: 'Radiozendamateur',
@@ -56,10 +63,13 @@ const languageStrings = {
         portal: 'Portaal',
         language: 'Taal',
         // Radio
+        antenna: 'antenne',
+        bands: 'banden',
         equipment: 'Apparatuur',
         components: 'componenten',
         fielddays: 'Velddagen',
-        nvisAntenna: 'NVIS Antenne',
+        nvisAntenna: 'NVIS antenne',
+        totalUniqueQSO: 'totaal unieke QSO',
         // Software
         code_pages: 'Code secties',
         code_pages_intro: 'Notities en voorbeelden van code.',
