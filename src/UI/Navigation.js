@@ -34,7 +34,7 @@ const Navigation = () => {
                                 {getString('portal')}
                             </a>
                             <ul className="dropdown-menu">
-                                <li><Link reloadDocument to={currentLanguage + '/japan/'} className="dropdown-item">{getString('japanese')}</Link></li>
+                                <li><Link reloadDocument to={currentLanguage + '/japan/'} className="dropdown-item">{getString('japan')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link reloadDocument to={currentLanguage + '/radio/'} className="dropdown-item">{getString('radio_amateur')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>

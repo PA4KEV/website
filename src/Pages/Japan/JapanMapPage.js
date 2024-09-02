@@ -3,7 +3,7 @@ import JapanMap from './components/JapanMap';
 import Dropdown from './components/Dropdown';
 import { getString } from '../../Language/LanguageStrings'
 
-const Japan = () => {
+const JapanMapPage = () => {
     const [selectedColor, setSelectedColor] = useState('');
 
     const handleColorChange = (event) => {
@@ -25,4 +25,4 @@ const Japan = () => {
     )
 }
 
-export default Japan;
+export default JapanMapPage;

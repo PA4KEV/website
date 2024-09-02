@@ -9,6 +9,7 @@ const languageStrings = {
         on: 'on',
         name: 'name',
         // Titles
+        japan: 'Japan',
         japanese: 'Japanese',
         radio_amateur: 'Radio amateur',
         software: 'Software',
@@ -47,6 +48,7 @@ const languageStrings = {
         on: 'op',
         name: 'naam',
         // Titles
+        japan: 'Japan',
         japanese: 'Japans',
         radio_amateur: 'Radiozendamateur',
         software: 'Software',

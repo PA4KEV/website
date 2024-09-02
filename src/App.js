@@ -36,19 +36,23 @@ import Linux from './Pages/Linux/Linux';
 import Footer from './UI/Footer';
 
 import BasicPage from './Pages/BasicPage';
-import Japan from './Pages/Japan/Japan';
-import JapaneseMain from './Pages/Japan/JapaneseMain';
+
+import JapanMapPage from './Pages/Japan/JapanMapPage';
+import JapanMain from './Pages/Japan/JapanMain';
+import JapanesePage from './Pages/Japan/JapanesePage';
+
 import EquipmentPage from './Pages/Radio/equipmentPage';
 
 import { languages, getLanguage } from './Language/Language';
-import { elmRoutes } from './Routers';
+import { elmRoutes, japaneseRoutes } from './Routers';
 
 function App() {
   const language = getLanguage();
 
   const paths = {
-    'japan': <JapaneseMain />,
-    'japanMap': <Japan />,
+    'japan': <JapanMain />,
+    'japan/japanese': <JapanesePage />, // Needs an md_path
+    'japanMap': <JapanMapPage />,
     'radio': <RadioMain />,
     'software': <SoftwareMain />,
   };
@@ -102,11 +106,17 @@ function App() {
           <Route exact path='/en' element={<Home language={language} />}></Route>
           <Route exact path='/nl' element={<Home language={language} />}></Route>
 
-          {elmRoutes}
+          {/* Japan */}
+          {japaneseRoutes}
+
+          {/* Radio */}
+          {componentRoutes}
           {fieldDaysRoutes}
           {equipmentRoutes}
           {generatedRoutes}
 
+          {/* Software */}
+          {elmRoutes}
           <Route exact path='/software/dxp-development' element={<DXPDevelopment />}></Route>
           <Route exact path='/software/configuration-automation' element={<ConfigAutomation />}></Route>
           <Route exact path='/software/wifi-prototype' element={<WifiPrototype />}></Route>
