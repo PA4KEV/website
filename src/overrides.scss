@@ -10,6 +10,15 @@ $theme-colors: (
   "text-light": #2d0635,
   "link-dark": #5900ff,
   "link-light": #0400ff,
+  // Text highlight colours
+  "dark-c1": #eeaa00,
+  "dark-c2": #eeaaff,
+  "dark-c3": #ff6262,
+  "dark-dim1": #ababab,
+  "light-c1": #992299,
+  "light-c2": #446600,
+  "light-c3": #c70000,
+  "light-dim1": #787878,
 );
 
 // Import Bootstrap and its default variables
@@ -151,6 +160,53 @@ body.light {
     }
   }
 }
+
+.jsp {
+  // Dark theme.
+  &.dark {
+    &.c1 {
+      color: map-get($theme-colors, "dark-c1")
+    }
+    &.c2 {
+      color: map-get($theme-colors, "dark-c2")
+    }
+    &.c3 {
+      color: map-get($theme-colors, "dark-c3")
+    }
+    &.dim1 {
+      color: map-get($theme-colors, "dark-dim1");
+    }
+    &.s {
+      text-decoration: line-through;
+    }
+    &.u {
+      text-decoration: underline;
+    }
+  }
+
+  // Light theme.
+  &.light {
+    &.c1 {
+      color: map-get($theme-colors, "light-c1")
+    }
+    &.c2 {
+      color: map-get($theme-colors, "light-c2");
+    }
+    &.c3 {
+      color: map-get($theme-colors, "light-c3")
+    }
+    &.dim1 {
+      color: map-get($theme-colors, "light-dim1");
+    }
+    &.s {
+      text-decoration: line-through;
+    }
+    &.u {
+      text-decoration: underline;
+    }
+  }
+}
+
 
 // Core variables and mixins
 // @import "variables";
