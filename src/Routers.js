@@ -1,8 +1,21 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import { languages } from './Language/Language';
+import JapanesePage from './Pages/Japan/JapanesePage';
 import ElmPage from './Pages/Software/elm/ElmPage';
 
+
+// Japan
+export const japaneseRoutes = languages.map(lang => {
+    const pages = ['dake-vs-shika',];
+    return pages.map(page => {
+      const path = `/${lang}/japan/japanese/${page}`;
+      const mdPath = `Japan/Japanese/${lang}/${page}.md`;
+      return <Route key={`${lang}-${page}`} exact path={path} element={<JapanesePage mdPath={mdPath} />} />;
+    });
+  }).flat();
+
+// Software
 export const elmRoutes = languages.map(lang => {
     // Main page.
     const main = <Route key={`${lang}-elm-main`} exact path={`/${lang}/software/elm/`} element={<ElmPage mdPath={`Software/elm/${lang}/main.md`} />} />
@@ -17,4 +30,3 @@ export const elmRoutes = languages.map(lang => {
 
     return [main, ...entries];
 }).flat();
-

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Emoji from '../../../Content/Emoji';
 import fielddaysData from './fielddays.json';
 import { useTheme } from '../../../ThemeContext';
 import { getLanguage } from '../../../Language/Language';
