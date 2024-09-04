@@ -10,3 +10,7 @@ The country of Japan and the Japanese language has facinated me for many years n
 These pages contain my notes on learning the language.
 
 * [だけ vs しか](./japanese/dake-vs-shika)
+
+#### Particles
+
+* [は contrast particle](./japanese/contrast-particle)
