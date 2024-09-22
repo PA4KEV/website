@@ -5,12 +5,20 @@ The country of Japan and the Japanese language has facinated me for many years n
 
 ---
 
-### Japanese language notes
+## Japanese language notes
 
 These pages contain my notes on learning the language.
 
-* [だけ vs しか](./japanese/dake-vs-shika)
+### Particles (助詞、じょし)
 
-#### Particles
+* [Particles](./japanese/particles)
+
+#### Binding particles (係助詞、かかりじょし)
 
 * [は contrast particle](./japanese/contrast-particle)
+
+#### Adverbial particles (副助詞、ふくじょし)
+
+* [だけ vs しか](./japanese/dake-vs-shika)
+
+* [とか vs たり vs し｀](./japanese/toka-tari-shi)

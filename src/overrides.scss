@@ -207,6 +207,11 @@ body.light {
   }
 }
 
+.furigana {
+  // Do not display furigana yet until feature is complete.
+  display: none;
+}
+
 
 // Core variables and mixins
 // @import "variables";

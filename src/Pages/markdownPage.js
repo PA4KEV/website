@@ -40,6 +40,10 @@ const Jps = ({ text, colour, underline, strikethrough }) => {
     return (<span className={classBuilder}>{text}</span>);
 }
 
+const Furigana = ({ kanji, kana }) => {
+    return (<span>{kanji}<span className="furigana">{kana}</span></span>)
+}
+
 const MyCodeBlock = ({ children, className }) => {
     const { theme } = useTheme();
 
@@ -107,6 +111,9 @@ const MarkdownPage = ({ md }) => {
                     },
                     Jps: {
                         component: Jps
+                    },
+                    Furigana: {
+                        component: Furigana
                     }
                 },
             }}>
