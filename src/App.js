@@ -44,7 +44,7 @@ import JapanesePage from './Pages/Japan/JapanesePage';
 import EquipmentPage from './Pages/Radio/equipmentPage';
 
 import { languages, getLanguage } from './Language/Language';
-import { elmRoutes, japaneseRoutes } from './Routers';
+import { japaneseRoutes, programmingLanguageRoutes } from './Routers';
 
 function App() {
   const language = getLanguage();
@@ -57,12 +57,22 @@ function App() {
     'software': <SoftwareMain />,
   };
 
+
+
   const fieldDaysRoutes = languages.map(lang => {
     const dates = ['20231111', '20231230', '20240121'];
     return dates.map(date => {
       const path = `/${lang}/radio/fielddays/${date}`;
       const mdPath = `Radio/fielddays/${lang}/${date}.md`;
       return <Route key={`${lang}-${date}`} exact path={path} element={<Fieldday mdPath={mdPath} />} />;
+    });
+  }).flat();
+
+  const componentRoutes = languages.map(lang => {
+    const components = ['diode'];
+    return components.map(component => {
+      const path = `/${lang}/radio/component/${component}`;
+      return <Route key={`${lang}-${component}`} exact path={path} element={<Component component={component} />} />;
     });
   }).flat();
 
@@ -116,7 +126,8 @@ function App() {
           {generatedRoutes}
 
           {/* Software */}
-          {elmRoutes}
+          {programmingLanguageRoutes}
+
           <Route exact path='/software/dxp-development' element={<DXPDevelopment />}></Route>
           <Route exact path='/software/configuration-automation' element={<ConfigAutomation />}></Route>
           <Route exact path='/software/wifi-prototype' element={<WifiPrototype />}></Route>

@@ -1,4 +1,4 @@
-### Elm
+## Elm
 
 * [Formatting](./formatting)
 * [Maybe.andThen](./maybeandthen)

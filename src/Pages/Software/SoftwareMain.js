@@ -15,7 +15,10 @@ const SoftwareMain = () => {
             <hr />
             <h2>{getString('code_pages')}</h2>
             <p>{getString('code_pages_intro')}</p>
-            <a href={'/' + language + '/software/elm/'}>Elm</a>
+            <ul>
+            <li><a href={'/' + language + '/software/csharp/'}>C#</a></li>
+            <li><a href={'/' + language + '/software/elm/'}>Elm</a></li>
+            </ul>
             <hr />
 
             <h2>{getString('education')}</h2>
