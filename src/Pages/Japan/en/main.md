@@ -9,6 +9,9 @@ The country of Japan and the Japanese language has facinated me for many years n
 
 These pages contain my notes on learning the language.
 
+* [Cheat sheet](./japanese/cheat-sheet)
+* [ために、ように、のに](./japanese/tameni-youni-noni)
+
 ### Particles (助詞、じょし)
 
 * [Particles](./japanese/particles)
@@ -22,3 +25,4 @@ These pages contain my notes on learning the language.
 * [だけ vs しか](./japanese/dake-vs-shika)
 
 * [とか vs たり vs し｀](./japanese/toka-tari-shi)
+
