@@ -98,8 +98,8 @@ Somewhere <Jps colour="c1" text="へ"/>の行き方。The way to get to somewher
 * Months:
   * <Furigana kanji="一月" kana="いちがつ"/><Jps colour="c1" text="に"/>、in January.
 * Note, this is not used always, like:
-  * 今日: <Jps strikethrough="true" text="今日に"/>
-  * 明日: <Jps strikethrough="true" text="明日に"/>
+  * 今日: <Jps colour="c3" strikethrough="true" text="今日に"/>
+  * 明日: <Jps colour="c3" strikethrough="true" text="明日に"/>
 
 一週間<Jps colour="c1" text="に"/>二回ジムに行く。Twice a week, I go to the gym.
 
