@@ -9,7 +9,7 @@ import ElmPage from './Pages/Software/elm/ElmPage';
 
 // Japan
 export const japaneseRoutes = languages.map(lang => {
-    const pages = ['cheat-sheet', 'contrast-particle', 'dake-vs-shika', 'particles', 'tameni-youni-noni', 'toka-tari-shi'];
+    const pages = ['cheat-sheet', 'contrast-particle', 'dake-vs-shika', 'if-when', 'particles', 'tameni-youni-noni', 'toka-tari-shi', 'verbs'];
     return pages.map(page => {
       const path = `/${lang}/japan/japanese/${page}`;
       const mdPath = `Japan/Japanese/${lang}/${page}.md`;
