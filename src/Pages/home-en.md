@@ -11,10 +11,10 @@ My interests are:
 *   Software development
 *   Japanese language
 *   Amateur radio
+*   Scale modelling
 *   Linux
 *   Electronics
 *   Woodworking
 *   Yoga
-*   Synthesize music
 
 I am based in Helmond, the Netherlands.

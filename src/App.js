@@ -43,8 +43,10 @@ import JapanesePage from './Pages/Japan/JapanesePage';
 
 import EquipmentPage from './Pages/Radio/equipmentPage';
 
+import ScaleModelMain from './Pages/ScaleModel/ScaleModelMain'
+
 import { languages, getLanguage } from './Language/Language';
-import { japaneseRoutes, programmingLanguageRoutes } from './Routers';
+import { japaneseRoutes, scaleModelBlogRoutes, programmingLanguageRoutes } from './Routers';
 
 function App() {
   const language = getLanguage();
@@ -54,6 +56,7 @@ function App() {
     'japan/japanese': <JapanesePage />, // Needs an md_path
     'japanMap': <JapanMapPage />,
     'radio': <RadioMain />,
+    'scalemodel': <ScaleModelMain />,
     'software': <SoftwareMain />,
   };
 
@@ -124,6 +127,9 @@ function App() {
           {fieldDaysRoutes}
           {equipmentRoutes}
           {generatedRoutes}
+
+          {/* Scale model */}
+          {scaleModelBlogRoutes}
 
           {/* Software */}
           {programmingLanguageRoutes}

@@ -2,6 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import { languages } from './Language/Language';
 import JapanesePage from './Pages/Japan/JapanesePage';
+import BlogPage from './Pages/ScaleModel/BlogPage';
 import CSharpPage from './Pages/Software/csharp/CSharpPage';
 import ElmPage from './Pages/Software/elm/ElmPage';
 
@@ -15,6 +16,16 @@ export const japaneseRoutes = languages.map(lang => {
       return <Route key={`${lang}-${page}`} exact path={path} element={<JapanesePage mdPath={mdPath} />} />;
     });
   }).flat();
+
+// Scale model
+export const scaleModelBlogRoutes = languages.map(lang => {
+  const pages = ['smc-2025-rx-178-mk-2'];
+  return pages.map(page => {
+    const path = `/${lang}/scalemodel/blog/${page}`;
+    const mdPath = `ScaleModel/blog/${lang}/${page}.md`;
+    return <Route key={`${lang}-${page}`} exact path={path} element={<BlogPage mdPath={mdPath} />} />;
+  });
+}).flat();
 
 // Software
 export const programmingLanguageRoutes = languages.map(lang => {

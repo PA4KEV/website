@@ -11,10 +11,10 @@ Mijn andere interesses:
 *   Software ontwikkeling
 *   Japanse taal
 *   Radiozendamateurisme
+*   Schaalmodellen
 *   Linux
 *   Electronica
 *   Houtbewerking
 *   Yoga
-*   Synthesizer muziek
 
 Ik woon in Helmond.

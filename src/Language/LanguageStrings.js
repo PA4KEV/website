@@ -33,6 +33,8 @@ const languageStrings = {
         fielddays: 'Field days',
         nvisAntenna: 'NVIS Antenna',
         totalUniqueQSO: 'total unique QSO',
+        // Scale Model
+        scalemodel: 'Scale model',
         // Software
         code_pages: 'Code sections',
         code_pages_intro: 'Some notes and examples of code.',
@@ -72,6 +74,8 @@ const languageStrings = {
         fielddays: 'Velddagen',
         nvisAntenna: 'NVIS antenne',
         totalUniqueQSO: 'totaal unieke QSO',
+        // Scale Model
+        scalemodel: 'Schaalmodel',
         // Software
         code_pages: 'Code secties',
         code_pages_intro: 'Notities en voorbeelden van code.',

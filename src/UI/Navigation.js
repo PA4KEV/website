@@ -37,6 +37,7 @@ const Navigation = () => {
                                 <li><Link reloadDocument to={currentLanguage + '/japan/'} className="dropdown-item">{getString('japan')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link reloadDocument to={currentLanguage + '/radio/'} className="dropdown-item">{getString('radio_amateur')}</Link></li>
+                                <li className="hidden"><Link reloadDocument to={currentLanguage + '/scalemodel/'} className="dropdown-item">{getString('scalemodel')}</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link reloadDocument to={currentLanguage + '/software/'} className="dropdown-item">{getString('software')}</Link></li>
                             </ul>
