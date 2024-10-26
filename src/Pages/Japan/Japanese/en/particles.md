@@ -2,6 +2,17 @@
 
 ---
 
+1. [は、が](#は、が)
+2. [を](#を)
+3. [に、へ](#に、へ)
+4. [まで](#まで)
+5. [で](#で)
+6. [も](#も)
+7. [の](#の)
+8. [関係する動画](#関係する動画)
+
+---
+
 #### は、が
 
 それ<Jps colour="c1" text="は"/>僕の<Furigana kanji="絵筆" kana="えふで"/>です。 That is <Jps colour="c2" text="my paint brush"/>. (<Jps colour="c1" text="Topic marker"/>)
@@ -200,6 +211,10 @@ contrast:
 #### の
 
 はしる<Jps colour="c1" text="の"/>が<Furigana kanji="嫌い" kana="きらい"/>です。I hate running.
+
+の can also be used as substitute.
+
+* あそこでタバコをすっている<Jps colour="c1" text="の"/>が友達です。　(人)
 
 ---
 
