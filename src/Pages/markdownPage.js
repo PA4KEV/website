@@ -13,6 +13,14 @@ const MyParagraph = ({ children, ...props }) => {
     return (<h1 {...props}>{children}</h1>);
 }
 
+const Myh4 = ({ children }) => {
+    return (<h4 id={children}>{children}</h4>);
+}
+
+const Myh5 = ({ children }) => {
+    return (<h5 id={children}>{children}</h5>);
+}
+
 const MyImage = ({ src, alt }) => {
     return (
         <picture>
@@ -102,6 +110,12 @@ const MarkdownPage = ({ md }) => {
                         props: {
                             className: 'text-primary',
                         },
+                    },
+                    h4: {
+                        component: Myh4
+                    },
+                    h5: {
+                        component: Myh5
                     },
                     img: {
                         component: MyImage
