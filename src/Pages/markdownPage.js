@@ -49,7 +49,7 @@ const Jps = ({ text, colour, underline, strikethrough }) => {
 }
 
 const Furigana = ({ kanji, kana }) => {
-    return (<span>{kanji}<span className="furigana">{kana}</span></span>)
+    return (<span title={kana}>{kanji}<span className="furigana">{kana}</span></span>)
 }
 
 const MyCodeBlock = ({ children, className }) => {
