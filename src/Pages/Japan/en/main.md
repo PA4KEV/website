@@ -11,7 +11,7 @@ These pages contain my notes on learning the language.
 
 * [Cheat sheet](./japanese/cheat-sheet)
 * [ために、ように、のに](./japanese/tameni-youni-noni)
-* [たら、　と、　ば、　なら](./japanese/if-when)
+* [と、たら、ば、なら](./japanese/if-when)
 
 ### Particles (助詞、じょし)
 

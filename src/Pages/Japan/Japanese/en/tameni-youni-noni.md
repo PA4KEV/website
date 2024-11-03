@@ -2,16 +2,17 @@
 
 ---
 
-### 文法
+1. [のに](#のに)
 
 ---
+
+### 文法
 
 * V-る＋<Jps colour="c1" text="ために"/>
 * N＋の＋<Jps colour="c1" text="ために"/>＋V
 * Subject は V1＋<Jps colour="c1" text="ために"/> V2
   * Subject does Verb 2 <Jps colour="c1" text="in order to"/> Verb 1
 
----
 
 * V-る＋<Jps colour="c1" text="ように"/>
 * V-ない＋<Jps colour="c1" text="ように"/>
@@ -74,15 +75,26 @@
 
 #### のに
 
-Means, "in order to ~".
+Means, "in order to ~", "to".
 
-この絵を描く<Jps colour="c1" text="のに"/>, 1か月かかります。　It took one month to draw this picture. (lit. <Jps colour="c1" text="In order to"/> draw this picture, it took 1 month.)
+It is often used with these verb combinations: 
 
-この<Furigana kanji="洗剤" kana="せんざい"/>は、セーターを洗う<Jps colour="c1" text="のに"/>使います。　This detergent is used <Jps colour="c1" text="in order to"/> wash sweaters.
+V+<Jps colour="c1" text="のに"/>+使う　V+<Jps colour="c1" text="のに"/>+役に立つ　V+<Jps colour="c1" text="のに"/>+いい　V+<Jps colour="c1" text="のに"/>+便利　V+<Jps colour="c1" text="のに"/>+<Furigana kanji="かかる" kana="takes time"/>　V+<Jps colour="c1" text="のに"/>+必要　　
 
-スマートフォンは音楽を聞く<Jps colour="c1" text="のに"/>便利です。　Smartphone are useful <Jps colour="c1" text="to"/> listen to music.
 
-話している<Jps colour="c1" text="のに"/>、<Furigana kanji="後輩" kana="こうはい"/>に寝<Jps colour="c2" text="られた"/>。　My kohai fell asleep (I am upset) *<Jps colour="c2" text="passive form"/>*, <Jps colour="c1" text="even though"/> I was talking.
+* この<Furigana kanji="洗剤" kana="せんざい"/>は、セーターを洗う<Jps colour="c1" text="のに"/>使います。　This detergent is used <Jps colour="c1" text="in order to"/> wash sweaters.
+
+* これは紙を切る<Jps colour="c1" text="のに"/>使うはさみです。　These scissors are used <Jps colour="c1" text="to"/> cut paper.
+
+* スマートフォンは音楽を聞く<Jps colour="c1" text="のに"/>便利です。　Smartphone are useful <Jps colour="c1" text="to"/> listen to music.
+
+* 会議を<Furigana kanji="行" kana="おこな"/>う<Jps colour="c1" text="のに"/>ズームを使います。　I use Zoom <Jps colour="c1" text="to"/> hold a meeting.
+
+* お弁当を温める<Jps colour="c1" text="のに"/>電子レンジを使います。　I use a microwave <Jps colour="c1" text="to"/> heat up a bento meal.
+
+* この絵を描く<Jps colour="c1" text="のに"/>, 1か月かかります。　It took one month to draw this picture. (lit. <Jps colour="c1" text="In order to"/> draw this picture, it took 1 month.)
+
+* 話している<Jps colour="c1" text="のに"/>、<Furigana kanji="後輩" kana="こうはい"/>に寝<Jps colour="c2" text="られた"/>。　My kohai fell asleep (I am upset) *<Jps colour="c2" text="passive form"/>*, <Jps colour="c1" text="even though"/> I was talking.
 
 ---
 
