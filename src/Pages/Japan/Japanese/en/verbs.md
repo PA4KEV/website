@@ -127,13 +127,13 @@ Not always is the passive form offensive or negative, its also used to speak fro
 * 誕生日を聞<Jps colour="c1" text="かれた"/>。　I was asked for my birthday. (...asked me for my birthday)
 * 山田さんに誕生日を聞<Jps colour="c1" text="かれた"/>。　Yamada-san asked me for my birthday.
 
-* 友達に「写真を撮って」って<Furigana kanji="頼" kana="たの"/><Jps colour="c1" text="まれた"/>。My friend asked me "please take a picture".
+* 友達に「写真を撮って」って<Furigana kanji="頼" kana="たの"/><Jps colour="c1" text="まれた"/>。　My friend asked me "please take a picture".
 * 友達に写真を撮るように<Furigana kanji="頼" kana="たの"/>まれました。　My friend asked me to take a picture.
 
 Do not use;
 * 友達は私に「写真を撮って」って<Furigana kanji="頼" kana="たの"/>んだ。　*It sounds pretty unnatural.*
 
-* この家<Jps colour="c2" text="は"/>1987年に<Furigana kanji="建" kana="た"/>てられた。　This house was built　in 1987.
+* この家<Jps colour="c2" text="は"/>1987年に<Furigana kanji="建" kana="た"/>てられた。　This house was built in 1987.
 
 Note that you do not use the <Jps colour="c2" text="を"/> particle here, you are not annoyed that this house was built.
 
@@ -180,8 +180,11 @@ Irregular verbs:
 * ~する　>　される　*passive form*
  * ネタバレされた。　Someone spoiled (the story) (and I am upset).
  * <Furigana kanji="浮気" kana="うわき"/>された。　Someone cheated on me (and I am upset).
+
+
 * ~する　>　できる　*potential form*
  * 料理できる。　I can cook.
+
 
 * ~<Furigana kanji="来" kana="く"/>る　>　<Furigana kanji="来" kana="こ"/>られる　*passive form*
 * ~<Furigana kanji="来" kana="く"/>る　>　<Furigana kanji="来" kana="こ"/>られる　*potential form*
