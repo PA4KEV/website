@@ -14,10 +14,12 @@ $theme-colors: (
   "dark-c1": #eeaa00,
   "dark-c2": #eeaaff,
   "dark-c3": #ff6262,
+  "dark-kanji": #8448bd,
   "dark-dim1": #ababab,
   "light-c1": #992299,
   "light-c2": #446600,
   "light-c3": #c70000,
+  "light-kanji": #3a2180,
   "light-dim1": #787878,
 );
 
@@ -205,6 +207,14 @@ body.light {
       text-decoration: underline;
     }
   }
+}
+
+.dark-kanji {
+  color: map-get($theme-colors, "dark-kanji") !important;
+}
+
+.light-kanji {
+  color: map-get($theme-colors, "light-kanji") !important;
 }
 
 li.hidden {

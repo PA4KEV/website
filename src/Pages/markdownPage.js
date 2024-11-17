@@ -53,7 +53,8 @@ function showFurigana (kana) {
 }
 
 const Furigana = ({ kanji, kana }) => {
-    return (<span className="furigana" title={kana} onClick={() => showFurigana(kana)}>{kanji}</span>)
+    const { theme } = useTheme();
+    return (<span className={"furigana " + theme + "-kanji" } title={kana} onClick={() => showFurigana(kana)}>{kanji}</span>)
 }
 
 const MyCodeBlock = ({ children, className }) => {
