@@ -6,7 +6,7 @@
 2. [たら - when / if > (then)](#たら)
 3. [なら - when / if > (first)](#なら)
 4. [ば　 - if](#ば)
-5. [もし - empdasis on: if](#もし)
+5. [もし - emphasis on: if](#もし)
 
 ---
 

@@ -37,6 +37,8 @@ Volitional verbs describe actions performed with intent or will by the subject. 
 
 Here, reading is an intentional action by the subject.
 
+---
+
 #### 非意志動詞
 ##### Non-Volitional Verbs
 
@@ -53,39 +55,45 @@ Non-volitional verbs describe actions or states that occur without the subject's
 * 雨が降る。- "It rains."
 * In this case, the rain falls naturally without a person’s will or intent.
 
+---
 
 #### 他動詞
-##### Transitive Verbs
+##### Transitive Verbs　たどうし
 
 Transitive verbs act upon a direct object and require one to express what the action affects directly. Transitive verbs are often marked by the particle を (o), which indicates the object of the action.
 
-*Examples:*
 
 * 開ける (あける) - "to open" (something)
 * 閉める (しめる) - "to close" (something)
 * 作る (つくる) - "to make"
 
-*Example sentence:*
-
 * ドアを開ける。 - "I open the door."
-* Here, ドア is the object directly affected by the action 開ける (akeru).
+* Here, ドア is the object directly affected by the action 開ける.
 
 
 #### 自動詞
-##### Intransitive Verbs
+##### Intransitive Verbs　じどうし
 
-Intransitive verbs do not take a direct object. The action occurs without directly impacting another entity, or the subject itself performs or experiences the action. They are often paired with particles like が (ga) to indicate the subject.
-
-*Examples:*
+Intransitive verbs do not take a direct object. The action occurs without directly impacting another entity, or the subject itself performs or experiences the action. They are often paired with particles like <Jps colour="c2" text="が"/> to indicate the subject.
 
 * 開く (あく) - "to open" (by itself)
 * 閉まる (しまる) - "to close" (by itself)
 * 増える (ふえる) - "to increase"
 
-*Example sentence:*
-
 * ドアが開く。- "The door opens."
 * In this case, 開く shows the door opening without anyone performing the action.
+
+##### List of verbs showing equivalents
+
+| 他動詞                                  | 自動詞                                  |
+| ------------------------------------------------------------ | -----------------------------------------------------------|
+| <Furigana kanji="開" kana="あ"/>ける - "to open" (something)  | <Furigana kanji="開" kana="あ"/>く - "to open" (by itself)|
+| <Furigana kanji="閉" kana="し"/>める - "to close" (something) | <Furigana kanji="閉" kana="し"/>まる - "to close" (by itself)|
+| <Furigana kanji="消" kana="け"/>す - "to extinguish" (something) | <Furigana kanji="消" kana="き"/>える - "to extinguish" (by itself)|
+| <Furigana kanji="止" kana="と"/>める - "to stop" (something) | <Furigana kanji="止" kana="と"/>まる - "to stop" (by itself)|
+| <Furigana kanji="壊" kana="こわ"/>す - "to break" (something) | <Furigana kanji="壊" kana="こわ"/>れる - "to break" (by itself)|
+| <Furigana kanji="焼" kana="や"/>く - "to burn", "to bake" (something) | <Furigana kanji="焼" kana="や"/>ける - "to burn", "to bake" (by itself)|
+| かける - "to lock" (something) | かかる - "to lock" (by itself)|
 
 ---
 
@@ -181,6 +189,8 @@ Irregular verbs:
 ###### 関係する動画
 
 * [PASSIVE form┃-られた (rareta)](https://www.youtube.com/watch?v=QPOA3OYFnj4) by: [Japanese Ammo with Misa](https://www.youtube.com/@JapaneseAmmowithMisa)
+
+---
 
 #### 使役形
 ##### Causative form

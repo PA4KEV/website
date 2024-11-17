@@ -48,8 +48,12 @@ const Jps = ({ text, colour, underline, strikethrough }) => {
     return (<span className={classBuilder}>{text}</span>);
 }
 
+function showFurigana (kana) {
+    alert(kana);
+}
+
 const Furigana = ({ kanji, kana }) => {
-    return (<span title={kana}>{kanji}<span className="furigana">{kana}</span></span>)
+    return (<span className="furigana" title={kana} onClick={() => showFurigana(kana)}>{kanji}</span>)
 }
 
 const MyCodeBlock = ({ children, className }) => {
@@ -80,6 +84,12 @@ const MyCodeBlock = ({ children, className }) => {
             {codeOutput}
         </div>
     );
+}
+
+const MyTable = ({ children }) => {
+    return (
+        <table className="table">{children}</table>
+    )
 }
 
 // TODO 1: Create error if given markdown file does not exist.
@@ -122,6 +132,9 @@ const MarkdownPage = ({ md }) => {
                     },
                     code: {
                         component: MyCodeBlock
+                    },
+                    table: {
+                        component: MyTable
                     },
                     Jps: {
                         component: Jps
