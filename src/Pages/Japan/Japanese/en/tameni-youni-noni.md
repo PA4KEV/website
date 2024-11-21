@@ -69,7 +69,8 @@
 
 ---
 
-* 友達に写真を撮る<Jps colour="c1" text="ように"/><Furigana kanji="頼" kana="たの"/>みました。　I asked my friend to take a picture. lit. <Jps colour="c1" text="In order to"/> let friend take picture, I asked favour.
+* 友達に写真を撮る<Jps colour="c1" text="ように"/><Furigana kanji="頼" kana="たの"/>みました。　
+* I asked my friend to take a picture. lit. <Jps colour="c1" text="In order to"/> let friend take picture, I asked favour.
 
 ---
 
@@ -82,19 +83,26 @@ It is often used with these verb combinations:
 V+<Jps colour="c1" text="のに"/>+使う　V+<Jps colour="c1" text="のに"/>+役に立つ　V+<Jps colour="c1" text="のに"/>+いい　V+<Jps colour="c1" text="のに"/>+便利　V+<Jps colour="c1" text="のに"/>+<Furigana kanji="かかる" kana="takes time"/>　V+<Jps colour="c1" text="のに"/>+必要　　
 
 
-* この<Furigana kanji="洗剤" kana="せんざい"/>は、セーターを洗う<Jps colour="c1" text="のに"/>使います。　This detergent is used <Jps colour="c1" text="in order to"/> wash sweaters.
+* この<Furigana kanji="洗剤" kana="せんざい"/>は、セーターを洗う<Jps colour="c1" text="のに"/>使います。　
+* This detergent is used <Jps colour="c1" text="in order to"/> wash sweaters.
 
-* これは紙を切る<Jps colour="c1" text="のに"/>使うはさみです。　These scissors are used <Jps colour="c1" text="to"/> cut paper.
+* これは紙を切る<Jps colour="c1" text="のに"/>使うはさみです。　
+* These scissors are used <Jps colour="c1" text="to"/> cut paper.
 
-* スマートフォンは音楽を聞く<Jps colour="c1" text="のに"/>便利です。　Smartphone are useful <Jps colour="c1" text="to"/> listen to music.
+* スマートフォンは音楽を聞く<Jps colour="c1" text="のに"/>便利です。　
+* Smartphone are useful <Jps colour="c1" text="to"/> listen to music.
 
-* 会議を<Furigana kanji="行" kana="おこな"/>う<Jps colour="c1" text="のに"/>ズームを使います。　I use Zoom <Jps colour="c1" text="to"/> hold a meeting.
+* 会議を<Furigana kanji="行" kana="おこな"/>う<Jps colour="c1" text="のに"/>ズームを使います。　
+* I use Zoom <Jps colour="c1" text="to"/> hold a meeting.
 
-* お弁当を温める<Jps colour="c1" text="のに"/>電子レンジを使います。　I use a microwave <Jps colour="c1" text="to"/> heat up a bento meal.
+* お弁当を温める<Jps colour="c1" text="のに"/>電子レンジを使います。　
+* I use a microwave <Jps colour="c1" text="to"/> heat up a bento meal.
 
-* この絵を描く<Jps colour="c1" text="のに"/>, 1か月かかります。　It took one month to draw this picture. (lit. <Jps colour="c1" text="In order to"/> draw this picture, it took 1 month.)
+* この絵を描く<Jps colour="c1" text="のに"/>, 1か月かかります。　
+* It took one month to draw this picture. (lit. <Jps colour="c1" text="In order to"/> draw this picture, it took 1 month.)
 
-* 話している<Jps colour="c1" text="のに"/>、<Furigana kanji="後輩" kana="こうはい"/>に寝<Jps colour="c2" text="られた"/>。　My kohai fell asleep (I am upset) *<Jps colour="c2" text="passive form"/>*, <Jps colour="c1" text="even though"/> I was talking.
+* 話している<Jps colour="c1" text="のに"/>、<Furigana kanji="後輩" kana="こうはい"/>に寝<Jps colour="c2" text="られた"/>。　
+* My kohai fell asleep (I am upset) *<Jps colour="c2" text="passive form"/>*, <Jps colour="c1" text="even though"/> I was talking.
 
 ---
 

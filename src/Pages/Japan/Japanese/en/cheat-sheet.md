@@ -6,7 +6,8 @@ This is a collection of grammar that I use to glimpse over in order to remember 
 
 ## 文法
 
-* これは紙を切る[のに](./tameni-youni-noni#のに)使うはさみです。　These scissors are used <Jps colour="c1" text="to"/> cut paper.
+* これは紙を切る[のに](./tameni-youni-noni#のに)使うはさみです。　
+* These scissors are used <Jps colour="c1" text="to"/> cut paper.
 
 ---
 

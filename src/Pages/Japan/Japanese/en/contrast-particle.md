@@ -2,9 +2,8 @@
 
 The は particle can be used to indicate contrast.
 
-私<Jps colour="c1" text="は"/>背が低いですが、ケビン<Jps colour="c2" text="は"/>背が高いです。
-
-"I'm short, <Jps colour="c2" text="but"/> Kevin is tall."
+* 私<Jps colour="c1" text="は"/>背が低いですが、ケビン<Jps colour="c2" text="は"/>背が高いです。
+* I'm short, <Jps colour="c2" text="but"/> Kevin is tall.
 
 The <Jps colour="c1" text="first は particle"/> is the <Jps colour="c1" text="topic marker"/>, the <Jps colour="c2" text="second は particle"/> is the <Jps colour="c2" text="contrast particle"/>.
 
@@ -12,11 +11,11 @@ The <Jps colour="c1" text="first は particle"/> is the <Jps colour="c1" text="t
 
 <Jps colour="dim1" text="例文"/>
 
-僕<Jps colour="c1" text="は"/>イカ<Jps colour="c2" text="は"/>すきだけど、タコ<Jps colour="c2" text="は"/>好きじゃない。
+* 僕<Jps colour="c1" text="は"/>イカ<Jps colour="c2" text="は"/>すきだけど、タコ<Jps colour="c2" text="は"/>好きじゃない。
+* I like squid, <Jps colour="c2" text="but"/> I don't like octopus.
 
-"I like squid, <Jps colour="c2" text="but"/> I don't like octopus."
-
-* ドイツ語が話せません。でも、オランダ語<Jps colour="c1" text="は"/>話せます。　I don't speak German, <Jps colour="c1" text="but"/> I can speak Dutch.
+* ドイツ語が話せません。でも、オランダ語<Jps colour="c1" text="は"/>話せます。　
+* I don't speak German, <Jps colour="c1" text="but"/> I can speak Dutch.
   * オランダ語<Jps colour="c1" text="なら"/>話せます。　(Shorter reply)
 
 
