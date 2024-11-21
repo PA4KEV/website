@@ -10,7 +10,7 @@ const JapanMain = () => {
     return (
         <article className="main-page">
             <h1 id="list-intro" className="text-primary">{getString('japan')} <Emoji symbol="🇯🇵" /></h1>
-            <MarkdownPage md={'Japan/' + language + '/main.md'} />            
+            <MarkdownPage md={'Japan/' + language + '/main.md'} />
         </article>
     )
 }
