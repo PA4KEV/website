@@ -30,6 +30,9 @@ yarn-error.log*
 elm-stuff
 repl-temp-*
 
+# No need to push public files to repository
+/public
+
 # this file will be built.
 */michelaben/index.js
 
