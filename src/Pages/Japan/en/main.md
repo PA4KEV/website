@@ -10,6 +10,8 @@ The country of Japan and the Japanese language has facinated me for many years n
 These pages contain my notes on learning the language.
 
 * [Cheat sheet](./japanese/cheat-sheet)
+* [Expressions](./japanese/expressions)
+
 * [ために、ように、のに](./japanese/tameni-youni-noni)
 * [と、たら、ば、なら](./japanese/if-when)
 * [けど、けれど、けれども、のに](./japanese/but)
