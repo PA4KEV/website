@@ -14,6 +14,10 @@ These pages contain my notes on learning the language.
 * [と、たら、ば、なら](./japanese/if-when)
 * [けど、けれど、けれども、のに](./japanese/but)
 
+### て-forms
+
+* [ておく](./japanese/te-oku)
+
 ### Particles (助詞、じょし)
 
 * [Particles](./japanese/particles)
