@@ -21,6 +21,9 @@ Notes on some common expressions in Japanese.
 
 ---
 
+* <Furigana kanji="自己紹介" kana="じこしょうかい"/>をします。
+* This is a self-introduction, said when people explain who they are, usually to a group.
+
 **Image source:**
 
 * [irasutoya.com](https://www.irasutoya.com/)

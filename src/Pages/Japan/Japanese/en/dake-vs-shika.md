@@ -29,7 +29,8 @@ A good way to remember this, is to instead translate <Jps colour="c1" text="し�
 
 You cannot use しか at the end of a sentence. You can do so with だけ.
 
-<Jps strikethrough=true text="私しか"/>？　私だけ？
+* <Jps strikethrough=true text="私しか"/>？　
+* 私だけ？
 
 好きなの本は『ロード・オブ・ザ・リング』<Jps colour="c1" text="だけ"/>。
 
@@ -43,9 +44,13 @@ But you can use しか at the end by adding a negative form.
 
 <Jps colour="dim1" text="例文"/>
 
-お肉はあるけど卵がひとつ<Jps colour="c2" text="しか"/><Jps colour="c2" underline=true text="ない"/>からあしたね。
+* お肉はあるけど卵がひとつ<Jps colour="c2" text="しか"/><Jps colour="c2" underline=true text="ない"/>からあしたね。
+* I have some meat but <Jps colour="c2" text="only"/> one egg, so maybe tomorrow.
 
-"I have some meat but <Jps colour="c2" text="only"/> one egg, so maybe tomorrow."
+---
+
+* このpodcastは聞く<Jps colour="c1" text="だけ"/>じゃありません！
+* You do not <Jps colour="c1" text="only"/> listen to this podcast! *(Because you can also do other things)*
 
 ---
 

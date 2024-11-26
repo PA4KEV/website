@@ -31,6 +31,8 @@ Volitional verbs describe actions performed with intent or will by the subject. 
 * 食べる (たべる) - "to eat"
 * 行く (いく) - "to go"
 * 読む (よむ) - "to read"
+* 歌う (うたう) - "to sing"
+* 出かける (でかける) - "to go out"
 
 *Example sentence:*
 
@@ -50,6 +52,9 @@ Non-volitional verbs describe actions or states that occur without the subject's
 * 降る (ふる) - "to fall" (as in rain)
 * 驚く (おどろく) - "to be surprised"
 * 眠る (ねむる) - "to sleep" (natural occurrence of sleepiness)
+* 晴れる (はれる) -"to be sunny" 
+* 分かる (わｋる) - "to understand"
+* 成功する (せいこうする) - "to succeed"
 
 *Example sentence:*
 
