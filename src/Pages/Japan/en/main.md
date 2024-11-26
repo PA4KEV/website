@@ -13,7 +13,7 @@ These pages contain my notes on learning the language.
 * [Expressions](./japanese/expressions)
 
 * [ために、ように、のに](./japanese/tameni-youni-noni)
-* [と、たら、ば、なら](./japanese/if-when)
+* [Conditionals: と、たら、ば、なら](./japanese/if-when)
 * [けど、けれど、けれども、のに](./japanese/but)
 
 ### て-forms
@@ -33,7 +33,7 @@ These pages contain my notes on learning the language.
 
 * [だけ vs しか](./japanese/dake-vs-shika)
 
-* [とか vs たり vs し｀](./japanese/toka-tari-shi)
+* [とか vs たり vs し](./japanese/toka-tari-shi)
 
 #### Verbs
 
