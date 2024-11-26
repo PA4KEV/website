@@ -18,6 +18,7 @@ These pages contain my notes on learning the language.
 
 ### て-forms
 
+* [て-form](./japanese/te-form)
 * [ておく](./japanese/te-oku)
 
 ### Particles (助詞、じょし)
