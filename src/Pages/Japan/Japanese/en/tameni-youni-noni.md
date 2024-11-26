@@ -2,17 +2,23 @@
 
 ---
 
-1. [のに](#のに)
+1. [ために](#ために)
+2. [ように](#ように)
+3. [のに](#のに)
 
 ---
 
 ### 文法
+
+**ために**
 
 * V-る＋<Jps colour="c1" text="ために"/>
 * N＋の＋<Jps colour="c1" text="ために"/>＋V
 * Subject は V1＋<Jps colour="c1" text="ために"/> V2
   * Subject does Verb 2 <Jps colour="c1" text="in order to"/> Verb 1
 
+
+**ように**
 
 * V-る＋<Jps colour="c1" text="ように"/>
 * V-ない＋<Jps colour="c1" text="ように"/>
@@ -21,13 +27,105 @@
 * V-る＋<Jps colour="c1" text="ように"/>＋<Jps colour="c1" text="する"/>
 * V-る＋<Jps colour="c1" text="ように"/>＋<Jps colour="c1" text="言う"/>
 
+**ように / ような**
+
+* V (casual) ＋<Jps colour="c1" text="ように"/>
+* N＋の＋<Jps colour="c1" text="ような"/>
+
 ---
 
-### 問題
+「<Jps colour="c1" text="ために"/>」　is used with **volitional verbs**, the *aim* part is affirmative.
 
-父親：たかし、自転車の練習、がんばってる？
+「<Jps colour="c1" text="ように"/>」　is used with **non-volitional verbs**, **potential forms** of verbs (話せる、　読める) and with **ない-forms** of a verb.
 
-たかし：うん、だいぶ上手に（...）。
+* <Jps colour="c3" strikethrough=true text="雨が降るために祈った。"/>
+* 雨が降る<Jps colour="c1" text="ように"/><Furigana kanji="祈" kana="いの"/>った。
+* まりこに会う<Jps colour="c1" text="ために"/>日本へ来ました。
+* <Jps colour="c3" strikethrough=true text="まりこに会うように日本へ来ました。"/>
+
+* 日本語でマンガが読める<Jps colour="c1" text="ように"/>、　勉強します。　*(potential form of verb)*
+* I study <Jps colour="c1" text="so that"/> I can read manga in Japanese.
+
+「<Jps colour="c1" text="のために"/>」　is used with **nouns**.
+
+「<Jps colour="c1" text="ように"/>」　<Jps underline=true text="cannot"/> be used with **nouns**.
+
+---
+
+#### ために
+
+**Verbs**
+
+* 早く家に帰る<Jps colour="c1" text="ために"/>走る。
+* I run <Jps colour="c1" text="in order to"/> return home early.
+
+* 私は試験に合格する<Jps colour="c1" text="ために"/>勉強する。
+* I study <Jps colour="c1" text="in order to"/> to pass the exam.
+
+* 出かける<Jps colour="c1" text="ために"/>、<Furigana kanji="準備" kana="じゅんび"/>します。
+* I am getting ready <Jps colour="c1" text="to"/> go out.
+
+**Nouns**
+
+* 家族<Jps colour="c1" text="のために"/>ケーキを焼く。
+* I bake a cake <Jps colour="c1" text="for"/> my family.
+
+* 日本語を勉強している人<Jps colour="c1" text="のために"/>作ったpodcastです。
+* This is a podcast I made <Jps colour="c1" text="for"/> people who study Japanese.
+
+* <Furigana kanji="健康" kana="けんこう"/><Jps colour="c1" text="のために"/><Furigana kanji="野菜" kana="やさい"/>を食べます。
+* I eat vegetables <Jps colour="c1" text="for"/> my health.
+
+* この<Furigana kanji="日" kana="ひ"/><Jps colour="c1" text="のために"/>、頑張ってきたんだ！
+* I have been working hard <Jps colour="c1" text="for"/> this day!
+
+* 父と母<Jps colour="c1" text="のために"/>ケーキを買います。
+* I bought a cake <Jps colour="c1" text="for"/> my dad and mom.
+
+---
+
+#### ように
+
+Take care, as there are different grammar for ように.
+
+Expresses the purpose of doing something. It expresses that the speaker is doing effort to achieve a goal.
+
+Some ように　are meant as: **in order to**, **so that**
+
+* 早く起きられる<Jps colour="c1" text="ように"/>寝る。
+* I am going to sleep <Jps colour="c1" text="so that"/> I can wake up early.
+
+* 友達に写真を撮る<Jps colour="c1" text="ように"/><Furigana kanji="頼" kana="たの"/>みました。
+* I asked my friend to take a picture. lit. <Jps colour="c1" text="In order to"/> let friend take picture, I asked favour.
+
+* 私は友達が勝てる<Jps colour="c1" text="ように"/>おうえんする。
+* I will cheer <Jps colour="c1" text="so that"/> my friends can win.
+
+* ビジネスで<Furigana kanji="成功" kana="せいこう"/>する<Jps colour="c1" text="ように"/>、たくさん勉強します。　*(non-volitional verb)*
+* I study a lot <Jps colour="c1" text="so that"/> I am successful in business.
+
+* 日本語でマンガが読める<Jps colour="c1" text="ように"/>、　勉強します。　*(potential form of verb)*
+* I study <Jps colour="c1" text="so that"/> I can read manga in Japanese.
+
+* 誰かが食べない<Jps colour="c1" text="ように"/>、　プリンになまえ書こう。　*(ない-form of verb)*
+* I will write my name on the pudding <Jps colour="c1" text="so that"/> nobody eats it.
+
+* わすれない<Jps colour="c1" text="ように"/>、　言っておくね。　*(ない-form of verb)*
+* I will tell you, <Jps colour="c1" text="so that"/> I will not forget.
+
+---
+
+Other ように / ような are meant as: **like**, **similar to**,  **as**
+
+* <Jps colour="c2" text="できるだけ"/>日本人と話す<Jps colour="c1" text="ように"/>、<Furigana kanji="普通" kana="ふつう"/>の日本語で話します。
+* I talk regular Japanese, <Jps colour="c1" text="like"/> talking to Japanese people <Jps colour="c2" text="as much as possible"/>.
+
+---
+
+##### 問題
+
+* **父親**：たかし、自転車の練習、がんばってる？
+* **たかし**：うん、だいぶ上手に（...）。
 
 * 乗れる<Jps colour="c1" text="ために"/>したよ
 * 乗れる<Jps colour="c1" text="ように"/>なったよ
@@ -58,19 +156,14 @@
 
 ---
 
-「<Jps colour="c1" text="ために"/>」　is used with **volitional verbs**, the *aim* part is affirmative.
+* 早く起きられる<Jps colour="c1" text="ために"/>寝る。
+* I am going to sleep <Jps colour="c1" text="so that"/> I can wake up early.
 
-「<Jps colour="c1" text="ように"/>」　is used with **non-volitional verbs** (including potential forms).
+* 早く起きられる<Jps colour="c1" text="ように"/>寝る。
+* I am going to sleep <Jps colour="c1" text="so that"/> I can wake up early.
 
-* <Jps colour="c3" strikethrough=true text="雨が降るために祈った。"/>
-* 雨が降る<Jps colour="c1" text="ように"/><Furigana kanji="祈" kana="いの"/>った。
-* まりこに会う<Jps colour="c1" text="ために"/>日本へ来ました。
-* <Jps colour="c3" strikethrough=true text="まりこに会うように日本へ来ました。"/>
-
----
-
-* 友達に写真を撮る<Jps colour="c1" text="ように"/><Furigana kanji="頼" kana="たの"/>みました。　
-* I asked my friend to take a picture. lit. <Jps colour="c1" text="In order to"/> let friend take picture, I asked favour.
+* No difference, but <Jps colour="c1" text="ように"/> expresses the speaker's desire to *achieve their purpose*.
+* <Jps colour="c1" text="ために"/> is more *neutral* and *objective*.
 
 ---
 
@@ -109,3 +202,4 @@ V+<Jps colour="c1" text="のに"/>+使う　V+<Jps colour="c1" text="のに"/>+�
 #### 関係するリンク
 
 * [https://my.wasabi-jpn.com/ : How to Express Aims: …ために, …に, …のに, and …ように](https://my.wasabi-jpn.com/magazine/japanese-grammar/how-to-express-aims/)
+* [ために VS ように | Learn N4 Japanese grammar](https://www.youtube.com/watch?v=lu301BrUPg4) by [Learn Japanese with Moon-chan](https://www.youtube.com/@JapanesewithMoon-chan)
