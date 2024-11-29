@@ -2,21 +2,25 @@
 
 The は particle can be used to indicate contrast.
 
-* 私<Jps colour="c1" text="は"/>背が低いですが、ケビン<Jps colour="c2" text="は"/>背が高いです。
-* I'm short, <Jps colour="c2" text="but"/> Kevin is tall.
+* 私<Jps colour="c2" text="は"/>背が低いですが、ケビン<Jps colour="c1" text="は"/>背が高いです。
+* I'm short, <Jps colour="c1" text="but"/> Kevin is tall.
 
-The <Jps colour="c1" text="first は particle"/> is the <Jps colour="c1" text="topic marker"/>, the <Jps colour="c2" text="second は particle"/> is the <Jps colour="c2" text="contrast particle"/>.
+The <Jps colour="c2" text="first は particle"/> is the <Jps colour="c2" text="topic marker"/>, the <Jps colour="c1" text="second は particle"/> is the <Jps colour="c1" text="contrast particle"/>.
 
 ---
 
 <Jps colour="dim1" text="例文"/>
 
-* 僕<Jps colour="c1" text="は"/>イカ<Jps colour="c2" text="は"/>すきだけど、タコ<Jps colour="c2" text="は"/>好きじゃない。
-* I like squid, <Jps colour="c2" text="but"/> I don't like octopus.
+* 僕<Jps colour="c2" text="は"/>イカ<Jps colour="c2" text="は"/>すきだけど、タコ<Jps colour="c1" text="は"/>好きじゃない。
+* I like squid, <Jps colour="c1" text="but"/> I don't like octopus.
 
 * ドイツ語が話せません。でも、オランダ語<Jps colour="c1" text="は"/>話せます。　
 * I don't speak German, <Jps colour="c1" text="but"/> I can speak Dutch.
-  * オランダ語<Jps colour="c1" text="なら"/>話せます。　(Shorter reply)
+  * オランダ語<Jps colour="c1" text="なら"/>話せます。　*(Shorter reply)*
+
+
+* 山本さんは野球<Jps colour="c2" text="は"/>しますが、テニス<Jps colour="c1" text="は"/>しません。
+* Yamamoto-san plays baseball, <Jps colour="c1" text="but"/> does not play tennis.
 
 
 #### 関係する動画

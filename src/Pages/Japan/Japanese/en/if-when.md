@@ -307,7 +307,7 @@ See also the [ば](#ば) form for these request forms.
 なら is used a a conditional if.
 
 * Conditional　＞　Grammar　＞　Outcome
-* Verb **Dictionarp-form**　＞　なら
+* Verb **Dictionary-form**　＞　なら
 
 Note, sometimes の or ん is placed before なら、but it does not change the meaning.
 

@@ -61,6 +61,16 @@ Note that: ここからあの<Furigana kanji="看板" kana="かんばん"/><Jps 
   * おにぎる<Jps colour="c1" text="を"/>作る。To make rice balls.
   * おにぎる<Jps colour="c1" text="が"/>作れますか。Can you make rice balls?
 
+##### を ＞ が
+
+Some instances where I thought it would be を、but in should actually be <Jps colour="c3" underline=true text="が"/> instead.
+
+* 最近は日本の<Furigana kanji="雑誌" kana="ざっし"/><Jps colour="c3" underline=true text="が"/>いろいろな<Furigana kanji="国" kana="くに"/>で読まれています。
+* Recently, Japanese magazines are being read in many countries.
+
+* 明日９時半から大切な会議<Jps colour="c3" underline=true text="が"/><Furigana kanji="行" kana="おこな"/>われます。
+* There will be an important meeting tomorrow from 9:30.
+
 ---
 
 #### を
@@ -93,26 +103,55 @@ Note that: ここからあの<Furigana kanji="看板" kana="かんばん"/><Jps 
 へ indicates:
 * General direction, more emphasis on <Jps colour="c2" text="direction"/>
 
-こっち<Jps colour="c1" text="へ"/><Furigana kanji="来" kana="き"/>てください。Come over here, this way (in this direction).
+* こっち<Jps colour="c1" text="へ"/><Furigana kanji="来" kana="き"/>てください。
+* Come over here, this way (in this direction).
 
-こっち<Jps colour="c1" text="に"/><Furigana kanji="来" kana="き"/>てください。Come over here, this exact spot.
+* こっち<Jps colour="c1" text="に"/><Furigana kanji="来" kana="き"/>てください。
+* Come over here, this exact spot.
 
-北<Jps colour="c1" text="へ"/>行ってください。Head north.
+* 北<Jps colour="c1" text="へ"/>行ってください。
+* Head north.
 
-Somewhere <Jps colour="c1" text="へ"/>の行き方。The way to get to somewhere.
+* Somewhere <Jps colour="c1" text="へ"/>の行き方。
+* The way to get to somewhere.
 
-~<Furigana kanji="4時半" kana="よじはん"/><Jps colour="c1" text="に"/><Furigana kanji="迎" kana="むか"/>えに<Furigana kanji="来" kana="き"/>てくれる？ Will you pick me up at 4:30?
+* ~<Furigana kanji="4時半" kana="よじはん"/><Jps colour="c1" text="に"/><Furigana kanji="迎" kana="むか"/>えに<Furigana kanji="来" kana="き"/>てくれる？
+*  Will you pick me up at 4:30?
+
+
 * Time:
   * 一時<Jps colour="c1" text="に"/>、at 1:00.
+
+
 * Days of the week:
   * 日曜日<Jps colour="c1" text="に"/>、on sunday.
+
+
 * Months:
   * <Furigana kanji="一月" kana="いちがつ"/><Jps colour="c1" text="に"/>、in January.
+
+
 * Note, this is not used always, like:
   * 今日: <Jps colour="c3" strikethrough="true" text="今日に"/>
   * 明日: <Jps colour="c3" strikethrough="true" text="明日に"/>
 
+
 一週間<Jps colour="c1" text="に"/>二回ジムに行く。Twice a week, I go to the gym.
+
+
+##### が ＞ に
+
+Some instances where I thought it would be が、but in should actually be <Jps colour="c3" underline=true text="に"/> instead.
+
+* 私は昨日夜の１２時に友だち<Jps colour="c3" underline=true text="に"/><Furigana kanji="来" kana="こ"/>られて、<Furigana kanji="困" kana="こま"/>ってしまった。
+* I was in trouble because a friend came over at 12 o'clock last night.
+
+* 私は娘<Jps colour="c3" underline=true text="に"/>宿題をさせた。
+* I made my daughter do her homework.
+
+* バスを待って いた とき、私は友だち<Jps colour="c3" underline=true text="に"/>名前を<Furigana kanji="呼" kana="よ"/>ばれた。
+* When I was waiting for the bus, my friend called my name.
+
 
 ##### まで
 

@@ -1,4 +1,4 @@
-The country of Japan and the Japanese language has facinated me for many years now, for I am married with a Japanese. To become fluent means practice every single day, no exceptions.
+These pages contain my notes on learning the Japanese language and culture.
 
 *   [Wani Kani](https://www.wanikani.com/users/PA4KEV)
 *   [Map of Japan](./japanMap)
@@ -7,14 +7,14 @@ The country of Japan and the Japanese language has facinated me for many years n
 
 ## Japanese language notes
 
-These pages contain my notes on learning the language.
-
 * [Cheat sheet](./japanese/cheat-sheet)
 * [Expressions](./japanese/expressions)
 
 * [ために、ように、のに](./japanese/tameni-youni-noni)
 * [Conditionals: と、たら、ば、なら](./japanese/if-when)
 * [けど、けれど、けれども、のに](./japanese/but)
+* [Maybe: らしい、かもしれない、だろう](./japanese/rashii-kamoshirenai-darou)
+* [前に、後で](./japanese/mae-ni-ato-de)
 
 ### て-forms
 
@@ -38,3 +38,9 @@ These pages contain my notes on learning the language.
 #### Verbs
 
 * [Verbs](./japanese/verbs)
+
+---
+
+#### Useful websites
+
+* [mlcjapanese.co.jp](https://www.mlcjapanese.co.jp/)

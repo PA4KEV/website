@@ -54,6 +54,15 @@
 
 #### ために
 
+* Verb **Dictionary-form** ＞ ために
+* Of a **volitional verb**
+
+Or,
+
+* Noun ＋**の** ＞ ために
+
+---
+
 **Verbs**
 
 * 早く家に帰る<Jps colour="c1" text="ために"/>走る。
@@ -64,6 +73,9 @@
 
 * 出かける<Jps colour="c1" text="ために"/>、<Furigana kanji="準備" kana="じゅんび"/>します。
 * I am getting ready <Jps colour="c1" text="to"/> go out.
+
+* 海外で働く<Jps colour="c1" text="ために"/>、英語を勉強しています。
+* I am studying English <Jps colour="c1" text="to"/>  work abroad.
 
 **Nouns**
 
@@ -92,6 +104,18 @@ Expresses the purpose of doing something. It expresses that the speaker is doing
 
 Some ように　are meant as: **in order to**, **so that**
 
+---
+
+* Verb **Dictionary-form** ＞ ように
+* Of a **non-volitional verb**
+
+Or,
+
+* Verb **Potential-form** ＞ ように
+* Verb **ない-form** ＞ ように
+
+---
+
 * 早く起きられる<Jps colour="c1" text="ように"/>寝る。
 * I am going to sleep <Jps colour="c1" text="so that"/> I can wake up early.
 
@@ -104,14 +128,20 @@ Some ように　are meant as: **in order to**, **so that**
 * ビジネスで<Furigana kanji="成功" kana="せいこう"/>する<Jps colour="c1" text="ように"/>、たくさん勉強します。　*(non-volitional verb)*
 * I study a lot <Jps colour="c1" text="so that"/> I am successful in business.
 
-* 日本語でマンガが読める<Jps colour="c1" text="ように"/>、　勉強します。　*(potential form of verb)*
+* 日本語でマンガが読める<Jps colour="c1" text="ように"/>、勉強します。　*(potential form of verb)*
 * I study <Jps colour="c1" text="so that"/> I can read manga in Japanese.
 
-* 誰かが食べない<Jps colour="c1" text="ように"/>、　プリンになまえ書こう。　*(ない-form of verb)*
+* 誰かが食べない<Jps colour="c1" text="ように"/>、プリンになまえ書こう。　*(ない-form of verb)*
 * I will write my name on the pudding <Jps colour="c1" text="so that"/> nobody eats it.
 
-* わすれない<Jps colour="c1" text="ように"/>、　言っておくね。　*(ない-form of verb)*
+* わすれない<Jps colour="c1" text="ように"/>、言っておくね。　*(ない-form of verb)*
 * I will tell you, <Jps colour="c1" text="so that"/> I will not forget.
+
+* <Furigana kanji="三日" kana="みっか"/>練習して少し運転できる<Jps colour="c1" text="ように"/>なりました。
+* After three days of practice, I was able <Jps colour="c1" text="to"/> drive a little.
+
+* 寝る前に甘い物を食べない<Jps colour="c1" text="ように"/>しています。
+* I try not <Jps colour="c1" text="to"/> eat sweets before going to bed.
 
 ---
 
@@ -162,8 +192,8 @@ Other ように / ような are meant as: **like**, **similar to**,  **as**
 * 早く起きられる<Jps colour="c1" text="ように"/>寝る。
 * I am going to sleep <Jps colour="c1" text="so that"/> I can wake up early.
 
-* No difference, but <Jps colour="c1" text="ように"/> expresses the speaker's desire to *achieve their purpose*.
-* <Jps colour="c1" text="ために"/> is more *neutral* and *objective*.
+* 「<Jps colour="c1" text="ために"/>」 is more **neutral** and **objective**.
+* No difference, but 「<Jps colour="c1" text="ように"/>」 expresses the speaker's desire to **achieve their purpose**.
 
 ---
 
@@ -192,10 +222,10 @@ V+<Jps colour="c1" text="のに"/>+使う　V+<Jps colour="c1" text="のに"/>+�
 * I use a microwave <Jps colour="c1" text="to"/> heat up a bento meal.
 
 * この絵を描く<Jps colour="c1" text="のに"/>, 1か月かかります。　
-* It took one month to draw this picture. (lit. <Jps colour="c1" text="In order to"/> draw this picture, it took 1 month.)
+* It took one month to draw this picture. *(lit. <Jps colour="c1" text="In order to"/> draw this picture, it took 1 month.)*
 
 * 話している<Jps colour="c1" text="のに"/>、<Furigana kanji="後輩" kana="こうはい"/>に寝<Jps colour="c2" text="られた"/>。　
-* My kohai fell asleep (I am upset) *<Jps colour="c2" text="passive form"/>*, <Jps colour="c1" text="even though"/> I was talking.
+* My kohai fell asleep *(I am upset, <Jps colour="c2" text="passive form"/>)*, <Jps colour="c1" text="even though"/> I was talking.
 
 ---
 

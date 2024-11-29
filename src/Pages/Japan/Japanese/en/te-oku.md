@@ -20,7 +20,7 @@
 * I will get a haircut <Jps colour="c1" text="in advance"/>, because I will go to the party next week.
 
 * 来週の試験のため、漢字を勉強し<Jps colour="c1" text="ておきました"/>。
-* I studied kanji <Jps colour="c1" text="in preparation"/> for the exam next week.
+* I studied kanji <Jps colour="c1" text="in preparation"/> because of the exam next week.
 
 #### 2. To leave as is, without doing anything.
 
